@@ -1,0 +1,33 @@
+<section class="hero">
+  <p class="eyebrow">${esc(data.profile.affiliation.name)}</p>
+  <h1>${esc(data.profile.honorific)} ${esc(data.profile.name)}</h1>
+  <p class="lead">${txt(t(data.profile.bio_short))}</p>
+  <ul class="tags" aria-label="${esc(ui.topics)}">${each(data.profile.topics, (x) => `<li>${txt(x)}</li>`)}</ul>
+</section>
+
+<section class="section" aria-labelledby="h-pubs">
+  <div class="section-head">
+    <h2 id="h-pubs">${esc(ui.recent_pubs)}</h2>
+    <a href="${href('publicaciones')}">${esc(ui.see_all)}</a>
+  </div>
+  <ul class="cards">
+    ${each(data.publications.slice(0, 3), (p) => `<li class="card">
+      <p class="meta">${esc(ui.types[p.type])} · ${p.year}</p>
+      <h3>${link(p.url || (p.doi && 'https://doi.org/' + p.doi), p.title)}</h3>
+      <p>${txt(p.venue)}</p>
+    </li>`)}
+  </ul>
+</section>
+
+<section class="section" aria-labelledby="h-press">
+  <div class="section-head">
+    <h2 id="h-press">${esc(ui.recent_press)}</h2>
+    <a href="${href('medios')}">${esc(ui.see_all)}</a>
+  </div>
+  <ul class="list">
+    ${each(data.press.slice(0, 3), (n) => `<li>
+      <p class="meta"><time datetime="${n.date}">${fmtDate(n.date, lang)}</time> · ${txt(n.outlet)}</p>
+      <p class="item-title">${link(n.url, n.title)}</p>
+    </li>`)}
+  </ul>
+</section>

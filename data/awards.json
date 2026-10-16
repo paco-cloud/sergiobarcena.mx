@@ -1,0 +1,17 @@
+[
+  {
+    "id": "award-ejemplo-1",
+    "year": 2024,
+    "name": "[POR VERIFICAR] Distinción de ejemplo",
+    "grantor": "[POR VERIFICAR] Institución que otorga",
+    "url": "https://example.org/por-verificar/distincion-1",
+    "evidence": "enlace"
+  },
+  {
+    "id": "award-ejemplo-2",
+    "year": 2021,
+    "name": "[POR VERIFICAR] Segunda distinción de ejemplo",
+    "grantor": "[POR VERIFICAR] Institución que otorga",
+    "evidence": "constancia"
+  }
+]

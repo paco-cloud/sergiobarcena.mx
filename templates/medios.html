@@ -1,0 +1,12 @@
+<h1>${esc(t(page.title))}</h1>
+${each(groupBy(data.press, (n) => n.date.slice(0, 4)), ([year, items]) => `<section class="section" aria-labelledby="h-y${year}">
+  <h2 id="h-y${year}">${year}</h2>
+  <ul class="list">
+    ${each(items, (n) => `<li id="${esc(n.id)}">
+      <p class="meta"><time datetime="${n.date}">${fmtDate(n.date, lang)}</time> · ${txt(n.outlet)} · ${esc(ui.kinds[n.kind])} · ${esc(ui.formats[n.format])}</p>
+      <p class="item-title">${link(n.url, n.title)}</p>
+      ${(n.syndicated_urls || []).length ? `<p class="meta">${esc(ui.also_in)}: ${n.syndicated_urls.map((u, i) => `<a href="${esc(u)}">${esc(new URL(u).hostname)}${n.syndicated_urls.length > 1 ? ' ' + (i + 1) : ''}</a>`).join(', ')}</p>` : ''}
+      ${n.archive_url ? `<p class="meta"><a href="${esc(n.archive_url)}">${esc(ui.archive)}</a></p>` : ''}
+    </li>`)}
+  </ul>
+</section>`)}

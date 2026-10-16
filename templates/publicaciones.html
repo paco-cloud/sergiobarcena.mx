@@ -1,0 +1,12 @@
+<h1>${esc(t(page.title))}</h1>
+<p><a class="button" href="/publicaciones.bib" download>${esc(ui.bibtex)}</a></p>
+${each(groupBy(data.publications, (p) => p.type), ([type, items]) => `<section class="section" aria-labelledby="h-${type}">
+  <h2 id="h-${type}">${esc(ui.types[type])}</h2>
+  <ol class="list" reversed>
+    ${each(items, (p) => `<li id="${esc(p.id)}" lang="${esc(p.lang)}">
+      <p class="item-title">${link(p.url || (p.doi && 'https://doi.org/' + p.doi), p.title)}</p>
+      <p class="meta">${p.authors.map(txt).join(', ')} · ${txt(p.venue)} · ${p.year}${p.refereed ? ` · <span class="badge">${esc(ui.refereed)}</span>` : ''}</p>
+      ${p.doi ? `<p class="meta">${esc(ui.doi)}: <a href="https://doi.org/${esc(p.doi)}">${esc(p.doi)}</a></p>` : ''}
+    </li>`)}
+  </ol>
+</section>`)}

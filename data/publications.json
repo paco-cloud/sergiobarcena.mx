@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pub-ejemplo-libro",
+    "type": "libro",
+    "year": 2024,
+    "title": "[POR VERIFICAR] Título de libro de ejemplo",
+    "authors": ["Sergio A. Bárcena Juárez"],
+    "venue": "[POR VERIFICAR] Editorial",
+    "url": "https://example.org/por-verificar/libro",
+    "refereed": true,
+    "topics": ["Poder Legislativo"],
+    "lang": "es"
+  },
+  {
+    "id": "pub-ejemplo-articulo",
+    "type": "articulo",
+    "year": 2023,
+    "title": "[POR VERIFICAR] Título de artículo de ejemplo",
+    "authors": ["Sergio A. Bárcena Juárez", "[POR VERIFICAR] Coautoría"],
+    "venue": "[POR VERIFICAR] Revista",
+    "doi": "10.0000/por-verificar",
+    "refereed": true,
+    "topics": ["Elecciones"],
+    "lang": "es"
+  },
+  {
+    "id": "pub-ejemplo-divulgacion",
+    "type": "divulgacion",
+    "year": 2025,
+    "title": "[POR VERIFICAR] Título de texto de divulgación de ejemplo",
+    "authors": ["Sergio A. Bárcena Juárez"],
+    "venue": "[POR VERIFICAR] Medio",
+    "url": "https://example.org/por-verificar/divulgacion",
+    "refereed": false,
+    "topics": ["Inteligencia artificial"],
+    "lang": "es"
+  }
+]

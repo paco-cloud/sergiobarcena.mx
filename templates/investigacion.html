@@ -1,0 +1,12 @@
+<h1>${esc(t(page.title))}</h1>
+<ul class="tags" aria-label="${esc(ui.topics)}">${each(data.profile.topics, (x) => `<li>${txt(x)}</li>`)}</ul>
+${data.research.length ? `<ul class="list">
+  ${each(data.research, (r) => `<li id="${esc(r.id)}">
+    <h2 class="item-title">${link(r.url, r.title)}</h2>
+    <dl class="facts">
+      <div><dt>${esc(ui.role)}</dt><dd>${txt(r.role)}</dd></div>
+      <div><dt>${esc(ui.period)}</dt><dd>${txt(r.period)}</dd></div>
+      ${r.partners.length ? `<div><dt>${esc(ui.partners)}</dt><dd>${r.partners.map(txt).join(', ')}</dd></div>` : ''}
+    </dl>
+  </li>`)}
+</ul>` : `<p class="note">${esc(ui.empty)}</p>`}

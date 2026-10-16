@@ -1,0 +1,21 @@
+<h1>${esc(t(page.title))}</h1>
+<div class="prose">
+  ${each(t(data.profile.bio_long), (para) => `<p>${txt(para)}</p>`)}
+</div>
+
+<section class="section" id="cv" aria-labelledby="h-cv">
+  <h2 id="h-cv">${esc(ui.cv)}</h2>
+  <h3>${esc(ui.education)}</h3>
+  <ul class="list">
+    ${each(data.profile.education, (e) => `<li>
+      <p class="item-title">${txt(e.degree)}</p>
+      <p class="meta">${txt(e.institution)} · ${txt(e.year)}</p>
+    </li>`)}
+  </ul>
+  <p class="note">${esc(ui.cv_pending)}</p>
+</section>
+
+<section class="section" aria-labelledby="h-perfiles">
+  <h2 id="h-perfiles">${esc(ui.profiles)}</h2>
+  <ul class="inline-list">${each(data.profile.profiles, (p) => `<li>${link(p.url, p.name)}</li>`)}</ul>
+</section>

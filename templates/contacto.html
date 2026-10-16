@@ -1,0 +1,21 @@
+<h1>${esc(t(page.title))}</h1>
+<dl class="facts">
+  <div><dt>${esc(ui.email)}</dt><dd>${txt(data.profile.contact.email)}</dd></div>
+  <div><dt>${esc(ui.institutional)}</dt><dd>${txt(data.profile.contact.institutional)}</dd></div>
+</dl>
+
+<section class="section" aria-labelledby="h-form">
+  <h2 id="h-form">${esc(ui.form_title)}</h2>
+  <p class="pending" role="status"><strong>${esc(ui.form_pending)}</strong> ${esc(ui.form_pending_note)}</p>
+  <form class="form" aria-describedby="h-form" novalidate>
+    <fieldset disabled>
+      <label for="f-nombre">${esc(ui.form_name)}</label>
+      <input id="f-nombre" name="nombre" type="text" autocomplete="name">
+      <label for="f-correo">${esc(ui.form_email)}</label>
+      <input id="f-correo" name="correo" type="email" autocomplete="email">
+      <label for="f-mensaje">${esc(ui.form_message)}</label>
+      <textarea id="f-mensaje" name="mensaje" rows="5"></textarea>
+      <button type="button">${esc(ui.form_send)}</button>
+    </fieldset>
+  </form>
+</section>

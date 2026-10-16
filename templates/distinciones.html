@@ -1,0 +1,7 @@
+<h1>${esc(t(page.title))}</h1>
+<ul class="list">
+  ${each(data.awards, (a) => `<li id="${esc(a.id)}">
+    <p class="item-title">${link(a.url, a.name)}</p>
+    <p class="meta">${txt(a.grantor)} · ${a.year} · ${esc(ui.evidence[a.evidence])}</p>
+  </li>`)}
+</ul>

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "res-ejemplo-1",
+    "title": "[POR VERIFICAR] Proyecto de investigación de ejemplo",
+    "role": "[POR VERIFICAR] Investigador responsable",
+    "partners": ["[POR VERIFICAR] Institución aliada"],
+    "period": "[POR VERIFICAR]",
+    "url": "https://example.org/por-verificar/proyecto-1"
+  },
+  {
+    "id": "res-ejemplo-2",
+    "title": "[POR VERIFICAR] Segundo proyecto de ejemplo",
+    "role": "[POR VERIFICAR] Colaborador",
+    "partners": [],
+    "period": "[POR VERIFICAR]"
+  }
+]

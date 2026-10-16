@@ -1,0 +1,34 @@
+[
+  {
+    "id": "press-ejemplo-entrevista",
+    "date": "2025-06-12",
+    "outlet": "[POR VERIFICAR] Medio",
+    "title": "[POR VERIFICAR] Titular de entrevista de ejemplo",
+    "url": "https://example.org/por-verificar/nota-1",
+    "format": "video",
+    "kind": "entrevista",
+    "topics": ["Elecciones"]
+  },
+  {
+    "id": "press-ejemplo-datos",
+    "date": "2025-03-04",
+    "outlet": "[POR VERIFICAR] Medio",
+    "title": "[POR VERIFICAR] Titular de nota que cita datos del Buró",
+    "url": "https://example.org/por-verificar/nota-2",
+    "format": "texto",
+    "kind": "datos_buro",
+    "topics": ["Poder Legislativo"],
+    "syndicated_urls": ["https://example.org/por-verificar/nota-2-sindicada"],
+    "archive_url": "https://example.org/por-verificar/nota-2-archivo"
+  },
+  {
+    "id": "press-ejemplo-columna",
+    "date": "2024-11-20",
+    "outlet": "[POR VERIFICAR] Medio",
+    "title": "[POR VERIFICAR] Titular de columna de ejemplo",
+    "url": "https://example.org/por-verificar/nota-3",
+    "format": "texto",
+    "kind": "columna",
+    "topics": ["Inteligencia artificial"]
+  }
+]

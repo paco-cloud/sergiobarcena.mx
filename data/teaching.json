@@ -1,0 +1,17 @@
+[
+  {
+    "id": "teach-ejemplo-materia",
+    "kind": "materia",
+    "title": "[POR VERIFICAR] Nombre de materia de ejemplo",
+    "institution": "Tecnológico de Monterrey",
+    "years": "[POR VERIFICAR]",
+    "level": "[POR VERIFICAR] Licenciatura"
+  },
+  {
+    "id": "teach-ejemplo-tesis",
+    "kind": "tesis",
+    "title": "[POR VERIFICAR] Título de tesis dirigida de ejemplo",
+    "institution": "[POR VERIFICAR] Institución",
+    "years": "[POR VERIFICAR]"
+  }
+]

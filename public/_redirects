@@ -1,0 +1,4 @@
+# www → apex 301 no se puede hacer aquí (Pages no admite redirecciones por dominio):
+# va como Redirect Rule en la zona de Cloudflare. Ver reporte SBJ-CODE-01.
+/cv  /semblanza#cv  301
+/cv/  /semblanza#cv  301

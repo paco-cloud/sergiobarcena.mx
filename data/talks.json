@@ -1,0 +1,21 @@
+[
+  {
+    "id": "talk-ejemplo-1",
+    "year": 2025,
+    "title": "[POR VERIFICAR] Título de conferencia de ejemplo",
+    "institution": "[POR VERIFICAR] Institución",
+    "city": "[POR VERIFICAR] Ciudad",
+    "country": "México",
+    "role": "[POR VERIFICAR] Ponente"
+  },
+  {
+    "id": "talk-ejemplo-2",
+    "year": 2024,
+    "title": "[POR VERIFICAR] Título de mesa de ejemplo",
+    "institution": "[POR VERIFICAR] Institución",
+    "city": "[POR VERIFICAR] Ciudad",
+    "country": "[POR VERIFICAR] País",
+    "role": "[POR VERIFICAR] Moderador",
+    "url": "https://example.org/por-verificar/conferencia-2"
+  }
+]

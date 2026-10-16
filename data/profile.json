@@ -1,0 +1,46 @@
+{
+  "_notas": "[POR VERIFICAR] Todo este archivo es de ejemplo. Los datos reales llegan del asistente (gate G2).",
+  "name": "Sergio A. Bárcena Juárez",
+  "honorific": "Dr.",
+  "alternate_names": ["Sergio A. Bárcena", "[POR VERIFICAR] Variante de nombre"],
+  "job_title": "[POR VERIFICAR] Cargo",
+  "affiliation": { "name": "Tecnológico de Monterrey", "url": "https://tec.mx" },
+  "alumni_of": ["Universidad Nacional Autónoma de México"],
+  "topics": ["Poder Legislativo", "Elecciones", "Inteligencia artificial"],
+  "bio_short": {
+    "es": "[POR VERIFICAR] Semblanza corta de ejemplo, en tercera persona.",
+    "en": "[POR VERIFICAR] Short sample bio, in the third person."
+  },
+  "bio_long": {
+    "es": [
+      "[POR VERIFICAR] Primer párrafo de la semblanza larga de ejemplo.",
+      "[POR VERIFICAR] Segundo párrafo de la semblanza larga de ejemplo."
+    ],
+    "en": [
+      "[POR VERIFICAR] First paragraph of the sample long bio."
+    ]
+  },
+  "education": [
+    { "degree": "[POR VERIFICAR] Grado académico", "institution": "Universidad Nacional Autónoma de México", "year": "[POR VERIFICAR]" },
+    { "degree": "[POR VERIFICAR] Grado académico", "institution": "[POR VERIFICAR] Institución", "year": "[POR VERIFICAR]" }
+  ],
+  "profiles": [
+    { "name": "ORCID", "url": "https://example.org/por-verificar/orcid" },
+    { "name": "Google Scholar", "url": "https://example.org/por-verificar/scholar" },
+    { "name": "ResearcherID", "url": "https://example.org/por-verificar/researcherid" },
+    { "name": "Academia.edu", "url": "https://example.org/por-verificar/academia" },
+    { "name": "Tecnológico de Monterrey", "url": "https://example.org/por-verificar/pagina-tec" }
+  ],
+  "contact": {
+    "email": "[POR VERIFICAR] Correo público pendiente de decisión",
+    "institutional": "[POR VERIFICAR] Contacto institucional"
+  },
+  "buro": {
+    "summary": {
+      "es": "[POR VERIFICAR] Descripción de ejemplo del Buró Parlamentario.",
+      "en": "[POR VERIFICAR] Sample description of Buró Parlamentario."
+    },
+    "role": "[POR VERIFICAR] Rol",
+    "url": "https://example.org/por-verificar/buro"
+  }
+}

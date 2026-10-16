@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="${lang === 'es' ? 'es-MX' : 'en'}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(ctx.meta.title)}</title>
+<meta name="description" content="${esc(ctx.meta.description)}">
+${ctx.meta.noindex ? '<meta name="robots" content="noindex, nofollow">' : ''}
+<link rel="canonical" href="${esc(ctx.meta.canonical)}">
+${ctx.meta.alternates}
+<meta property="og:type" content="${page.id === 'inicio' ? 'profile' : 'website'}">
+<meta property="og:site_name" content="${esc(ctx.siteName)}">
+<meta property="og:title" content="${esc(ctx.meta.title)}">
+<meta property="og:description" content="${esc(ctx.meta.description)}">
+<meta property="og:url" content="${esc(ctx.meta.canonical)}">
+<meta property="og:locale" content="${ctx.meta.ogLocale}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="${esc(ctx.meta.title)}">
+<meta name="twitter:description" content="${esc(ctx.meta.description)}">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="${ctx.cssHref}">
+<script src="${ctx.jsHref}"></script>
+<script type="application/ld+json">${ctx.meta.jsonld}</script>
+</head>
+<body>
+<a class="skip" href="#contenido">${esc(ui.skip)}</a>
+${ctx.isProd ? '' : `<p class="preview-banner" role="note">${esc(ui.preview)}</p>`}
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="${href('inicio')}">${esc(ctx.siteName)}</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">${esc(ui.menu)}</button>
+    <nav id="nav-principal" class="site-nav" aria-label="${esc(ui.nav_label)}">
+      <ul>${ctx.nav}</ul>
+    </nav>
+    ${ctx.langSwitch}
+  </div>
+</header>
+<main id="contenido" tabindex="-1">
+<div class="wrap">
+${ctx.content}
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer-name">${esc(data.profile.honorific)} ${esc(data.profile.name)}</p>
+      <p>${txt(data.profile.job_title)} · ${esc(data.profile.affiliation.name)}</p>
+    </div>
+    <div>
+      <p class="footer-label">${esc(ui.profiles)}</p>
+      <ul class="inline-list">${each(data.profile.profiles, (p) => `<li>${link(p.url, p.name)}</li>`)}</ul>
+    </div>
+    <p class="footer-note">© ${ctx.year} ${esc(data.profile.name)} · ${esc(ui.footer_note)}</p>
+  </div>
+</footer>
+</body>
+</html>
