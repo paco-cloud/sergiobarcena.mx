@@ -1,0 +1,163 @@
+{
+  "site_name": "Sergio A. Bárcena",
+  "site_url": "https://sergiobarcena.mx",
+  "analytics": { "enabled": false, "cf_beacon_token": "" },
+  "routes": [
+    {
+      "id": "inicio", "path": "/", "template": "home",
+      "label": { "es": "Inicio", "en": "Home" },
+      "title": { "es": "Sergio A. Bárcena · Poder Legislativo, elecciones e IA", "en": "Sergio A. Bárcena · Legislative power, elections and AI" },
+      "description": { "es": "[POR VERIFICAR] Descripción de la página de inicio.", "en": "[POR VERIFICAR] Home page description." }
+    },
+    {
+      "id": "semblanza", "path": "/semblanza", "template": "semblanza",
+      "label": { "es": "Semblanza", "en": "About" },
+      "title": { "es": "Semblanza", "en": "About" },
+      "description": { "es": "[POR VERIFICAR] Descripción de la semblanza.", "en": "[POR VERIFICAR] About page description." }
+    },
+    {
+      "id": "investigacion", "path": "/investigacion", "template": "investigacion",
+      "label": { "es": "Investigación", "en": "Research" },
+      "title": { "es": "Investigación", "en": "Research" },
+      "description": { "es": "[POR VERIFICAR] Descripción de investigación.", "en": "[POR VERIFICAR] Research page description." }
+    },
+    {
+      "id": "publicaciones", "path": "/publicaciones", "template": "publicaciones",
+      "label": { "es": "Publicaciones", "en": "Publications" },
+      "title": { "es": "Publicaciones", "en": "Publications" },
+      "description": { "es": "[POR VERIFICAR] Descripción de publicaciones.", "en": "[POR VERIFICAR] Publications page description." }
+    },
+    {
+      "id": "buro", "path": "/buro-parlamentario", "template": "buro",
+      "label": { "es": "Buró Parlamentario", "en": "Buró Parlamentario" },
+      "title": { "es": "Buró Parlamentario", "en": "Buró Parlamentario" },
+      "description": { "es": "[POR VERIFICAR] Descripción del Buró Parlamentario.", "en": "[POR VERIFICAR] Buró Parlamentario page description." }
+    },
+    {
+      "id": "medios", "path": "/medios", "template": "medios",
+      "label": { "es": "Medios", "en": "Media" },
+      "title": { "es": "Medios", "en": "Media" },
+      "description": { "es": "[POR VERIFICAR] Descripción de medios.", "en": "[POR VERIFICAR] Media page description." }
+    },
+    {
+      "id": "conferencias", "path": "/conferencias", "template": "conferencias",
+      "label": { "es": "Conferencias", "en": "Talks" },
+      "title": { "es": "Conferencias", "en": "Talks" },
+      "description": { "es": "[POR VERIFICAR] Descripción de conferencias.", "en": "[POR VERIFICAR] Talks page description." }
+    },
+    {
+      "id": "docencia", "path": "/docencia", "template": "docencia",
+      "label": { "es": "Docencia", "en": "Teaching" },
+      "title": { "es": "Docencia", "en": "Teaching" },
+      "description": { "es": "[POR VERIFICAR] Descripción de docencia.", "en": "[POR VERIFICAR] Teaching page description." }
+    },
+    {
+      "id": "distinciones", "path": "/distinciones", "template": "distinciones",
+      "label": { "es": "Distinciones", "en": "Awards" },
+      "title": { "es": "Distinciones", "en": "Awards" },
+      "description": { "es": "[POR VERIFICAR] Descripción de distinciones.", "en": "[POR VERIFICAR] Awards page description." }
+    },
+    {
+      "id": "contacto", "path": "/contacto", "template": "contacto",
+      "label": { "es": "Contacto", "en": "Contact" },
+      "title": { "es": "Contacto", "en": "Contact" },
+      "description": { "es": "[POR VERIFICAR] Descripción de contacto.", "en": "[POR VERIFICAR] Contact page description." }
+    },
+    {
+      "id": "404", "path": "/404", "template": "404", "nav": false, "sitemap": false, "noindex": true,
+      "label": { "es": "Página no encontrada", "en": "Page not found" },
+      "title": { "es": "Página no encontrada", "en": "Page not found" },
+      "description": { "es": "Esta página no existe en sergiobarcena.mx.", "en": "This page does not exist on sergiobarcena.mx." }
+    }
+  ],
+  "ui": {
+    "es": {
+      "skip": "Saltar al contenido",
+      "menu": "Menú",
+      "nav_label": "Principal",
+      "preview": "Vista previa · contenido de ejemplo, no es la versión publicada",
+      "lang_switch": "English",
+      "lang_switch_lang": "en",
+      "footer_note": "Sitio sin cookies de rastreo.",
+      "profiles": "Perfiles académicos",
+      "link": "Enlace",
+      "doi": "DOI",
+      "refereed": "Arbitrada",
+      "also_in": "También en",
+      "archive": "Copia archivada",
+      "bibtex": "Descargar BibTeX",
+      "recent_pubs": "Publicaciones recientes",
+      "recent_press": "En medios",
+      "see_all": "Ver todo",
+      "topics": "Líneas de trabajo",
+      "education": "Formación",
+      "cv": "Currículum",
+      "cv_pending": "El CV en PDF se publicará cuando esté aprobado.",
+      "partners": "Colaboración",
+      "period": "Periodo",
+      "role": "Rol",
+      "press_buro": "Datos del Buró en medios",
+      "empty": "Sin registros todavía.",
+      "email": "Correo",
+      "institutional": "Contacto institucional",
+      "form_title": "Formulario de contacto",
+      "form_name": "Nombre",
+      "form_email": "Correo electrónico",
+      "form_message": "Mensaje",
+      "form_send": "Enviar",
+      "form_pending": "[PENDIENTE INTEGRACIÓN FORMULARIO/CRM]",
+      "form_pending_note": "El formulario todavía no envía mensajes.",
+      "notfound_text": "No encontramos esta página.",
+      "notfound_back": "Volver al inicio",
+      "types": { "libro": "Libros", "articulo": "Artículos", "capitulo": "Capítulos de libro", "divulgacion": "Divulgación", "traduccion": "Traducciones", "documento": "Documentos de trabajo" },
+      "kinds": { "entrevista": "Entrevista", "cita": "Cita", "datos_buro": "Datos del Buró", "columna": "Columna", "institucional": "Institucional", "sindicada": "Sindicada", "redes": "Redes sociales" },
+      "formats": { "texto": "Texto", "video": "Video", "audio": "Audio", "redes": "Redes" },
+      "teaching_kinds": { "materia": "Materias", "curso": "Cursos", "posgrado": "Posgrado", "tesis": "Dirección de tesis" },
+      "evidence": { "enlace": "Enlace", "constancia": "Constancia" }
+    },
+    "en": {
+      "skip": "Skip to content",
+      "menu": "Menu",
+      "nav_label": "Main",
+      "preview": "Preview · sample content, not the published version",
+      "lang_switch": "Español",
+      "lang_switch_lang": "es",
+      "footer_note": "No tracking cookies.",
+      "profiles": "Academic profiles",
+      "link": "Link",
+      "doi": "DOI",
+      "refereed": "Peer-reviewed",
+      "also_in": "Also in",
+      "archive": "Archived copy",
+      "bibtex": "Download BibTeX",
+      "recent_pubs": "Recent publications",
+      "recent_press": "In the media",
+      "see_all": "See all",
+      "topics": "Research topics",
+      "education": "Education",
+      "cv": "Curriculum vitae",
+      "cv_pending": "The PDF CV will be published once approved.",
+      "partners": "Partners",
+      "period": "Period",
+      "role": "Role",
+      "press_buro": "Buró data in the media",
+      "empty": "No entries yet.",
+      "email": "Email",
+      "institutional": "Institutional contact",
+      "form_title": "Contact form",
+      "form_name": "Name",
+      "form_email": "Email",
+      "form_message": "Message",
+      "form_send": "Send",
+      "form_pending": "[PENDIENTE INTEGRACIÓN FORMULARIO/CRM]",
+      "form_pending_note": "The form does not send messages yet.",
+      "notfound_text": "This page could not be found.",
+      "notfound_back": "Back to home",
+      "types": { "libro": "Books", "articulo": "Articles", "capitulo": "Book chapters", "divulgacion": "Outreach", "traduccion": "Translations", "documento": "Working papers" },
+      "kinds": { "entrevista": "Interview", "cita": "Quote", "datos_buro": "Buró data", "columna": "Column", "institucional": "Institutional", "sindicada": "Syndicated", "redes": "Social media" },
+      "formats": { "texto": "Text", "video": "Video", "audio": "Audio", "redes": "Social" },
+      "teaching_kinds": { "materia": "Courses", "curso": "Short courses", "posgrado": "Graduate", "tesis": "Thesis supervision" },
+      "evidence": { "enlace": "Link", "constancia": "Certificate" }
+    }
+  }
+}
