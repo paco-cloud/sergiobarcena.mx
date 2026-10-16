@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sergiobarcena-dev",
+      "runtimeExecutable": "/Users/pacomendez/.local/node/bin/node",
+      "runtimeArgs": ["scripts/dev.mjs"],
+      "port": 4321
+    }
+  ]
+}
