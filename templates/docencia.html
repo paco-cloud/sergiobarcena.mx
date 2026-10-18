@@ -19,7 +19,7 @@ ${each(data.teaching.filter((t) => t.kind === 'catedra'), (t) => `<div class="kv
 
 <div class="sub" data-row data-tags="cursos">
 <div class="kicker">CURSOS Y TALLERES</div><h2>Cursos y talleres impartidos <span class="p-count">${data.counts.cursos}</span></h2><div class="rule tight"></div>
-${each(data.teaching.filter((t) => t.kind === 'curso'), (t) => h.formRow({ y: esc(h.yearsLabel(t.years)) || h.pv('AÑO POR VERIFICAR'), h3: txt(t.text), note: t.url ? h.ext(t.url, 'Fuente') : '', flags: h.flagsPv(t.flags) }))}
+${each(data.teaching.filter((t) => t.kind === 'curso'), (t) => h.formRow({ y: esc(h.yearsLabel(t.years)) || 's. f.', h3: txt(t.text), note: t.url ? h.ext(t.url, 'Fuente') : '', flags: h.flagsPv(t.flags) }))}
 </div>
 
 <div class="sub" data-row data-tags="tesis">

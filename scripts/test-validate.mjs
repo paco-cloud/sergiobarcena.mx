@@ -26,7 +26,7 @@ for (const code of ['REDES_IN_TABLE', 'PHONE', 'MONEY', 'SECOND_PERSON', 'INLINE
 }
 
 check(run('validate.mjs', '--data', 'data').status === 0, 'data/ pasa fuera de main');
-check(run('validate.mjs', '--data', 'data', '--branch', 'main').status !== 0, 'data/ con BORRADOR / POR VERIFICAR se bloquea en main');
+check(run('validate.mjs', '--data', 'data', '--branch', 'main').status === 0, 'data/ aprobada pasa en main (decisiones del 18-oct-2026)');
 
 if (!ok) process.exit(1);
 console.log('test-validate: OK');

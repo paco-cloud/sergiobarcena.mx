@@ -28,11 +28,7 @@
     "id": "exp-gerente-del-estudio-de-datos-y-analitica-de-novo",
     "text": "Gerente del estudio de datos y analítica de Novomedia Estudios",
     "years": [],
-    "current": false,
-    "url": "https://novomediaestudios.mx/",
-    "flags": [
-      "POR VERIFICAR con Paco: cargo y URL (CV dice novomediaestudios.mx; pacomendez.mx usa novomediaestudios.com)"
-    ]
+    "current": false
   },
   {
     "id": "exp-fundador-y-director-general-de-buro-parlamentari",
@@ -41,10 +37,7 @@
       2018
     ],
     "current": true,
-    "url": "https://buroparlamentario.org",
-    "flags": [
-      "Redacción común con pacomendez.mx: \"fundada en 2018 por Sergio Bárcena y Paco Méndez\" (POR DECIDIR)"
-    ]
+    "url": "https://buroparlamentario.com"
   },
   {
     "id": "exp-investigador-de-tiempo-completo-en-la-escuela-na",

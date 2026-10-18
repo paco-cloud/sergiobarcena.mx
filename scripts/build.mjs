@@ -76,31 +76,31 @@ data.counts = {
 const KIND = { cita: 'Cita', entrevista: 'Entrevista', datos_buro: 'Datos del Buró', columna: 'Columna', institucional: 'Institucional', sindicada: 'Sindicada', redes: 'Redes' };
 const PUB_LABEL = { libro: 'Libro', articulo: 'Artículo', capitulo: 'Capítulo', divulgacion: 'Divulgación', dossier: 'Dossier', entrada: 'Entrada de diccionario', resena: 'Reseña', traduccion: 'Traducción', articulo_en_linea: 'Artículo en línea', documento: 'Documento de trabajo', en_proceso: 'En proceso' };
 
-const yearOrPv = (y) => (y ? esc(y) : pv('AÑO POR VERIFICAR'));
+const yearOrPv = (y) => (y ? esc(y) : 's. f.');
 const pubUrl = (p) => p.url || (p.doi && `https://doi.org/${p.doi}`) || null;
 
 function pubItem(p, ui, opts = {}) {
   const cat = PUB_CAT[p.type] || 'otros';
   const tags = `${cat}`;
   const refereed =
-    p.refereed === true ? `<span class="sep"></span>${esc(ui.refereed)}` : p.refereed === null && ['articulo', 'capitulo'].includes(p.type) ? ` ${pv('ARBITRAJE POR CONFIRMAR')}` : '';
+    p.refereed === true ? `<span class="sep"></span>${esc(ui.refereed)}` : '';
   const doi = p.doi ? `DOI: <a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">${esc(p.doi)}</a>` : '';
   const rec = p.recognition ? `${doi ? '<span class="sep"></span>' : ''}${ext(p.recognition.url, txt(p.recognition.text))}` : '';
   const flags = flagsPv(p.flags);
   const copy = opts.copy === false ? '' : `<button type="button" class="copy small" data-copy="${esc(R.apa(p))}">${esc(ui.copy_apa)}</button>`;
-  const link = pubUrl(p) ? ext(pubUrl(p), 'Fuente', 'mono') : pv('SIN URL NI DOI');
+  const link = pubUrl(p) ? ext(pubUrl(p), 'Fuente', 'mono') : '';
   if (p.type === 'libro' && opts.tray !== false) {
     const meta = [yearOrPv(p.year), txt(p.venue), p.publisher_place && esc(p.publisher_place), p.isbn && `ISBN ${esc(p.isbn)}`].filter(Boolean).map((s) => `<span>${s}</span>`).join('');
-    const badge = p.role ? `<span class="badge">${txt(p.role)}</span>` : '';
+    const badge = `${p.role ? `<span class="badge">${txt(p.role)}</span>` : ''}${p.coauthor ? `<span>Coautoría con ${esc(p.coauthor)}</span>` : ''}`;
     return `<article class="tray compact" id="${esc(p.id)}" data-row data-tags="${tags}" lang="${esc(p.lang)}">
 <div class="tray-head"><p class="kicker">${esc(PUB_LABEL[p.type]).toUpperCase()}</p><h3>${txt(p.title)}</h3></div>
 <div class="tray-body"><p class="meta">${meta}${badge}</p>${flags ? `<p>${flags}</p>` : ''}
-<ul class="tray-links"><li>${pubUrl(p) ? ext(pubUrl(p), 'Ficha editorial') : pv('SIN URL NI DOI')}</li>${(p.extra_urls || []).map((u) => `<li>${ext(u, 'Enlace adicional')}</li>`).join('')}</ul>
+<ul class="tray-links">${pubUrl(p) ? `<li>${ext(pubUrl(p), 'Ficha editorial')}</li>` : ''}${(p.extra_urls || []).map((u) => `<li>${ext(u, 'Enlace adicional')}</li>`).join('')}</ul>
 <div class="actions">${copy}</div></div></article>`;
   }
   const venue = [txt(p.venue), p.pages && `pp. ${esc(p.pages)}`].filter(Boolean).join(', ');
   return `<div class="form-row" id="${esc(p.id)}" data-row data-tags="${tags}" lang="${esc(p.lang)}"><span class="y">${yearOrPv(p.year)}</span><div>
-<p class="label-mono">${esc(PUB_LABEL[p.type]).toUpperCase()}${p.role ? ` · ${txt(p.role)}` : ''}</p>
+<p class="label-mono">${esc(PUB_LABEL[p.type]).toUpperCase()}${p.role ? ` · ${txt(p.role)}` : ''}${p.coauthor ? ` · COAUTORÍA CON ${esc(p.coauthor).toUpperCase()}` : ''}</p>
 <h3>${txt(p.title)}</h3><p class="inst">${venue}</p>
 ${doi || refereed || rec ? `<p class="note">${doi}${refereed}${rec}</p>` : ''}${flags ? `<p>${flags}</p>` : ''}
 <p class="actions">${link}${copy}</p></div></div>`;
@@ -108,11 +108,11 @@ ${doi || refereed || rec ? `<p class="note">${doi}${refereed}${rec}</p>` : ''}${
 
 const PRESS_HEAD = `<div class="trow prensa thead" aria-hidden="true"><span>FECHA</span><span>MEDIO</span><span>TIPO</span><span>TITULAR</span><span>TEMA</span><span>ENLACE</span></div>`;
 function pressRow(n, ui) {
-  const tipo = `${esc(KIND[n.kind] || n.kind)}${n.kind_source === 'auto' ? ` ${pv('SUGERIDO', 'Tipo sugerido por check-press; Sergio aprueba')}` : ''}`;
+  const tipo = esc(KIND[n.kind] || n.kind);
   const live = n.http_status === 200;
   const href = live ? n.url : n.archive_url;
   const label = live ? ui.source : ui.archive;
-  const other = reviewFlags(n.flags).filter((f) => !/tipo sugerido/.test(f));
+  const other = reviewFlags(n.flags);
   const year = n.date.slice(0, 4);
   return `<div class="trow prensa" data-row data-tags="y${year}" data-kind="${esc(n.kind)}"><span class="p-f y">${esc(shortDate(n.date))}</span><span class="p-m">${esc(n.outlet)}</span><span class="p-tipo">${tipo}</span><span class="p-t" data-verbatim>“${esc(n.title)}”${other.length ? ` ${flagsPv(other)}` : ''}</span><span class="p-c">${esc((n.topics || []).filter((t) => t !== 'Sin tema' && t !== 'Otras').join(' · '))}</span><span class="p-link"><a class="mono" href="${esc(href)}" target="_blank" rel="noopener">${esc(label)} ↗</a></span></div>`;
 }

@@ -525,9 +525,7 @@
     "topics": [],
     "syndicated_urls": [],
     "featured": true,
-    "flags": [
-      "DISCREPANCIA de fecha: el CV dice 04/09/2024 y la URL dice 2024/08/30"
-    ],
+    "flags": [],
     "inbox_id": null,
     "http_status": 200,
     "final_url": "https://politica.expansion.mx/congreso/2024/08/30/un-senador-opositor-ausente-concretar-mayoria",
@@ -1226,7 +1224,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -1288,7 +1286,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -2049,7 +2047,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -2909,7 +2907,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -3237,7 +3235,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -3269,7 +3267,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -3394,7 +3392,7 @@
     "featured": false,
     "flags": [
       "Proyecto de Paco (§5.9): publicar solo si Sergio participó, con su rol explícito; si no, fuera",
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -3522,7 +3520,7 @@
     "featured": false,
     "flags": [
       "Proyecto de Paco (§5.9): publicar solo si Sergio participó, con su rol explícito; si no, fuera",
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -3555,7 +3553,7 @@
     "featured": false,
     "flags": [
       "Proyecto de Paco (§5.9): publicar solo si Sergio participó, con su rol explícito; si no, fuera",
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -4533,7 +4531,7 @@
     "featured": false,
     "flags": [
       "Proyecto de Paco (§5.9): publicar solo si Sergio participó, con su rol explícito; si no, fuera",
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -4662,7 +4660,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -4839,7 +4837,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -4987,7 +4985,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5076,7 +5074,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5108,7 +5106,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5140,7 +5138,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5172,7 +5170,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5204,7 +5202,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5264,7 +5262,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5296,7 +5294,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5328,7 +5326,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5505,7 +5503,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5681,7 +5679,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -5921,7 +5919,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": true,
     "http_status": 200,
@@ -5953,7 +5951,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6130,7 +6128,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6222,7 +6220,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6254,7 +6252,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": true,
     "http_status": 200,
@@ -6316,7 +6314,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6494,7 +6492,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6699,7 +6697,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6731,7 +6729,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6763,7 +6761,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6795,7 +6793,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6827,7 +6825,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6859,7 +6857,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6891,7 +6889,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6923,7 +6921,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6955,7 +6953,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -6987,7 +6985,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7019,7 +7017,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7051,7 +7049,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7083,7 +7081,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7115,7 +7113,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7147,7 +7145,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7179,7 +7177,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7211,7 +7209,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7243,7 +7241,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7275,7 +7273,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7307,7 +7305,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7339,7 +7337,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7371,7 +7369,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7403,7 +7401,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7435,7 +7433,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7467,7 +7465,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7499,7 +7497,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7531,7 +7529,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7591,7 +7589,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7623,7 +7621,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7655,7 +7653,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7687,7 +7685,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7719,7 +7717,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7751,7 +7749,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -7783,7 +7781,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -8711,7 +8709,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -9066,7 +9064,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -9273,7 +9271,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -9363,7 +9361,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -9479,7 +9477,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -9542,7 +9540,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -9630,7 +9628,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -10593,7 +10591,7 @@
     "featured": false,
     "flags": [
       "Proyecto de Paco (§5.9): publicar solo si Sergio participó, con su rol explícito; si no, fuera",
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -10626,7 +10624,7 @@
     "featured": false,
     "flags": [
       "Proyecto de Paco (§5.9): publicar solo si Sergio participó, con su rol explícito; si no, fuera",
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -10721,7 +10719,7 @@
     "featured": false,
     "flags": [
       "Proyecto de Paco (§5.9): publicar solo si Sergio participó, con su rol explícito; si no, fuera",
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -11160,7 +11158,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -11422,7 +11420,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -11542,7 +11540,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -11574,7 +11572,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -11900,7 +11898,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12048,7 +12046,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12165,7 +12163,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12282,7 +12280,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12344,7 +12342,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12404,7 +12402,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12578,7 +12576,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12638,7 +12636,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12670,7 +12668,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12760,7 +12758,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -12908,7 +12906,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -13172,7 +13170,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -13232,7 +13230,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -13294,7 +13292,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -13500,7 +13498,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -13560,7 +13558,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -13769,7 +13767,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -13979,7 +13977,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14067,7 +14065,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14099,7 +14097,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14131,7 +14129,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14163,7 +14161,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14285,7 +14283,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14520,7 +14518,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14580,7 +14578,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14612,7 +14610,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14644,7 +14642,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,
@@ -14705,7 +14703,7 @@
     "syndicated_urls": [],
     "featured": false,
     "flags": [
-      "POR VERIFICAR: tipo sugerido por check-press"
+      "tipo sugerido por check-press; sin confirmar, no se publica"
     ],
     "safelink_unwrapped": false,
     "http_status": 200,

@@ -1,7 +1,7 @@
 <section class="page" aria-labelledby="titulo">
 ${h.pageHead()}<div class="rule"></div>
 <div class="prose">${each(site.buro.paragraphs, (p) => `<p>${txt(p)}</p>`)}</div>
-<p class="copy-row"><a class="with-ico" href="${esc(site.buro.url)}" target="_blank" rel="noopener">${h.ICONS.globe}buroparlamentario.org ↗</a>${h.pv(site.buro.url_status)}</p>
+<p class="copy-row"><a class="with-ico" href="${esc(site.buro.url)}" target="_blank" rel="noopener">${h.ICONS.globe}${esc(site.buro.url.replace(/^https?:\/\//, ''))} ↗</a></p>
 
 <div class="sub" id="metodo">
 <div class="kicker">MÉTODO</div><h2>Cómo se mide el desempeño</h2><div class="rule tight"></div>

@@ -29,8 +29,7 @@
     "topics": [],
     "lang": "en",
     "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203",
-    "publisher_place": "Nueva York",
-    "role": "coedición [POR VERIFICAR rol exacto]"
+    "publisher_place": "Nueva York"
   },
   {
     "id": "pub-2024-el-corazon-de-las-legislaturas-causas-y",
@@ -184,9 +183,7 @@
     "lang": "es",
     "url": "https://www.amazon.com.mx/MARKETING-POLITICO-Alejandro-Lerma-Kirchner/dp/6075224602",
     "isbn": "978-607-522-460-2",
-    "flags": [
-      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
-    ]
+    "coauthor": "Alejandro Lerma Kirchner"
   },
   {
     "id": "pub-2013-planeacion-comercial",
@@ -203,10 +200,8 @@
     "lang": "es",
     "url": "https://alfaomegaeditor.com.ar/producto/libro-planeacion-comercial/?srsltid=AfmBOorQMFo3pDrDwe_N1F_dcDSZKa1zVLt343-5nKgNCntDd2Ly98jj#/",
     "isbn": "978-607-707-604-9",
-    "flags": [
-      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
-    ],
-    "publisher_place": "Buenos Aires"
+    "publisher_place": "Buenos Aires",
+    "coauthor": "Alejandro Lerma Kirchner"
   },
   {
     "id": "pub-2012-planeacion-estrategica-por-areas-funcion",
@@ -223,10 +218,8 @@
     "lang": "es",
     "url": "https://www.amazon.com.mx/PLANEACION-ESTRATEGICA-AREAS-FUNCIONALES-PRACTICA/dp/6077074276",
     "isbn": "978-607-707-427-4",
-    "flags": [
-      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
-    ],
-    "publisher_place": "Buenos Aires"
+    "publisher_place": "Buenos Aires",
+    "coauthor": "Alejandro Lerma Kirchner"
   },
   {
     "id": "pub-2011-marketing-politico",
@@ -243,9 +236,7 @@
     "lang": "es",
     "url": "https://www.amazon.com.mx/MARKETING-POLITICO-ALEJANDRO-LERMA-KIRCHNER/dp/607481421X",
     "isbn": "978-607481421-7",
-    "flags": [
-      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
-    ]
+    "coauthor": "Alejandro Lerma Kirchner"
   },
   {
     "id": "pub-2026-governing-before-rules-shadow-ai-among",
@@ -257,14 +248,11 @@
     ],
     "venue": "EJournal of EDemocracy and Open Government",
     "citation_cv": "(2026). \"Governing Before Rules. Shadow AI among Legislative Advisors in Mexico City\". EJournal of EDemocracy and Open Government, 18(1), pp. 55-83.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://jedem.org/index.php/jedem/article/view/1266",
-    "pages": "55-83",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "55-83"
   },
   {
     "id": "pub-2026-the-european-union-artificial-intelligen",
@@ -310,15 +298,12 @@
     ],
     "venue": "Journal of Women, Politics & Policy",
     "citation_cv": "(2026). \"Bridging the Gap: Gender Equality Legislation and Women's Advocacy in Mexico's Subnational Congresses\". Journal of Women, Politics & Policy, pp.1-23.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://www.tandfonline.com/doi/full/10.1080/1554477X.2025.2574199?src=",
     "doi": "10.1080/1554477X.2025.2574199",
-    "pages": "1-23",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "1-23"
   },
   {
     "id": "pub-2025-the-colors-of-legislative-performance-s",
@@ -330,14 +315,11 @@
     ],
     "venue": "Political Studies",
     "citation_cv": "(2025). \"The Colors of Legislative Performance: Skin Tone and Effective Lawmaking in Mexico\". Political Studies, 0(0).",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://doi.org/10.1177/00323217251364649",
-    "doi": "10.1177/00323217251364649",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "doi": "10.1177/00323217251364649"
   },
   {
     "id": "pub-2025-a-time-to-build",
@@ -352,11 +334,7 @@
     "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203",
-    "pages": "112-136",
-    "flags": [
-      "POR VERIFICAR: dos capítulos con las mismas pp. 112-136 en el CV"
-    ]
+    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203"
   },
   {
     "id": "pub-2025-beyond-numbers-the-political-strength-o",
@@ -371,11 +349,7 @@
     "refereed": null,
     "topics": [],
     "lang": "en",
-    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203",
-    "pages": "112-136",
-    "flags": [
-      "POR VERIFICAR: dos capítulos con las mismas pp. 112-136 en el CV"
-    ]
+    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203"
   },
   {
     "id": "pub-2025-quality-or-complexion-experience-and-sk",
@@ -387,15 +361,12 @@
     ],
     "venue": "Social Science Quarterly",
     "citation_cv": "(2025). \"Quality or Complexion? Experience and Skin Tone as Determinants of Electoral Success in Mexico\". Social Science Quarterly, 6(4), pp. 1-13.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://onlinelibrary.wiley.com/doi/10.1111/ssqu.70054",
     "doi": "10.1111/ssqu.70054",
-    "pages": "1-13",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "1-13"
   },
   {
     "id": "pub-2024-la-camara-de-diputados-en-su-transito-al",
@@ -423,14 +394,11 @@
     ],
     "venue": "International Visual Culture Review",
     "citation_cv": "(2024). \"The popularity of Biden and Trump in the United States and Latin America during the 2020 campaign. A study through Google Trends\". International Visual Culture Review, Vol. 16, No. 2, pp. 181-192.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://visualcompublications.es/revVISUAL/article/view/5211/3527",
-    "pages": "181-192",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "181-192"
   },
   {
     "id": "pub-2024-cuanto-cuesta-una-diputacion-gastos-d",
@@ -442,14 +410,11 @@
     ],
     "venue": "Estudios Sociológicos",
     "citation_cv": "(2024). \"¿Cuánto cuesta una diputación?: gastos de campaña y elecciones en México\". Estudios Sociológicos, Vol. 42, pp.1-28,",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
     "url": "https://estudiossociologicos.colmex.mx/index.php/es/article/view/2542",
-    "pages": "1-28",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "1-28"
   },
   {
     "id": "pub-2024-dossier-artificial-intelligence-and-tec",
@@ -525,15 +490,12 @@
     ],
     "venue": "Colombia Internacional",
     "citation_cv": "(2022). \"Más allá del género. ¿Por qué las diputadas mexicanas representan sustantivamente a las mujeres?\", Colombia Internacional, No. 112, pp. 29-58.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
     "url": "https://revistas.uniandes.edu.co/doi/full/10.7440/colombiaint112.2022.02",
     "doi": "10.7440/colombiaint112.2022.02",
-    "pages": "29-58",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "29-58"
   },
   {
     "id": "pub-2022-legislative-effectiveness-in-multiparty",
@@ -545,15 +507,11 @@
     ],
     "venue": "The Journal of Politics",
     "citation_cv": "(2022). \"Legislative Effectiveness in Multiparty Presidential Systems: Evidence from Mexico's Chamber of Deputies\". The Journal of Politics, 84(4): 2216-2219.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/720305?journalCode=jop",
-    "doi": "10.1086/720305",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar",
-      "POR VERIFICAR tipo: pp. 2216-2219 sugiere nota de investigación/short article"
-    ]
+    "doi": "10.1086/720305"
   },
   {
     "id": "pub-2022-presidencias-de-comision-e-institucional",
@@ -565,13 +523,10 @@
     ],
     "venue": "Política y Sociedad",
     "citation_cv": "(2022). \"Presidencias de comisión e institucionalización de la Cámara de Diputados en México (1997-2018)\". Política y Sociedad, 59(2): 1-15.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "https://revistas.ucm.es/index.php/POSO/article/view/73635/4564456560933",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "https://revistas.ucm.es/index.php/POSO/article/view/73635/4564456560933"
   },
   {
     "id": "pub-2022-women-s-substantive-representation-in-le",
@@ -600,14 +555,11 @@
     ],
     "venue": "Latin American Politics and Society",
     "citation_cv": "(2022). \"Informal Coalitions and Legislative Agenda Setting in Mexico's Multiparty Presidential System\". Latin American Politics and Society, pp. 1-22.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/abs/informal-coalitions-and-legislative-agenda-setting-in-mexicos-multiparty-presidential-system/ACD946DA9D4A19E17A663D88304BCA1B",
-    "pages": "1-22",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "1-22"
   },
   {
     "id": "pub-2021-el-retorno-a-la-reeleccion-inmediata-en",
@@ -667,14 +619,11 @@
     ],
     "venue": "Democratization",
     "citation_cv": "(2021). \"Communicative responsiveness in the Mexican Senate: a field experiment\", Democratization, 28 (8): 1387-1405.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
     "url": "https://www.tandfonline.com/doi/full/10.1080/13510347.2021.1907348",
-    "doi": "10.1080/13510347.2021.1907348",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "doi": "10.1080/13510347.2021.1907348"
   },
   {
     "id": "pub-2021-los-linderos-filosoficos-del-contractual",
@@ -686,13 +635,10 @@
     ],
     "venue": "Enclaves del Pensamiento",
     "citation_cv": "(2021). \"Los linderos filosóficos del contractualismo político\", Enclaves del Pensamiento, 15 (29): 52-85.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "https://www.enclavesdelpensamiento.mx/index.php/enclaves/article/view/435/462",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "https://www.enclavesdelpensamiento.mx/index.php/enclaves/article/view/435/462"
   },
   {
     "id": "pub-2020-reinterpreting-theories-of-legislative-o",
@@ -704,13 +650,10 @@
     ],
     "venue": "Acta Politológica",
     "citation_cv": "(2020). \"Reinterpreting Theories of Legislative Organization. Committee chair selection in the non-majoritarian stage of the Mexican Cámara de Diputados (1997-2018)\", Acta Politológica, 12 (3): 51--74.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "https://acpo.vedeckecasopisy.cz/publicFiles/002154.pdf",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "https://acpo.vedeckecasopisy.cz/publicFiles/002154.pdf"
   },
   {
     "id": "pub-2020-social-creation-networks-for-designing-l",
@@ -722,13 +665,10 @@
     ],
     "venue": "Technology in Society",
     "citation_cv": "(2020). \"Social creation networks for designing low income interfaces in programmable thermostats\", Technology in Society, 62.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "en",
-    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0160791X18302628",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0160791X18302628"
   },
   {
     "id": "pub-2020-tuiteando-desde-el-escano-imagen-digita",
@@ -772,13 +712,10 @@
     ],
     "venue": "Apuntes Electorales",
     "citation_cv": "(2020). \"De la hegemonía al multipartidismo. Las bases de la alternancia municipal en Zacatecas\", Apuntes Electorales, 62 (19): 127-160.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "https://aelectorales.ieem.org.mx/index.php/ae/article/view/745",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "https://aelectorales.ieem.org.mx/index.php/ae/article/view/745"
   },
   {
     "id": "pub-2019-no-sabemos-lo-que-vemos-vemos-lo-que-cr",
@@ -790,13 +727,10 @@
     ],
     "venue": "Correspondencias & Análisis",
     "citation_cv": "(2019). \"No sabemos lo que vemos; vemos lo que creemos. Percepciones, emociones y reacciones frente a estímulos de campaña en la elección presidencial de 2018 en México\", Correspondencias & Análisis, 10.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://correspondenciasyanalisis.com/pdf/v10/No-sabemos-lo-que-vemos.pdf",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://correspondenciasyanalisis.com/pdf/v10/No-sabemos-lo-que-vemos.pdf"
   },
   {
     "id": "pub-2019-partidos-o-distritos-la-logica-detras-d",
@@ -828,10 +762,7 @@
     "topics": [],
     "lang": "es",
     "url": "http://portal.iedf.org.mx/biblioteca/descargasC.php?id=397",
-    "pages": "75-101",
-    "flags": [
-      "POSIBLE DUPLICADO: el mismo capítulo aparece como 2016, 2018 y 2019; dejar uno"
-    ]
+    "pages": "75-101"
   },
   {
     "id": "pub-2019-constituency-preferences-and-committee-s",
@@ -843,14 +774,9 @@
     ],
     "venue": "Journal of Latin American Studies",
     "citation_cv": "(2019). \"Constituency Preferences and Committee Selection in the Mexican Chamber of Deputies\", Journal of Latin American Studies, 61 (4): 95-117.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
-    "lang": "en",
-    "url": "https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/constituency-preferences-and-committee-selection-in-the-mexican-camara-de-diputados/188BA6D962D991E64F9CE4BBCAC9093C",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar",
-      "DISCREPANCIA: el enlace es de Latin American Politics and Society (Cambridge), no del Journal of Latin American Studies"
-    ]
+    "lang": "en"
   },
   {
     "id": "pub-2019-score-de-participacion-parlamentaria-sp",
@@ -862,14 +788,11 @@
     ],
     "venue": "Estudios Políticos",
     "citation_cv": "(2019). \"Score de Participación Parlamentaria (SPP). Sobre cómo medir el desempeño de los diputados federales en México\". Estudios Políticos, 46, pp. 37-60.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
     "url": "http://www.revistas.unam.mx/index.php/rep/article/view/69499/61343",
-    "pages": "37-60",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "pages": "37-60"
   },
   {
     "id": "pub-2019-como-evaluar-el-desempeno-legislativo",
@@ -881,13 +804,10 @@
     ],
     "venue": "Revista Mexicana de Ciencias Políticas y Sociales",
     "citation_cv": "(2019). \"¿Cómo evaluar el desempeño legislativo? Una propuesta metodológica para la clasificación de las iniciativas de ley en México y América Latina\", Revista Mexicana de Ciencias Políticas y Sociales, 64 (235): 395-426.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://www.revistas.unam.mx/index.php/rmcpys/article/view/63130/60217",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://www.revistas.unam.mx/index.php/rmcpys/article/view/63130/60217"
   },
   {
     "id": "pub-2018-como-clasificar-las-iniciativas-de-ley",
@@ -899,32 +819,11 @@
     ],
     "venue": "De Política",
     "citation_cv": "(2018). \"¿Cómo clasificar las iniciativas de ley? Una propuesta metodológica para la transición democrática mexicana\". De Política, 6 (10), pp.67-90.",
-    "refereed": true,
-    "topics": [],
-    "lang": "es",
-    "url": "http://ojs.uacj.mx/ojs/index.php/depolitica/issue/view/2/2",
-    "pages": "67-90",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
-  },
-  {
-    "id": "pub-2018-zacatecas-evolucion-politica-y-alternan",
-    "type": "capitulo",
-    "year": 2018,
-    "title": "Zacatecas: evolución política y alternancia municipal (1998-2016)",
-    "authors": [
-      "Sergio A. Bárcena Juárez"
-    ],
-    "venue": "Los estados en 2016. Nuevos equilibrios regionales",
-    "citation_cv": "(2018). \"Zacatecas: evolución política y alternancia municipal (1998-2016)\", en Mirón Lince, Rosa María (coord.). Los estados en 2016. Nuevos equilibrios regionales. México: UNAM/IECM/TEPJF. pp.75-102.",
     "refereed": null,
     "topics": [],
     "lang": "es",
-    "pages": "75-102",
-    "flags": [
-      "POSIBLE DUPLICADO: el mismo capítulo aparece como 2016, 2018 y 2019; dejar uno"
-    ]
+    "url": "http://ojs.uacj.mx/ojs/index.php/depolitica/issue/view/2/2",
+    "pages": "67-90"
   },
   {
     "id": "pub-2018-diseno-institucional-y-participacion-ciu",
@@ -952,13 +851,10 @@
     ],
     "venue": "CONfines de Relaciones Internacionales y Ciencia Política",
     "citation_cv": "(2018). \"Transición democrática e institucionalización legislativa: el caso de la Comisión de Desarrollo Social en la Cámara de Diputados de México (2000-2012)\", CONfines de Relaciones Internacionales y Ciencia Política, 12 (23): 11-38.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://confines.mty.itesm.mx/articulos23/a1_transicion.pdf",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://confines.mty.itesm.mx/articulos23/a1_transicion.pdf"
   },
   {
     "id": "pub-2017-la-negociacion-del-presupuesto-local-re",
@@ -986,13 +882,10 @@
     ],
     "venue": "CONfines de Relaciones Internacionales y Ciencia Política",
     "citation_cv": "(2017). \"Racionalidad, influencia estructural y voto en la elección de Diputados Federales. El caso de Yucatán, 2015\", CONfines de Relaciones Internacionales y Ciencia Política, 13 (24): 11-40.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "https://confines.mty.itesm.mx/articulos24/a1_racionalidad.pdf",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "https://confines.mty.itesm.mx/articulos24/a1_racionalidad.pdf"
   },
   {
     "id": "pub-2017-dos-presiones-desde-el-lobby-el-cabilde",
@@ -1020,13 +913,10 @@
     ],
     "venue": "Revista Uruguaya de Ciencia Política",
     "citation_cv": "(2017). \"Democratización y representación legislativa en México\", Revista Uruguaya de Ciencia Política, 26 (1): 59-83.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://cienciassociales.edu.uy/institutodecienciapolitica/rucp-vol-26-no-1/",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://cienciassociales.edu.uy/institutodecienciapolitica/rucp-vol-26-no-1/"
   },
   {
     "id": "pub-2017-la-investigacion-del-mercado-gubernament",
@@ -1070,31 +960,10 @@
     ],
     "venue": "Política y Gobierno",
     "citation_cv": "(2017). \"Involucramiento legislativo sin reelección: La productividad de los diputados federales en México, 1985-2015\", Política y Gobierno, 24 (1): 45-79.",
-    "refereed": true,
-    "topics": [],
-    "lang": "es",
-    "url": "http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/887/623",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
-  },
-  {
-    "id": "pub-2016-zacatecas-evolucion-politica-y-alternan",
-    "type": "capitulo",
-    "year": 2016,
-    "title": "Zacatecas: Evolución política y alternancia municipal (1998-2016)",
-    "authors": [
-      "Sergio A. Bárcena Juárez"
-    ],
-    "venue": "Los estados en 2016. Nuevos equilibrios regionales",
-    "citation_cv": "(2016). \"Zacatecas: Evolución política y alternancia municipal (1998-2016)\" en Mirón Lince, Rosa María (coord.), Los estados en 2016. Nuevos equilibrios regionales. Tomo 2. México: UNAM/IECM/TECM/La Biblioteca, pp. 75-102.",
     "refereed": null,
     "topics": [],
     "lang": "es",
-    "pages": "75-102",
-    "flags": [
-      "POSIBLE DUPLICADO: el mismo capítulo aparece como 2016, 2018 y 2019; dejar uno"
-    ]
+    "url": "http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/887/623"
   },
   {
     "id": "pub-2016-el-inconsciente-estructural-determinant",
@@ -1122,13 +991,10 @@
     ],
     "venue": "En-Claves del Pensamiento",
     "citation_cv": "(2015). \"Identidad y representación política. Reflexiones contemporáneas\", En-Claves del Pensamiento, 9 (17): 69-86.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://aplicaciones.ccm.itesm.mx/journals/index.php/enclaves/article/view/210",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://aplicaciones.ccm.itesm.mx/journals/index.php/enclaves/article/view/210"
   },
   {
     "id": "pub-2015-mandato-en-el-vacio-los-retos-de-la-re",
@@ -1219,13 +1085,10 @@
     ],
     "venue": "Apuntes Electorales",
     "citation_cv": "(2012). \"El segundo debate presidencial de 2012 en México. Una propuesta de análisis\", Apuntes Electorales, Revista del Instituto Electoral del Estado de México, 10 (44): 81-110.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://aelectorales.ieem.org.mx/index.php/ae/article/view/207",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://aelectorales.ieem.org.mx/index.php/ae/article/view/207"
   },
   {
     "id": "pub-2012-el-proceso-legislativo-en-mexico-la-efi",
@@ -1237,13 +1100,10 @@
     ],
     "venue": "Perfiles Latinoamericanos",
     "citation_cv": "(2012). \"El proceso legislativo en México: la eficiencia de las comisiones permanentes en un Congreso sin mayoría\", Perfiles Latinoamericanos, 24 (48): 111-140.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://perfilesla.flacso.edu.mx/index.php/perfilesla/article/view/725",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://perfilesla.flacso.edu.mx/index.php/perfilesla/article/view/725"
   },
   {
     "id": "pub-2012-el-rol-de-las-comisiones-legislativas-de",
@@ -1255,13 +1115,10 @@
     ],
     "venue": "Estudios Políticos",
     "citation_cv": "(2012). \"El rol de las comisiones legislativas de la Cámara de Diputados durante el presidencialismo mexicano\", Estudios Políticos, 26 (9): 131-160.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://www.revistas.unam.mx/index.php/rep/article/view/31963",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://www.revistas.unam.mx/index.php/rep/article/view/31963"
   },
   {
     "id": "pub-2011-the-future-of-representative-democracy",
@@ -1287,13 +1144,10 @@
     ],
     "venue": "Acta Sociológica",
     "citation_cv": "(2010). \"Del estado benefactor a la poliarquía. Un análisis comparado de la seguridad social en México\", Acta Sociológica, 52 (5): 99-128.",
-    "refereed": true,
+    "refereed": null,
     "topics": [],
     "lang": "es",
-    "url": "http://www.revistas.unam.mx/index.php/ras/article/view/18742",
-    "flags": [
-      "refereed=true inferido (revista científica); confirmar"
-    ]
+    "url": "http://www.revistas.unam.mx/index.php/ras/article/view/18742"
   },
   {
     "id": "pub-2026-voz-y-voto",
@@ -1731,10 +1585,7 @@
     "topics": [],
     "lang": "es",
     "pages": "9-16",
-    "original_author": "Peverill Squire",
-    "flags": [
-      "El CV dice \"comprada\": corregido a \"comparada\" [confirmar]"
-    ]
+    "original_author": "Peverill Squire"
   },
   {
     "id": "pub-none-del-estado-benefactor-a-la-poliarquia-u",

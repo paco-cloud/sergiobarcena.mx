@@ -3,118 +3,279 @@
   "brand": "SERGIO A. BÁRCENA",
   "site_url": "https://sergiobarcena.mx",
   "verified_against": "Contenido verificado contra CV, octubre 2026",
-  "analytics": { "enabled": false, "cf_beacon_token": "" },
+  "analytics": {
+    "enabled": false,
+    "cf_beacon_token": ""
+  },
   "routes": [
     {
-      "id": "inicio", "num": "00", "path": "/", "template": "home",
-      "label": { "es": "Inicio", "en": "Home" },
-      "title": { "es": "Sergio A. Bárcena · Poder Legislativo, elecciones e IA", "en": "Sergio A. Bárcena · Legislative power, elections and AI" },
-      "description": { "es": "Dr. Sergio A. Bárcena Juárez, profesor-investigador del Tecnológico de Monterrey: Poder Legislativo, comportamiento electoral e inteligencia artificial.", "en": "[POR VERIFICAR] English description." }
+      "id": "inicio",
+      "num": "00",
+      "path": "/",
+      "template": "home",
+      "label": {
+        "es": "Inicio",
+        "en": "Home"
+      },
+      "title": {
+        "es": "Sergio A. Bárcena · Poder Legislativo, elecciones e IA",
+        "en": "Sergio A. Bárcena · Legislative power, elections and AI"
+      },
+      "description": {
+        "es": "Dr. Sergio A. Bárcena Juárez, profesor-investigador del Tecnológico de Monterrey: Poder Legislativo, comportamiento electoral e inteligencia artificial.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "semblanza", "num": "01", "path": "/semblanza", "template": "semblanza",
-      "label": { "es": "Semblanza", "en": "About" },
-      "title": { "es": "Semblanza", "en": "About" },
-      "description": { "es": "Semblanza corta y larga, formación, afiliaciones académicas y trayectoria profesional del Dr. Sergio A. Bárcena Juárez (Tecnológico de Monterrey, SNII II).", "en": "[POR VERIFICAR] English description." }
+      "id": "semblanza",
+      "num": "01",
+      "path": "/semblanza",
+      "template": "semblanza",
+      "label": {
+        "es": "Semblanza",
+        "en": "About"
+      },
+      "title": {
+        "es": "Semblanza",
+        "en": "About"
+      },
+      "description": {
+        "es": "Semblanza corta y larga, formación, afiliaciones académicas y trayectoria profesional del Dr. Sergio A. Bárcena Juárez (Tecnológico de Monterrey, SNII II).",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "investigacion", "num": "02", "path": "/investigacion", "template": "investigacion",
-      "label": { "es": "Investigación", "en": "Research" },
-      "title": { "es": "Investigación", "en": "Research" },
-      "description": { "es": "Líneas y proyectos de investigación de Sergio A. Bárcena sobre congresos, representación política, comportamiento electoral e IA en el trabajo legislativo.", "en": "[POR VERIFICAR] English description." }
+      "id": "investigacion",
+      "num": "02",
+      "path": "/investigacion",
+      "template": "investigacion",
+      "label": {
+        "es": "Investigación",
+        "en": "Research"
+      },
+      "title": {
+        "es": "Investigación",
+        "en": "Research"
+      },
+      "description": {
+        "es": "Líneas y proyectos de investigación de Sergio A. Bárcena sobre congresos, representación política, comportamiento electoral e IA en el trabajo legislativo.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "publicaciones", "num": "03", "path": "/publicaciones", "template": "publicaciones",
-      "label": { "es": "Publicaciones", "en": "Publications" },
-      "title": { "es": "Publicaciones", "en": "Publications" },
-      "description": { "es": "Libros, artículos, capítulos y textos de divulgación de Sergio A. Bárcena Juárez sobre Poder Legislativo y elecciones, con citas APA y BibTeX descargables.", "en": "[POR VERIFICAR] English description." }
+      "id": "publicaciones",
+      "num": "03",
+      "path": "/publicaciones",
+      "template": "publicaciones",
+      "label": {
+        "es": "Publicaciones",
+        "en": "Publications"
+      },
+      "title": {
+        "es": "Publicaciones",
+        "en": "Publications"
+      },
+      "description": {
+        "es": "Libros, artículos, capítulos y textos de divulgación de Sergio A. Bárcena Juárez sobre Poder Legislativo y elecciones, con citas APA y BibTeX descargables.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "buro", "num": "04", "path": "/buro-parlamentario", "template": "buro",
-      "label": { "es": "Buró Parlamentario", "en": "Buró Parlamentario" },
-      "title": { "es": "Buró Parlamentario", "en": "Buró Parlamentario" },
-      "description": { "es": "Buró Parlamentario: evaluación y consultoría legislativa. Método de medición del desempeño de diputados y reportes públicos citados en medios de comunicación.", "en": "[POR VERIFICAR] English description." }
+      "id": "buro",
+      "num": "04",
+      "path": "/buro-parlamentario",
+      "template": "buro",
+      "label": {
+        "es": "Buró Parlamentario",
+        "en": "Buró Parlamentario"
+      },
+      "title": {
+        "es": "Buró Parlamentario",
+        "en": "Buró Parlamentario"
+      },
+      "description": {
+        "es": "Buró Parlamentario: evaluación y consultoría legislativa. Método de medición del desempeño de diputados y reportes públicos citados en medios de comunicación.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "medios", "num": "05", "path": "/medios", "template": "medios",
-      "label": { "es": "Medios", "en": "Media" },
-      "title": { "es": "Medios", "en": "Media" },
-      "description": { "es": "Entrevistas, citas y notas de prensa en las que participa Sergio A. Bárcena o se usan datos del Buró Parlamentario, con fecha, medio y enlace a la fuente.", "en": "[POR VERIFICAR] English description." }
+      "id": "medios",
+      "num": "05",
+      "path": "/medios",
+      "template": "medios",
+      "label": {
+        "es": "Medios",
+        "en": "Media"
+      },
+      "title": {
+        "es": "Medios",
+        "en": "Media"
+      },
+      "description": {
+        "es": "Entrevistas, citas y notas de prensa en las que participa Sergio A. Bárcena o se usan datos del Buró Parlamentario, con fecha, medio y enlace a la fuente.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "conferencias", "num": "06", "path": "/conferencias", "template": "conferencias",
-      "label": { "es": "Conferencias", "en": "Talks" },
-      "title": { "es": "Conferencias", "en": "Talks" },
-      "description": { "es": "Conferencias, ponencias y paneles de Sergio A. Bárcena en congresos académicos, universidades e instituciones de México y del extranjero, de 2005 a la fecha.", "en": "[POR VERIFICAR] English description." }
+      "id": "conferencias",
+      "num": "06",
+      "path": "/conferencias",
+      "template": "conferencias",
+      "label": {
+        "es": "Conferencias",
+        "en": "Talks"
+      },
+      "title": {
+        "es": "Conferencias",
+        "en": "Talks"
+      },
+      "description": {
+        "es": "Conferencias, ponencias y paneles de Sergio A. Bárcena en congresos académicos, universidades e instituciones de México y del extranjero, de 2005 a la fecha.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "docencia", "num": "07", "path": "/docencia", "template": "docencia",
-      "label": { "es": "Docencia", "en": "Teaching" },
-      "title": { "es": "Docencia", "en": "Teaching" },
-      "description": { "es": "Materias diseñadas, cátedras, cursos y talleres impartidos y tesis dirigidas por Sergio A. Bárcena en el Tec de Monterrey, la UNAM y otras instituciones.", "en": "[POR VERIFICAR] English description." }
+      "id": "docencia",
+      "num": "07",
+      "path": "/docencia",
+      "template": "docencia",
+      "label": {
+        "es": "Docencia",
+        "en": "Teaching"
+      },
+      "title": {
+        "es": "Docencia",
+        "en": "Teaching"
+      },
+      "description": {
+        "es": "Materias diseñadas, cátedras, cursos y talleres impartidos y tesis dirigidas por Sergio A. Bárcena en el Tec de Monterrey, la UNAM y otras instituciones.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "distinciones", "num": "08", "path": "/distinciones", "template": "distinciones",
-      "label": { "es": "Distinciones", "en": "Awards" },
-      "title": { "es": "Distinciones", "en": "Awards" },
-      "description": { "es": "Becas, premios y distinciones académicas de Sergio A. Bárcena Juárez, ordenados por año y con enlace a la fuente o constancia disponible para su consulta.", "en": "[POR VERIFICAR] English description." }
+      "id": "distinciones",
+      "num": "08",
+      "path": "/distinciones",
+      "template": "distinciones",
+      "label": {
+        "es": "Distinciones",
+        "en": "Awards"
+      },
+      "title": {
+        "es": "Distinciones",
+        "en": "Awards"
+      },
+      "description": {
+        "es": "Becas, premios y distinciones académicas de Sergio A. Bárcena Juárez, ordenados por año y con enlace a la fuente o constancia disponible para su consulta.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "contacto", "num": "09", "path": "/contacto", "template": "contacto",
-      "label": { "es": "Contacto", "en": "Contact" },
-      "title": { "es": "Contacto", "en": "Contact" },
-      "description": { "es": "Contacto y perfiles académicos de Sergio A. Bárcena: ORCID, Google Scholar, Web of Science, Academia.edu y página institucional del Tec de Monterrey.", "en": "[POR VERIFICAR] English description." }
+      "id": "contacto",
+      "num": "09",
+      "path": "/contacto",
+      "template": "contacto",
+      "label": {
+        "es": "Contacto",
+        "en": "Contact"
+      },
+      "title": {
+        "es": "Contacto",
+        "en": "Contact"
+      },
+      "description": {
+        "es": "Contacto y perfiles académicos de Sergio A. Bárcena: ORCID, Google Scholar, Web of Science, Academia.edu y página institucional del Tec de Monterrey.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "aviso", "path": "/aviso-de-privacidad", "template": "aviso", "layout": "legal", "nav": false, "noindex": true,
-      "label": { "es": "Aviso de privacidad", "en": "Privacy notice" },
-      "title": { "es": "Aviso de privacidad", "en": "Privacy notice" },
-      "description": { "es": "Aviso de privacidad de sergiobarcena.mx: qué datos se tratan, para qué se usan y cómo ejercer los derechos de acceso, rectificación, cancelación y oposición.", "en": "[POR VERIFICAR] English description." }
+      "id": "aviso",
+      "path": "/aviso-de-privacidad",
+      "template": "aviso",
+      "layout": "legal",
+      "nav": false,
+      "noindex": true,
+      "label": {
+        "es": "Aviso de privacidad",
+        "en": "Privacy notice"
+      },
+      "title": {
+        "es": "Aviso de privacidad",
+        "en": "Privacy notice"
+      },
+      "description": {
+        "es": "Aviso de privacidad de sergiobarcena.mx: qué datos se tratan, para qué se usan y cómo ejercer los derechos de acceso, rectificación, cancelación y oposición.",
+        "en": "[POR VERIFICAR] English description."
+      }
     },
     {
-      "id": "404", "path": "/404", "template": "404", "layout": "legal", "nav": false, "sitemap": false, "noindex": true,
-      "label": { "es": "Página no encontrada", "en": "Page not found" },
-      "title": { "es": "Página no encontrada", "en": "Page not found" },
-      "description": { "es": "Esta página no existe en sergiobarcena.mx.", "en": "This page does not exist on sergiobarcena.mx." }
+      "id": "404",
+      "path": "/404",
+      "template": "404",
+      "layout": "legal",
+      "nav": false,
+      "sitemap": false,
+      "noindex": true,
+      "label": {
+        "es": "Página no encontrada",
+        "en": "Page not found"
+      },
+      "title": {
+        "es": "Página no encontrada",
+        "en": "Page not found"
+      },
+      "description": {
+        "es": "Esta página no existe en sergiobarcena.mx.",
+        "en": "This page does not exist on sergiobarcena.mx."
+      }
     }
   ],
   "home": {
     "buro_lines": [
-      "Evaluación y consultoría legislativa con datos públicos sobre el trabajo de legisladoras y legisladores. [BORRADOR]",
-      "[POR DECIDIR: redacción común con pacomendez.mx sobre la fundación en 2018]"
+      "Evaluación y consultoría legislativa con datos públicos sobre el trabajo de legisladoras y legisladores."
     ],
     "hitos": [
-      { "kind": "award", "id": "aw-ganador-de-la-medalla-al-merito-helia-bravo-holl" },
-      { "kind": "publication", "id": "pub-2025-women-as-builders-of-parity-democracy-in" },
+      {
+        "kind": "award",
+        "id": "aw-ganador-de-la-medalla-al-merito-helia-bravo-holl"
+      },
+      {
+        "kind": "publication",
+        "id": "pub-2025-women-as-builders-of-parity-democracy-in"
+      },
       {
         "kind": "custom",
         "title": "Inteligencia artificial en los discursos legislativos",
         "year": 2026,
-        "body": "Investigación sobre el uso de inteligencia artificial en las intervenciones de diputados y senadores en México. [BORRADOR]",
+        "body": "Investigación sobre el uso de inteligencia artificial en las intervenciones de diputados y senadores en México.",
         "links": [
-          { "publication": "pub-2026-inteligencia-artificial-en-los-discursos", "label": "Nexos, 2026" },
-          { "press": "press-2026-el-universal-la-tribuna-y-el-algoritmo-un", "label": "El Universal, 2026" }
+          {
+            "publication": "pub-2026-inteligencia-artificial-en-los-discursos",
+            "label": "Nexos, 2026"
+          },
+          {
+            "press": "press-2026-el-universal-la-tribuna-y-el-algoritmo-un",
+            "label": "El Universal, 2026"
+          }
         ]
       }
     ]
   },
   "buro": {
-    "url": "https://buroparlamentario.org",
-    "url_status": "POR DECIDIR §8.5: .org (CV) o .com (pacomendez.mx)",
+    "url": "https://buroparlamentario.com",
     "paragraphs": [
-      "Buró Parlamentario S.C. se dedica a la evaluación y consultoría legislativa. [BORRADOR]",
-      "[POR DECIDIR: redacción común con pacomendez.mx sobre la fundación en 2018 y el papel de cada persona]"
+      "Buró Parlamentario S.C. se dedica a la evaluación y consultoría legislativa."
     ],
-    "method": "El método para medir el desempeño legislativo está publicado en dos artículos académicos de 2019: el Score de Participación Parlamentaria (SPP) y una propuesta para clasificar las iniciativas de ley. [BORRADOR]",
-    "method_publications": ["pub-2019-score-de-participacion-parlamentaria-sp", "pub-2019-como-evaluar-el-desempeno-legislativo"],
+    "method": "El método para medir el desempeño legislativo está publicado en dos artículos académicos de 2019: el Score de Participación Parlamentaria (SPP) y una propuesta para clasificar las iniciativas de ley.",
+    "method_publications": [
+      "pub-2019-score-de-participacion-parlamentaria-sp",
+      "pub-2019-como-evaluar-el-desempeno-legislativo"
+    ],
     "pacomendez_url": "https://pacomendez.mx"
   },
-  "contact": {
-    "email": "[POR DECIDIR: correo público pendiente de aprobación de Sergio]",
-    "press_note": "Las solicitudes de entrevista y de datos del Buró Parlamentario se atienden por correo. [POR DECIDIR: canal de prensa]"
-  },
+  "contact": {},
   "research": {
-    "ia_lead": "Selección automática de publicaciones, cursos y conferencias cuyo título menciona inteligencia artificial, IA o algoritmos. Describe el tema de cada trabajo, no evalúa su alcance. [BORRADOR]"
+    "ia_lead": "Selección automática de publicaciones, cursos y conferencias cuyo título menciona inteligencia artificial, IA o algoritmos. Describe el tema de cada trabajo, no evalúa su alcance."
   },
   "ui": {
     "es": {

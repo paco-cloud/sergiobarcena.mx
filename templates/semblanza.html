@@ -1,11 +1,11 @@
 <section class="page" aria-labelledby="titulo">
 ${h.pageHead()}<div class="rule"></div>
 <p class="lead" id="bio-corta">${txt(data.profile.bio_short.es)}</p>
-<p class="copy-row">${h.pv(data.profile.bio_short.status)}<button type="button" class="copy" data-copy-target="bio-corta">${esc(ui.copy_bio)} (corta)</button></p>
+<p class="copy-row"><button type="button" class="copy" data-copy-target="bio-corta">${esc(ui.copy_bio)} (corta)</button></p>
 <div class="prose page-lead" id="bio-larga">${each(data.profile.bio_long.es.split(/\n\n+/), (p) => `<p>${txt(p)}</p>`)}</div>
-<p class="copy-row">${h.pv(data.profile.bio_long.status)}<button type="button" class="copy" data-copy-target="bio-larga">${esc(ui.copy_bio)} (larga)</button></p>
+<p class="copy-row"><button type="button" class="copy" data-copy-target="bio-larga">${esc(ui.copy_bio)} (larga)</button></p>
 
-<div class="sub" id="formacion">
+<div class="sub" id="cv">
 <div class="kicker">FORMACIÓN Y AFILIACIONES</div><h2>Formación y afiliaciones</h2><div class="rule"></div>
 <div class="duo">
 <div><span class="label">FORMACIÓN</span>
@@ -28,15 +28,11 @@ ${h.acc('Formación continua', data.service.formacion_continua.map(h.accItem))}
 <div class="sub" id="trayectoria">
 <div class="kicker">TRAYECTORIA PROFESIONAL</div><h2>Trayectoria profesional</h2><div class="rule tight"></div>
 ${each(data.experience, (e) => h.formRow({
-  y: esc(h.yearsLabel(e.years, e.current)) || h.pv('AÑOS POR VERIFICAR'),
+  y: esc(h.yearsLabel(e.years, e.current)),
   h3: txt(e.text),
   note: [e.current ? '<span class="badge">activo</span>' : '', e.url ? h.ext(e.url, 'Sitio') : ''].filter(Boolean).join(' '),
   flags: h.flagsPv(e.flags),
 }))}
 </div>
 
-<div class="sub" id="cv">
-<div class="kicker">CURRÍCULUM</div><h2>Currículum en PDF</h2><div class="rule"></div>
-<p class="pending-box">${esc(ui.cv_pdf)} · PENDIENTE: el CV corto en PDF se publicará cuando esté aprobado. El CV completo no se publica porque contiene datos personales.</p>
-</div>
 </section>

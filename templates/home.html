@@ -4,7 +4,7 @@ ${(() => { const hero = data.profile.hero; return `
 <div><h1>${esc(hero.display_name)}</h1><p class="fullname">${esc(hero.fullname)}</p></div>
 <p class="tags">${esc(hero.tags)}</p>
 <p class="brands"><span class="label">${esc(hero.institutions_label)}</span><span>${esc(hero.institutions)}</span></p>
-<p class="claim">${txt(hero.claim)} ${h.pv(hero.claim_status)}</p>
+<p class="claim">${txt(hero.claim)}</p>
 <div class="ctas">${each(hero.ctas, (c) => c.status
   ? `<span class="pv" title="${esc(c.status)}">${esc(c.label)} · PENDIENTE</span>`
   : h.isExternal(c.href)

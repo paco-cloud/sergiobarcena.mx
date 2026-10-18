@@ -3,8 +3,7 @@
   "honorific": "Dr.",
   "alternate_names": [
     "Sergio A. Bárcena",
-    "Sergio Bárcena",
-    "Sergio Arturo Bárcena Juárez [POR VERIFICAR: ¿se publica el segundo nombre?]"
+    "Sergio Bárcena"
   ],
   "job_title": "Profesor-investigador del Tecnológico de Monterrey · SNII nivel II",
   "affiliation": {
@@ -40,8 +39,7 @@
     },
     {
       "label": "ResearcherID (Web of Science)",
-      "url": "http://www.researcherid.com/rid/I-8078-2016",
-      "note": "POR VERIFICAR: la URL vieja de researcherid.com redirige a Web of Science; usar la URL final"
+      "url": "https://www.webofscience.com/wos/author/rid/I-8078-2016"
     },
     {
       "label": "Academia.edu",
@@ -53,13 +51,12 @@
     },
     {
       "label": "Buró Parlamentario",
-      "url": "https://buroparlamentario.org",
-      "note": "POR DECIDIR: .org (CV) o .com (pacomendez.mx)"
+      "url": "https://buroparlamentario.com"
     }
   ],
   "email": {
-    "value": "sergio.barcena@tec.mx",
-    "status": "POR DECIDIR (Sergio aprueba qué correo es público)"
+    "value": null,
+    "status": "Sin correo público por ahora. Decisión de Paco Méndez, 18-oct-2026."
   },
   "phone": "NO SE PUBLICA",
   "education": [
@@ -187,7 +184,7 @@
     "Entrevistas para diarios nacionales e internacionales como Le Monde, Forbes, CNN, EL Mercurio, El Universal, Reforma, Uno más Uno, El Financiero, el Economista, Business Magazine, Diario de México, ADN Político, Contenido, Terra Noticas, La Crónica, 24 horas, El Semanario y Sin Embargo.",
     "Analista invitado en distintos programas televisivos y radiofónicos de Bloomberg, CNN Internacional, KJZZ Radio, Once TV, Foro TV, Excélsior TV, Radio Red, Grupo IMER, Televisión Mexiquense, TVC, Radio Fórmula, Radio Capital, Radio-UNAM. YV-UNAM y Canal del Congreso."
   ],
-  "_status": "BORRADOR G2 generado por el asistente desde ___CV. SBJ3.docx (17-oct-2026). Todo texto marcado BORRADOR requiere aprobación de Sergio vía Paco.",
+  "_status": "G2 aprobado para publicación. Decisión de Paco Méndez, 18-oct-2026.",
   "hero": {
     "kicker": "00 · PODER LEGISLATIVO / ELECCIONES / IA",
     "display_name": "SERGIO A. BÁRCENA",
@@ -196,16 +193,10 @@
     "institutions_label": "INSTITUCIONES",
     "institutions": "Tecnológico de Monterrey · UNAM · University of Missouri · SNII nivel II",
     "claim": "Estudia cómo funcionan los congresos y convierte ese conocimiento en datos que cualquier persona puede consultar.",
-    "claim_status": "BORRADOR · POR DECIDIR con Sergio",
     "ctas": [
       {
         "label": "Ver publicaciones",
         "href": "/publicaciones"
-      },
-      {
-        "label": "Descargar CV (PDF)",
-        "href": "/cv/sergio-barcena-cv.pdf",
-        "status": "POR DECIDIR: el PDF corto aún no existe; mostrar .pv [PENDIENTE]"
       },
       {
         "label": "Google Scholar ↗",
@@ -214,11 +205,11 @@
     ]
   },
   "bio_short": {
-    "es": "Sergio A. Bárcena Juárez es profesor-investigador del Tecnológico de Monterrey y miembro nivel II del Sistema Nacional de Investigadoras e Investigadores (SNII). Estudia el Poder Legislativo, el comportamiento electoral y el uso de la inteligencia artificial en el trabajo parlamentario. Es doctor en Ciencia Política por la UNAM y realizó una estancia posdoctoral en la Universidad de Missouri. En 2018 [POR DECIDIR: redacción común con pacomendez.mx] Buró Parlamentario, que evalúa con datos públicos el desempeño de legisladoras y legisladores.",
-    "status": "BORRADOR"
+    "es": "Sergio A. Bárcena Juárez es profesor-investigador del Tecnológico de Monterrey y miembro nivel II del Sistema Nacional de Investigadoras e Investigadores (SNII). Estudia el Poder Legislativo, el comportamiento electoral y el uso de la inteligencia artificial en el trabajo parlamentario. Es doctor en Ciencia Política por la UNAM y realizó una estancia posdoctoral en la Universidad de Missouri.",
+    "status": "Aprobada. Decisión de Paco Méndez, 18-oct-2026."
   },
   "bio_long": {
-    "es": "Sergio A. Bárcena Juárez es profesor-investigador de tiempo completo en la Escuela de Humanidades y Educación del Tecnológico de Monterrey y miembro nivel II del Sistema Nacional de Investigadoras e Investigadores (SNII) de la SECIHTI. Sus líneas de trabajo son el Poder Legislativo, el desempeño parlamentario, la institucionalización de los congresos, el comportamiento electoral, la representación política, la filosofía política y la metodología cuantitativa; en los últimos años ha estudiado el uso de la inteligencia artificial en el trabajo legislativo.\n\nObtuvo mención honorífica en la licenciatura (Tec de Monterrey) y cum laude en la maestría y el doctorado en Ciencia Política (UNAM). Realizó una estancia posdoctoral en la Universidad de Missouri, donde se especializó en metodología cuantitativa y modelos econométricos aplicados a los congresos, y fue Visiting Research Associate en la Universidad Queens de Belfast. Dirigió los programas académicos de Derecho y Ciencia Política del Tec de Monterrey (2015-2017).\n\nSu obra incluye libros y artículos en revistas como The Journal of Politics, Latin American Politics and Society, Political Studies y Democratization, además de capítulos en Routledge, Springer y Palgrave. Ha presentado su investigación en congresos de APSA, MPSA, IPSA, ALACIP y CEISAL. En 2018 [POR DECIDIR: redacción común] Buró Parlamentario, que ofrece a la ciudadanía información sobre el trabajo de sus representantes. En 2026 recibió la Medalla al Mérito Helia Bravo Hollis en Ciencias Sociales [POR VERIFICAR: otorgante].",
-    "status": "BORRADOR · sin cifras fijas de publicaciones/conferencias: el build las calcula de los JSON"
+    "es": "Sergio A. Bárcena Juárez es profesor-investigador de tiempo completo en la Escuela de Humanidades y Educación del Tecnológico de Monterrey y miembro nivel II del Sistema Nacional de Investigadoras e Investigadores (SNII) de la SECIHTI. Sus líneas de trabajo son el Poder Legislativo, el desempeño parlamentario, la institucionalización de los congresos, el comportamiento electoral, la representación política, la filosofía política y la metodología cuantitativa; en los últimos años ha estudiado el uso de la inteligencia artificial en el trabajo legislativo.\n\nObtuvo mención honorífica en la licenciatura (Tec de Monterrey) y cum laude en la maestría y el doctorado en Ciencia Política (UNAM). Realizó una estancia posdoctoral en la Universidad de Missouri, donde se especializó en metodología cuantitativa y modelos econométricos aplicados a los congresos, y fue Visiting Research Associate en la Universidad Queens de Belfast. Dirigió los programas académicos de Derecho y Ciencia Política del Tec de Monterrey (2015-2017).\n\nSu obra incluye libros y artículos en revistas como The Journal of Politics, Latin American Politics and Society, Political Studies y Democratization, además de capítulos en Routledge, Springer y Palgrave. Ha presentado su investigación en congresos de APSA, MPSA, IPSA, ALACIP y CEISAL. En 2026 recibió la Medalla al Mérito Helia Bravo Hollis en Ciencias Sociales.",
+    "status": "Aprobada. Decisión de Paco Méndez, 18-oct-2026. Sin cifras fijas: el build las calcula de los JSON."
   }
 }

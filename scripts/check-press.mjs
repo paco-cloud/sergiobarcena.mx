@@ -296,7 +296,7 @@ for (const r of records) {
     if (k) {
       r.kind = k;
       r.kind_source = 'auto';
-      r.flags.push('POR VERIFICAR: tipo sugerido por check-press');
+      r.flags.push('tipo sugerido por check-press; sin confirmar, no se publica');
     }
   }
   delete r.column_candidate;

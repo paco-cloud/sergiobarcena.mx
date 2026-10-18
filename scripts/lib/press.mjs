@@ -26,6 +26,8 @@ export function pressBlockers(n) {
   if (!n.outlet) out.push('sin medio');
   if (!n.date || !/^\d{4}-\d{2}/.test(n.date)) out.push('fecha sin mes');
   if (!n.kind) out.push('tipo pendiente');
+  // Modo conservador (decisión de Paco, 18-oct-2026): el tipo sugerido por script no se publica.
+  else if (n.kind_source === 'auto') out.push('tipo sugerido sin confirmar');
   if (isPacoProject(n)) out.push('proyecto de Paco sin rol definido (§8.6)');
   return out;
 }
