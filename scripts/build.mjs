@@ -252,7 +252,7 @@ function renderPage(route, lang) {
   // /en/ preparado pero oculto (§8.1): sin href no hay enlace roto ni rastreo.
   const langSwitch = PUBLISH_EN
     ? `<a class="lang" href="${otherHref}" hreflang="${ui.lang_switch_lang}" lang="${ui.lang_switch_lang}">${esc(ui.lang_switch)}</a>`
-    : `<a class="lang" hidden data-href="${otherHref}" lang="${ui.lang_switch_lang}">${esc(ui.lang_switch)}</a>`;
+    : `<span class="lang" hidden data-href="${otherHref}" lang="${ui.lang_switch_lang}">${esc(ui.lang_switch)}</span>`;
 
   const meta = {
     title: route.id === 'inicio' ? tr(route.title) : `${tr(route.title)} · ${site.site_name}`,

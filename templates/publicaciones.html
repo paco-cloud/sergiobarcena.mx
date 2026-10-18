@@ -8,6 +8,7 @@ ${h.chips('pubs', 'Filtrar publicaciones', [
   { v: 'divulgacion', label: 'Divulgación', n: data.counts.divulgacion },
   { v: 'otros', label: 'Otros', n: data.counts.otros },
 ], ui)}
+<h2 class="sr-only">Lista de publicaciones</h2>
 <div id="pubs" data-limit="20">
 ${each(data.publications, (p) => h.pubItem(p, ui))}
 </div>
