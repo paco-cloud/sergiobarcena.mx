@@ -93,7 +93,7 @@ function pubItem(p, ui, opts = {}) {
     const meta = [yearOrPv(p.year), txt(p.venue), p.publisher_place && esc(p.publisher_place), p.isbn && `ISBN ${esc(p.isbn)}`].filter(Boolean).map((s) => `<span>${s}</span>`).join('');
     const badge = p.role ? `<span class="badge">${txt(p.role)}</span>` : '';
     return `<article class="tray compact" id="${esc(p.id)}" data-row data-tags="${tags}" lang="${esc(p.lang)}">
-<div class="tray-head"><p class="kicker">${esc(PUB_LABEL[p.type])}</p><h3>${txt(p.title)}</h3></div>
+<div class="tray-head"><p class="kicker">${esc(PUB_LABEL[p.type]).toUpperCase()}</p><h3>${txt(p.title)}</h3></div>
 <div class="tray-body"><p class="meta">${meta}${badge}</p>${flags ? `<p>${flags}</p>` : ''}
 <ul class="tray-links"><li>${pubUrl(p) ? ext(pubUrl(p), 'Ficha editorial') : pv('SIN URL NI DOI')}</li>${(p.extra_urls || []).map((u) => `<li>${ext(u, 'Enlace adicional')}</li>`).join('')}</ul>
 <div class="actions">${copy}</div></div></article>`;
@@ -139,7 +139,7 @@ function acc(label, items) {
 const accItem = (x) => (x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${txt(x.text)} ↗</a>` : `<span class="pb-text">${txt(x.text)}</span>`);
 
 function chips(target, label, options, ui) {
-  return `<div class="chips wrap" role="group" aria-label="${esc(label)}" data-filter-for="${target}"><button type="button" class="chip" data-filter="*" aria-pressed="true">${esc(ui.all)}</button>${options
+  return `<div class="chips multi" role="group" aria-label="${esc(label)}" data-filter-for="${target}"><button type="button" class="chip" data-filter="*" aria-pressed="true">${esc(ui.all)}</button>${options
     .filter((o) => o.n > 0)
     .map((o) => `<button type="button" class="chip" data-filter="${esc(o.v)}" aria-pressed="false">${esc(o.label)} <span class="mono">${o.n}</span></button>`)
     .join('')}</div><p class="sr-only" id="${target}-status" aria-live="polite"></p>`;

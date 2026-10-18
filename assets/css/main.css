@@ -401,7 +401,7 @@ a.with-ico:hover .ico { color: var(--accent); }
 .page { padding-bottom: 0; }
 .sub { margin-top: 72px; }
 .sub > h2 { font-size: 28px; margin-top: 10px; }
-.chips.wrap { flex-wrap: wrap; }
+.chips.multi { flex-wrap: wrap; }
 .tags.plain { border-top: 0; padding-top: 0; }
 .duo .form-row { display: flex; flex-direction: column; gap: 4px; padding: 14px 0; }
 .duo .form-row:last-child { border-bottom: 0; }

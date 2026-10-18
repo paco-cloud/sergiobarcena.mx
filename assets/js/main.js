@@ -30,6 +30,9 @@ document.addEventListener('DOMContentLoaded', function () {
   if (menu && openBtn && closeBtn) {
     openBtn.addEventListener('click', openMenu);
     closeBtn.addEventListener('click', function () { closeMenu(true); });
+    menu.addEventListener('click', function (ev) {
+      if (ev.target.closest('a[href^="#"]')) closeMenu(false);
+    });
     document.addEventListener('keydown', function (ev) {
       if (menu.hidden) return;
       if (ev.key === 'Escape') closeMenu(true);
