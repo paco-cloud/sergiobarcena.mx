@@ -1,46 +1,224 @@
 {
-  "_notas": "[POR VERIFICAR] Todo este archivo es de ejemplo. Los datos reales llegan del asistente (gate G2).",
   "name": "Sergio A. Bárcena Juárez",
   "honorific": "Dr.",
-  "alternate_names": ["Sergio A. Bárcena", "[POR VERIFICAR] Variante de nombre"],
-  "job_title": "[POR VERIFICAR] Cargo",
-  "affiliation": { "name": "Tecnológico de Monterrey", "url": "https://tec.mx" },
-  "alumni_of": ["Universidad Nacional Autónoma de México"],
-  "topics": ["Poder Legislativo", "Elecciones", "Inteligencia artificial"],
-  "bio_short": {
-    "es": "[POR VERIFICAR] Semblanza corta de ejemplo, en tercera persona.",
-    "en": "[POR VERIFICAR] Short sample bio, in the third person."
+  "alternate_names": [
+    "Sergio A. Bárcena",
+    "Sergio Bárcena",
+    "Sergio Arturo Bárcena Juárez [POR VERIFICAR: ¿se publica el segundo nombre?]"
+  ],
+  "job_title": "Profesor-investigador del Tecnológico de Monterrey · SNII nivel II",
+  "affiliation": {
+    "name": "Tecnológico de Monterrey, Escuela de Humanidades y Educación",
+    "url": "http://sitios.itesm.mx/ehe/facultad/sabarcena.htm"
   },
-  "bio_long": {
-    "es": [
-      "[POR VERIFICAR] Primer párrafo de la semblanza larga de ejemplo.",
-      "[POR VERIFICAR] Segundo párrafo de la semblanza larga de ejemplo."
-    ],
-    "en": [
-      "[POR VERIFICAR] First paragraph of the sample long bio."
-    ]
-  },
-  "education": [
-    { "degree": "[POR VERIFICAR] Grado académico", "institution": "Universidad Nacional Autónoma de México", "year": "[POR VERIFICAR]" },
-    { "degree": "[POR VERIFICAR] Grado académico", "institution": "[POR VERIFICAR] Institución", "year": "[POR VERIFICAR]" }
+  "alumni_of": [
+    "Universidad Nacional Autónoma de México",
+    "Tecnológico de Monterrey (ITESM-CCM)",
+    "University of Missouri (posdoctorado)",
+    "Universidad de los Andes"
+  ],
+  "research_lines": [
+    "Poder legislativo",
+    "inteligencia artificial",
+    "desempeño parlamentario",
+    "institucionalización de congresos",
+    "comportamiento electoral",
+    "participación y representación política",
+    "filosofía política",
+    "metodología cuantitativa de la investigación",
+    "sistemas electorales e instituciones políticas"
   ],
   "profiles": [
-    { "name": "ORCID", "url": "https://example.org/por-verificar/orcid" },
-    { "name": "Google Scholar", "url": "https://example.org/por-verificar/scholar" },
-    { "name": "ResearcherID", "url": "https://example.org/por-verificar/researcherid" },
-    { "name": "Academia.edu", "url": "https://example.org/por-verificar/academia" },
-    { "name": "Tecnológico de Monterrey", "url": "https://example.org/por-verificar/pagina-tec" }
-  ],
-  "contact": {
-    "email": "[POR VERIFICAR] Correo público pendiente de decisión",
-    "institutional": "[POR VERIFICAR] Contacto institucional"
-  },
-  "buro": {
-    "summary": {
-      "es": "[POR VERIFICAR] Descripción de ejemplo del Buró Parlamentario.",
-      "en": "[POR VERIFICAR] Sample description of Buró Parlamentario."
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-4860-6699"
     },
-    "role": "[POR VERIFICAR] Rol",
-    "url": "https://example.org/por-verificar/buro"
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com.mx/citations?user=zeEz45AAAAAJ&hl=es",
+      "note": "Métricas (citas, índice h) solo enlazadas o con 'al {fecha}'; nunca como número fijo"
+    },
+    {
+      "label": "ResearcherID (Web of Science)",
+      "url": "http://www.researcherid.com/rid/I-8078-2016",
+      "note": "POR VERIFICAR: la URL vieja de researcherid.com redirige a Web of Science; usar la URL final"
+    },
+    {
+      "label": "Academia.edu",
+      "url": "https://cinco-itesm.academia.edu/SergioAB%C3%A1rcenaJ"
+    },
+    {
+      "label": "Página institucional Tec",
+      "url": "http://sitios.itesm.mx/ehe/facultad/sabarcena.htm"
+    },
+    {
+      "label": "Buró Parlamentario",
+      "url": "https://buroparlamentario.org",
+      "note": "POR DECIDIR: .org (CV) o .com (pacomendez.mx)"
+    }
+  ],
+  "email": {
+    "value": "sergio.barcena@tec.mx",
+    "status": "POR DECIDIR (Sergio aprueba qué correo es público)"
+  },
+  "phone": "NO SE PUBLICA",
+  "education": [
+    {
+      "degree": "Doctorado en Ciencia Política, UNAM",
+      "thesis": "Legislar en democracia. Comportamiento de los diputados federales en la transición legislativa de México (1988-2006).",
+      "url": "https://tesiunam.dgb.unam.mx/F/1ESHQNBS9B7HIV66KAN39M741R9V5BRM2FMSPGBX7C99PVA3DI-32809?func=full-set-set&set_number=058786&set_entry=000007&format=999",
+      "honors": "Cum laude por unanimidad (ver distinciones)"
+    },
+    {
+      "degree": "Maestría en Estudios Políticos y Sociales, UNAM",
+      "thesis": "Comisiones legislativas y receptividad en la nueva institucionalidad de la Cámara de Diputados. La Comisión de Desarrollo Social, LX Legislatura.",
+      "url": "https://tesiunam.dgb.unam.mx/F/1ESHQNBS9B7HIV66KAN39M741R9V5BRM2FMSPGBX7C99PVA3DI-32812?func=full-set-set&set_number=058786&set_entry=000008&format=999",
+      "honors": "Cum laude por unanimidad (ver distinciones)"
+    },
+    {
+      "degree": "Licenciatura en Ciencia Política y Administración Pública, ITESM-CCM"
+    },
+    {
+      "degree": "Estancia de investigación posdoctoral, The University of Missouri"
+    },
+    {
+      "degree": "Especialidad en Humanidades Digitales. Universidad de los Andes"
+    }
+  ],
+  "affiliations": [
+    {
+      "text": "Miembro de la Asociación Mexicana de Internet.",
+      "years": null
+    },
+    {
+      "text": "Miembro del núcleo académico básico de la Universidad de Guanajuato.",
+      "years": null
+    },
+    {
+      "text": "Líder nacional de la comunidad academia de ética y tecnología (ITESM) (2018-2020)",
+      "years": [
+        2018,
+        2020
+      ]
+    },
+    {
+      "text": "Miembro honorario del Comité de Estudios y Estadísticas sobre la Ciudad de México de la Asamblea Legislativa del Distrito Federal (ALDF).",
+      "years": null
+    },
+    {
+      "text": "Miembro del Padrón de tutores de la Facultad de Ciencias Políticas y Sociales, (FCP y S, UNAM).",
+      "years": null
+    },
+    {
+      "text": "Miembro del Padrón de tutores de la Facultad de Contaduría y Administración (FCA, UNAM).",
+      "years": null
+    },
+    {
+      "text": "Representante de la Escuela de Humanidades y Educación, Región Ciudad de México ante el Comité Nacional de Clasificación (ITESM) (2017-2020).",
+      "years": [
+        2017,
+        2020
+      ]
+    },
+    {
+      "text": "Consejero Universitario ante el Comité Académico del Programa de Posgrado en Ciencias Políticas y Sociales (UNAM) (2013-2015).",
+      "years": [
+        2013,
+        2015
+      ]
+    },
+    {
+      "text": "Miembro de la International Political Science Association (IPSA).",
+      "years": null
+    },
+    {
+      "text": "Miembro de la American Political Science Association (APSA).",
+      "years": null
+    },
+    {
+      "text": "Miembro de la Latin American Studies Association (LASA).",
+      "years": null
+    },
+    {
+      "text": "Miembro de la Midwest Political Science Association (MPSA).",
+      "years": null
+    },
+    {
+      "text": "Miembro de la Asociación Mexicana de Ciencia Política (AMECIP).",
+      "years": null
+    },
+    {
+      "text": "Miembro del Consejo Europeo de Investigaciones Sociales de América Latina (CEISAL).",
+      "years": null
+    },
+    {
+      "text": "Miembro de la Asociación Latinoamericana de Ciencia Política (ALACIP).",
+      "years": null
+    },
+    {
+      "text": "Miembro de la Asociación Mexicana de Estudios Parlamentarios (AMEP).",
+      "years": null
+    },
+    {
+      "text": "Miembro de la Sociedad Mexicana de Estudios Electorales (SOMEE).",
+      "years": null
+    }
+  ],
+  "languages": [
+    "Español",
+    "Inglés",
+    "Italiano"
+  ],
+  "software": [
+    "Python",
+    "R",
+    "STATA",
+    "Observable",
+    "Gephi",
+    "NVivo",
+    "ArcGis",
+    "MaxQda",
+    "Moodle",
+    "Blackboard",
+    "Canvas"
+  ],
+  "media_presence": [
+    "Columnista en Expansión Política.",
+    "Entrevistas para diarios nacionales e internacionales como Le Monde, Forbes, CNN, EL Mercurio, El Universal, Reforma, Uno más Uno, El Financiero, el Economista, Business Magazine, Diario de México, ADN Político, Contenido, Terra Noticas, La Crónica, 24 horas, El Semanario y Sin Embargo.",
+    "Analista invitado en distintos programas televisivos y radiofónicos de Bloomberg, CNN Internacional, KJZZ Radio, Once TV, Foro TV, Excélsior TV, Radio Red, Grupo IMER, Televisión Mexiquense, TVC, Radio Fórmula, Radio Capital, Radio-UNAM. YV-UNAM y Canal del Congreso."
+  ],
+  "_status": "BORRADOR G2 generado por el asistente desde ___CV. SBJ3.docx (17-oct-2026). Todo texto marcado BORRADOR requiere aprobación de Sergio vía Paco.",
+  "hero": {
+    "kicker": "00 · PODER LEGISLATIVO / ELECCIONES / IA",
+    "display_name": "SERGIO A. BÁRCENA",
+    "fullname": "Dr. Sergio A. Bárcena Juárez",
+    "tags": "Poder Legislativo · Comportamiento electoral · Inteligencia artificial y trabajo parlamentario · Representación política · Metodología cuantitativa",
+    "institutions_label": "INSTITUCIONES",
+    "institutions": "Tecnológico de Monterrey · UNAM · University of Missouri · SNII nivel II",
+    "claim": "Estudia cómo funcionan los congresos y convierte ese conocimiento en datos que cualquier persona puede consultar.",
+    "claim_status": "BORRADOR · POR DECIDIR con Sergio",
+    "ctas": [
+      {
+        "label": "Ver publicaciones",
+        "href": "/publicaciones"
+      },
+      {
+        "label": "Descargar CV (PDF)",
+        "href": "/cv/sergio-barcena-cv.pdf",
+        "status": "POR DECIDIR: el PDF corto aún no existe; mostrar .pv [PENDIENTE]"
+      },
+      {
+        "label": "Google Scholar ↗",
+        "href": "https://scholar.google.com.mx/citations?user=zeEz45AAAAAJ&hl=es"
+      }
+    ]
+  },
+  "bio_short": {
+    "es": "Sergio A. Bárcena Juárez es profesor-investigador del Tecnológico de Monterrey y miembro nivel II del Sistema Nacional de Investigadoras e Investigadores (SNII). Estudia el Poder Legislativo, el comportamiento electoral y el uso de la inteligencia artificial en el trabajo parlamentario. Es doctor en Ciencia Política por la UNAM y realizó una estancia posdoctoral en la Universidad de Missouri. En 2018 [POR DECIDIR: redacción común con pacomendez.mx] Buró Parlamentario, que evalúa con datos públicos el desempeño de legisladoras y legisladores.",
+    "status": "BORRADOR"
+  },
+  "bio_long": {
+    "es": "Sergio A. Bárcena Juárez es profesor-investigador de tiempo completo en la Escuela de Humanidades y Educación del Tecnológico de Monterrey y miembro nivel II del Sistema Nacional de Investigadoras e Investigadores (SNII) de la SECIHTI. Sus líneas de trabajo son el Poder Legislativo, el desempeño parlamentario, la institucionalización de los congresos, el comportamiento electoral, la representación política, la filosofía política y la metodología cuantitativa; en los últimos años ha estudiado el uso de la inteligencia artificial en el trabajo legislativo.\n\nObtuvo mención honorífica en la licenciatura (Tec de Monterrey) y cum laude en la maestría y el doctorado en Ciencia Política (UNAM). Realizó una estancia posdoctoral en la Universidad de Missouri, donde se especializó en metodología cuantitativa y modelos econométricos aplicados a los congresos, y fue Visiting Research Associate en la Universidad Queens de Belfast. Dirigió los programas académicos de Derecho y Ciencia Política del Tec de Monterrey (2015-2017).\n\nSu obra incluye libros y artículos en revistas como The Journal of Politics, Latin American Politics and Society, Political Studies y Democratization, además de capítulos en Routledge, Springer y Palgrave. Ha presentado su investigación en congresos de APSA, MPSA, IPSA, ALACIP y CEISAL. En 2018 [POR DECIDIR: redacción común] Buró Parlamentario, que ofrece a la ciudadanía información sobre el trabajo de sus representantes. En 2026 recibió la Medalla al Mérito Helia Bravo Hollis en Ciencias Sociales [POR VERIFICAR: otorgante].",
+    "status": "BORRADOR · sin cifras fijas de publicaciones/conferencias: el build las calcula de los JSON"
   }
 }

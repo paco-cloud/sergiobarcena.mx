@@ -1,3 +1,11 @@
 [
-  { "id": "fx-enlace-roto", "title": "Proyecto con enlace interno roto", "role": "Responsable", "partners": [], "period": "2024", "url": "/ruta-inexistente" }
+  {
+    "id": "fx-enlace-roto",
+    "role": "Responsable",
+    "text": "Proyecto con enlace interno roto",
+    "years": [
+      2024
+    ],
+    "url": "/ruta-inexistente"
+  }
 ]

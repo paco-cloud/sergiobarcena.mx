@@ -1,12 +1,98 @@
 [
-  { "id": "fx-safelinks", "date": "2025-01-10", "outlet": "Medio A", "title": "Nota con enlace de Outlook",
-    "url": "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexample.com%2Fnota", "format": "texto", "kind": "cita", "topics": ["Elecciones"] },
-  { "id": "fx-original", "date": "2025-01-11", "outlet": "Medio B", "title": "Nota original",
-    "url": "https://example.com/nota-repetida", "format": "texto", "kind": "cita", "topics": ["Elecciones"] },
-  { "id": "fx-duplicada", "date": "2025-01-12", "outlet": "Medio C", "title": "Nota repetida",
-    "url": "https://www.example.com/nota-repetida/?utm_source=x", "format": "texto", "kind": "sindicada", "topics": ["Elecciones"] },
-  { "id": "fx-fecha-invalida", "date": "2024-02-30", "outlet": "Medio D", "title": "Nota con fecha imposible",
-    "url": "https://example.com/fecha", "format": "texto", "kind": "cita", "topics": ["Elecciones"] },
-  { "id": "fx-segunda-persona", "date": "2025-01-13", "outlet": "Medio E", "title": "Hablemos de tu libro sobre el Congreso",
-    "url": "https://example.com/segunda", "format": "video", "kind": "entrevista", "topics": ["Poder Legislativo"] }
+  {
+    "format": "texto",
+    "kind": "cita",
+    "topics": [
+      "Elecciones"
+    ],
+    "featured": false,
+    "flags": [],
+    "outlet": "Medio",
+    "archive_url": null,
+    "http_status": 200,
+    "id": "fx-safelinks",
+    "date": "2025-01-10",
+    "title": "Nota con enlace de Outlook",
+    "url": "https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexample.com%2Fnota"
+  },
+  {
+    "format": "texto",
+    "kind": "cita",
+    "topics": [
+      "Elecciones"
+    ],
+    "featured": false,
+    "flags": [],
+    "outlet": "Medio",
+    "archive_url": null,
+    "http_status": 200,
+    "id": "fx-original",
+    "date": "2025-01-11",
+    "title": "Nota original",
+    "url": "https://example.com/nota-repetida"
+  },
+  {
+    "format": "texto",
+    "kind": "cita",
+    "topics": [
+      "Elecciones"
+    ],
+    "featured": false,
+    "flags": [],
+    "outlet": "Medio",
+    "archive_url": null,
+    "http_status": 200,
+    "id": "fx-duplicada",
+    "date": "2025-01-12",
+    "title": "Nota repetida",
+    "url": "https://www.example.com/nota-repetida/?utm_source=x"
+  },
+  {
+    "format": "texto",
+    "kind": "cita",
+    "topics": [
+      "Elecciones"
+    ],
+    "featured": false,
+    "flags": [],
+    "outlet": "Medio",
+    "archive_url": null,
+    "http_status": 200,
+    "id": "fx-fecha-invalida",
+    "date": "2024-02-30",
+    "title": "Nota con fecha imposible",
+    "url": "https://example.com/fecha"
+  },
+  {
+    "format": "texto",
+    "kind": "cita",
+    "topics": [
+      "Elecciones"
+    ],
+    "featured": false,
+    "flags": [],
+    "outlet": "Medio",
+    "archive_url": null,
+    "http_status": 200,
+    "id": "fx-segunda-persona",
+    "date": "2025-01-13",
+    "title": "Hablemos de tu libro sobre el Congreso",
+    "url": "https://example.com/segunda"
+  },
+  {
+    "format": "texto",
+    "kind": "cita",
+    "topics": [
+      "Elecciones"
+    ],
+    "featured": false,
+    "flags": [],
+    "outlet": "Medio",
+    "archive_url": null,
+    "http_status": 200,
+    "id": "fx-drive",
+    "date": "2025-01-14",
+    "title": "Documento compartido",
+    "url": "https://drive.google.com/file/d/xyz/view"
+  }
 ]

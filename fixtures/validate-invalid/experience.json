@@ -1,0 +1,18 @@
+[
+  {
+    "id": "exp-observador-electoral-acreditado-ante-el-consejo",
+    "text": "Observador electoral acreditado ante el Consejo Nacional Electoral, en la segunda vuelta presidencial de 2026. Bogotá, Colombia",
+    "years": [
+      2026
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-observador-electoral-registrado-ante-el-ine-en-e",
+    "text": "Observador electoral registrado ante el INE en el proceso electoral extraordinario 2025",
+    "years": [
+      2025
+    ],
+    "current": false
+  }
+]

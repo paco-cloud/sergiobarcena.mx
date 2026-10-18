@@ -1,3 +1,9 @@
 [
-  { "id": "fx-sin-institucion", "year": 2024, "title": "Charla sin institución", "city": "Monterrey", "country": "México", "role": "Ponente" }
+  {
+    "id": "fx-sin-texto",
+    "year": 2024,
+    "role": "Ponente",
+    "title": "Charla sin texto del CV",
+    "international": false
+  }
 ]

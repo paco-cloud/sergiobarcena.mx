@@ -1,3 +1,14 @@
 [
-  { "id": "fx-telefono", "year": 2023, "name": "Distinción (informes al +52 (55) 0000 0000)", "grantor": "Institución", "evidence": "constancia" }
+  {
+    "id": "fx-telefono",
+    "year": 2023,
+    "text": "Distinción (informes al +52 (55) 0000 0000)",
+    "evidence": "constancia"
+  },
+  {
+    "id": "fx-monto",
+    "year": 2022,
+    "text": "Beca de investigación por $8,000 USD",
+    "evidence": "constancia"
+  }
 ]

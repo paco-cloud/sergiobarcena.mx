@@ -1,38 +1,35 @@
 [
   {
-    "id": "pub-ejemplo-libro",
+    "id": "pub-2026-mapas-formativos-y-repertorios-civicos",
     "type": "libro",
-    "year": 2024,
-    "title": "[POR VERIFICAR] Título de libro de ejemplo",
-    "authors": ["Sergio A. Bárcena Juárez"],
-    "venue": "[POR VERIFICAR] Editorial",
-    "url": "https://example.org/por-verificar/libro",
-    "refereed": true,
-    "topics": ["Poder Legislativo"],
-    "lang": "es"
+    "year": 2026,
+    "title": "Mapas formativos y repertorios cívicos: un análisis de la tenencia, desarrollo y fortalecimiento de competencias cívicas en las juventudes de la Ciudad de México.",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Instituto Electoral de la Ciudad de México (IECM)",
+    "citation_cv": "(2026). Mapas formativos y repertorios cívicos: un análisis de la tenencia, desarrollo y fortalecimiento de competencias cívicas en las juventudes de la Ciudad de México. Ciudad de México: Instituto Electoral de la Ciudad de México (IECM).",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.iecm.mx/www/_k/cnnae/estudios_investigaciones/Inf_Com_Civ.pdf",
+    "publisher_place": "Ciudad de México"
   },
   {
-    "id": "pub-ejemplo-articulo",
-    "type": "articulo",
-    "year": 2023,
-    "title": "[POR VERIFICAR] Título de artículo de ejemplo",
-    "authors": ["Sergio A. Bárcena Juárez", "[POR VERIFICAR] Coautoría"],
-    "venue": "[POR VERIFICAR] Revista",
-    "doi": "10.0000/por-verificar",
-    "refereed": true,
-    "topics": ["Elecciones"],
-    "lang": "es"
-  },
-  {
-    "id": "pub-ejemplo-divulgacion",
-    "type": "divulgacion",
+    "id": "pub-2025-women-as-builders-of-parity-democracy-in",
+    "type": "libro",
     "year": 2025,
-    "title": "[POR VERIFICAR] Título de texto de divulgación de ejemplo",
-    "authors": ["Sergio A. Bárcena Juárez"],
-    "venue": "[POR VERIFICAR] Medio",
-    "url": "https://example.org/por-verificar/divulgacion",
-    "refereed": false,
-    "topics": ["Inteligencia artificial"],
-    "lang": "es"
+    "title": "Women as Builders of Parity Democracy in Mexico",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Routledge",
+    "citation_cv": "(2025). Women as Builders of Parity Democracy in Mexico. Nueva York: Routledge.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203",
+    "publisher_place": "Nueva York",
+    "role": "coedición [POR VERIFICAR rol exacto]"
   }
 ]

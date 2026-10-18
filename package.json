@@ -4,12 +4,16 @@
   "private": true,
   "description": "Sitio académico-profesional del Dr. Sergio A. Bárcena Juárez",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "build": "node scripts/validate.mjs && node scripts/build.mjs && node scripts/check-links.mjs",
+    "build": "node scripts/validate.mjs && node scripts/build.mjs && node scripts/check-links.mjs && node scripts/check-dist.mjs",
     "validate": "node scripts/validate.mjs",
     "check-links": "node scripts/check-links.mjs",
     "test": "node scripts/test-validate.mjs",
-    "dev": "node scripts/build.mjs && node scripts/dev.mjs"
+    "dev": "node scripts/build.mjs && node scripts/dev.mjs",
+    "check-press": "node scripts/check-press.mjs",
+    "check-dist": "node scripts/check-dist.mjs"
   }
 }

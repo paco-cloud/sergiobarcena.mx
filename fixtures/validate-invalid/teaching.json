@@ -1,17 +1,12 @@
 [
   {
-    "id": "teach-ejemplo-materia",
-    "kind": "materia",
-    "title": "[POR VERIFICAR] Nombre de materia de ejemplo",
-    "institution": "Tecnológico de Monterrey",
-    "years": "[POR VERIFICAR]",
-    "level": "[POR VERIFICAR] Licenciatura"
+    "id": "doc-coordinador-del-seminario-global-procesos-consti",
+    "kind": "seminario",
+    "text": "Coordinador del seminario global \"Procesos constituyentes en América Latina\" en colaboración con la Universidad Central de Chile"
   },
   {
-    "id": "teach-ejemplo-tesis",
-    "kind": "tesis",
-    "title": "[POR VERIFICAR] Título de tesis dirigida de ejemplo",
-    "institution": "[POR VERIFICAR] Institución",
-    "years": "[POR VERIFICAR]"
+    "id": "doc-disenador-de-la-materia-analisis-y-practica-legi",
+    "kind": "materia",
+    "text": "Diseñador de la materia \"Análisis y práctica legislativa\", impartida a las carreras de Derecho, Relaciones Internacionales, Economía, Ciencia Política, Gobierno y Transformación Pública, Periodismo y Comunicación"
   }
 ]

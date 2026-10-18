@@ -1,33 +1,32 @@
 #!/usr/bin/env node
-// Prueba de validate.mjs: el fixture debe fallar con cada caso y data/ debe pasar.
+// Prueba de validate.mjs y check-dist.mjs: los fixtures deben fallar con cada caso y data/ debe pasar.
 import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const run = (...args) => spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'validate.mjs'), ...args], { cwd: ROOT, encoding: 'utf8', env: { ...process.env, BRANCH: '', CF_PAGES_BRANCH: '' } });
-
-const EXPECTED = ['SAFELINKS', 'DUPLICATE_URL', 'MISSING_FIELD', 'INVALID_DATE', 'BROKEN_INTERNAL_LINK', 'SECOND_PERSON', 'POR_VERIFICAR_MAIN', 'PHONE'];
+const env = { ...process.env, BRANCH: '', CF_PAGES_BRANCH: '' };
+const run = (script, ...args) => spawnSync(process.execPath, [path.join(ROOT, 'scripts', script), ...args], { cwd: ROOT, encoding: 'utf8', env });
 let ok = true;
+const check = (cond, label) => {
+  console.log(`${cond ? '✓' : '✗'} ${label}`);
+  ok &&= cond;
+};
 
-const bad = run('--data', 'fixtures/validate-invalid', '--branch', 'main');
-if (bad.status === 0) {
-  console.error('✗ el fixture inválido pasó la validación');
-  ok = false;
+const bad = run('validate.mjs', '--data', 'fixtures/validate-invalid', '--branch', 'main');
+check(bad.status !== 0, 'el fixture de datos inválido no pasa validate');
+for (const code of ['SAFELINKS', 'DUPLICATE_URL', 'MISSING_FIELD', 'INVALID_DATE', 'BROKEN_INTERNAL_LINK', 'SECOND_PERSON', 'POR_VERIFICAR_MAIN', 'PHONE', 'MONEY', 'PRIVATE_LINK']) {
+  check(bad.stderr.includes(`[${code}]`), `validate detecta ${code}`);
 }
-for (const code of EXPECTED) {
-  const hit = bad.stderr.includes(`[${code}]`);
-  console.log(`${hit ? '✓' : '✗'} detecta ${code}`);
-  ok &&= hit;
+
+const badDist = run('check-dist.mjs', '--dist', 'fixtures/dist-invalid');
+check(badDist.status !== 0, 'el fixture de dist inválido no pasa check-dist');
+for (const code of ['REDES_IN_TABLE', 'PHONE', 'MONEY', 'SECOND_PERSON', 'INLINE_STYLE']) {
+  check(badDist.stderr.includes(`[${code}]`), `check-dist detecta ${code}`);
 }
 
-const good = run('--data', 'data');
-console.log(`${good.status === 0 ? '✓' : '✗'} data/ pasa fuera de main`);
-ok &&= good.status === 0;
-
-const mainBlocked = run('--data', 'data', '--branch', 'main');
-console.log(`${mainBlocked.status !== 0 ? '✓' : '✗'} data/ con [POR VERIFICAR] se bloquea en main`);
-ok &&= mainBlocked.status !== 0;
+check(run('validate.mjs', '--data', 'data').status === 0, 'data/ pasa fuera de main');
+check(run('validate.mjs', '--data', 'data', '--branch', 'main').status !== 0, 'data/ con BORRADOR / POR VERIFICAR se bloquea en main');
 
 if (!ok) process.exit(1);
 console.log('test-validate: OK');
