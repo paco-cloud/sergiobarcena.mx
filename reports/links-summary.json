@@ -1,0 +1,21 @@
+{
+  "generado": "2026-10-18T04:40:48.446Z",
+  "notas": 508,
+  "urls_revisadas": 538,
+  "estado_200": 381,
+  "rotas_4xx_5xx": 101,
+  "sin_respuesta": 26,
+  "archivadas_wayback": 59,
+  "publicables": 144,
+  "pendientes": 364,
+  "motivos_pendiente": {
+    "proyecto": 69,
+    "sin título": 169,
+    "sin medio": 165,
+    "fecha sin mes": 194,
+    "tipo pendiente": 307,
+    "sin 200 ni archivo": 119,
+    "duplicado": 4
+  },
+  "tipo_sugerido_auto": 106
+}
