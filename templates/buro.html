@@ -1,15 +1,21 @@
-<h1>${esc(t(page.title))}</h1>
-<div class="prose">
-  <p>${txt(t(data.profile.buro.summary))}</p>
-  <p class="meta">${esc(ui.role)}: ${txt(data.profile.buro.role)}</p>
-  ${data.profile.buro.url ? `<p>${link(data.profile.buro.url, 'Buró Parlamentario')}</p>` : ''}
+<section class="page" aria-labelledby="titulo">
+${h.pageHead()}<div class="rule"></div>
+<div class="prose">${each(site.buro.paragraphs, (p) => `<p>${txt(p)}</p>`)}</div>
+<p class="copy-row"><a class="with-ico" href="${esc(site.buro.url)}" target="_blank" rel="noopener">${h.ICONS.globe}buroparlamentario.org ↗</a>${h.pv(site.buro.url_status)}</p>
+
+<div class="sub" id="metodo">
+<div class="kicker">MÉTODO</div><h2>Cómo se mide el desempeño</h2><div class="rule tight"></div>
+<p class="lead lead-gap">${txt(site.buro.method)}</p>
+${each(site.buro.method_publications.map((id) => data.pubById[id]), (p) => h.pubItem(p, ui, { copy: true }))}
 </div>
-<section class="section" aria-labelledby="h-buro-medios">
-  <h2 id="h-buro-medios">${esc(ui.press_buro)}</h2>
-  ${(() => { const items = data.press.filter((n) => n.kind === 'datos_buro'); return items.length ? `<ul class="list">
-    ${each(items, (n) => `<li>
-      <p class="meta"><time datetime="${n.date}">${fmtDate(n.date, lang)}</time> · ${txt(n.outlet)}</p>
-      <p class="item-title">${link(n.url, n.title)}</p>
-    </li>`)}
-  </ul>` : `<p class="note">${esc(ui.empty)}</p>`; })()}
+
+<div class="sub" id="reportes">
+<div class="kicker">REPORTES EN MEDIOS</div><h2>Reportes citados en prensa <span class="p-count">${data.buroPress.length}</span></h2><div class="rule tight"></div>
+${data.buroPress.length ? h.PRESS_HEAD + each(data.buroPress, (n) => h.pressRow(n, ui)) : `<p class="empty">${esc(ui.empty)}</p>`}
+</div>
+
+<div class="sub">
+<div class="kicker">VER TAMBIÉN</div><h2>Buró Parlamentario en pacomendez.mx</h2><div class="rule"></div>
+<p><a class="with-ico" href="${esc(site.buro.pacomendez_url)}" target="_blank" rel="noopener">${h.ICONS.globe}pacomendez.mx ↗</a></p>
+</div>
 </section>

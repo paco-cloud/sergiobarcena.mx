@@ -1,7 +1,4 @@
-<h1>${esc(t(page.title))}</h1>
-<ul class="list">
-  ${each(data.awards, (a) => `<li id="${esc(a.id)}">
-    <p class="item-title">${link(a.url, a.name)}</p>
-    <p class="meta">${txt(a.grantor)} · ${a.year} · ${esc(ui.evidence[a.evidence])}</p>
-  </li>`)}
-</ul>
+<section class="page" aria-labelledby="titulo">
+${h.pageHead()}<div class="rule tight"></div>
+${each(data.awards, (a) => `<div class="kv recon"><span class="k">${esc(a.period || a.year)}</span><span class="v">${txt(a.text)}${h.flagsPv(a.flags) ? ` ${h.flagsPv(a.flags)}` : ''}</span><span class="l">${a.url ? h.ext(a.url, 'Fuente') : '<span class="hint">Constancia disponible a solicitud</span>'}</span></div>`)}
+</section>

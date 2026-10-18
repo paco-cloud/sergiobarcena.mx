@@ -1,33 +1,43 @@
-<section class="hero">
-  <p class="eyebrow">${esc(data.profile.affiliation.name)}</p>
-  <h1>${esc(data.profile.honorific)} ${esc(data.profile.name)}</h1>
-  <p class="lead">${txt(t(data.profile.bio_short))}</p>
-  <ul class="tags" aria-label="${esc(ui.topics)}">${each(data.profile.topics, (x) => `<li>${txt(x)}</li>`)}</ul>
+${(() => { const hero = data.profile.hero; return `
+<section class="hero" aria-label="Inicio">
+<div class="kicker">${esc(hero.kicker)}</div>
+<div><h1>${esc(hero.display_name)}</h1><p class="fullname">${esc(hero.fullname)}</p></div>
+<p class="tags">${esc(hero.tags)}</p>
+<p class="brands"><span class="label">${esc(hero.institutions_label)}</span><span>${esc(hero.institutions)}</span></p>
+<p class="claim">${txt(hero.claim)} ${h.pv(hero.claim_status)}</p>
+<div class="ctas">${each(hero.ctas, (c) => c.status
+  ? `<span class="pv" title="${esc(c.status)}">${esc(c.label)} · PENDIENTE</span>`
+  : h.isExternal(c.href)
+    ? `<a class="with-ico" href="${esc(c.href)}" target="_blank" rel="noopener">${h.ICONS.scholar}${esc(c.label)}</a>`
+    : `<a class="with-ico" href="${esc(c.href)}">${h.ICONS.down}${esc(c.label)}</a>`)}</div>
+</section>`; })()}
+
+<section aria-labelledby="perfil-t">
+<div class="kicker">PERFIL</div><h2 id="perfil-t">Investigación y Buró Parlamentario</h2><div class="rule"></div>
+<div class="duo">
+<div><span class="label">INVESTIGACIÓN</span><p>${esc(data.profile.research_lines.map((l) => l.charAt(0).toUpperCase() + l.slice(1)).join(' · '))}</p><p><a href="${href('investigacion')}">Ver investigación →</a></p></div>
+<div><span class="label">BURÓ PARLAMENTARIO</span>${each(site.home.buro_lines, (l) => `<p>${txt(l)}</p>`)}<p><a href="${href('buro')}">Ver Buró Parlamentario →</a></p></div>
+</div>
 </section>
 
-<section class="section" aria-labelledby="h-pubs">
-  <div class="section-head">
-    <h2 id="h-pubs">${esc(ui.recent_pubs)}</h2>
-    <a href="${href('publicaciones')}">${esc(ui.see_all)}</a>
-  </div>
-  <ul class="cards">
-    ${each(data.publications.slice(0, 3), (p) => `<li class="card">
-      <p class="meta">${esc(ui.types[p.type])} · ${p.year}</p>
-      <h3>${link(p.url || (p.doi && 'https://doi.org/' + p.doi), p.title)}</h3>
-      <p>${txt(p.venue)}</p>
-    </li>`)}
-  </ul>
+<section aria-labelledby="hitos-t">
+<div class="kicker">HITOS</div><h2 id="hitos-t">Hitos recientes</h2><div class="rule tight"></div>
+${each(site.home.hitos, (x) => {
+  if (x.kind === 'award') { const a = data.awardById[x.id]; return `<article class="tray compact"><div class="tray-head"><p class="kicker">DISTINCIÓN · ${a.year}</p><h3>${txt(a.text.replace(/^Ganador de la /, '').split('. ')[0])}</h3></div><div class="tray-body"><p class="body">${txt(a.text)}</p><p>${h.flagsPv(a.flags)}</p><ul class="tray-links">${a.url ? `<li>${h.ext(a.url, 'Fuente')}</li>` : ''}<li><a href="${href('distinciones')}">Distinciones →</a></li></ul></div></article>`; }
+  if (x.kind === 'publication') { const p = data.pubById[x.id]; return `<article class="tray compact"><div class="tray-head"><p class="kicker">LIBRO · ${p.year}</p><h3>${txt(p.title)}</h3></div><div class="tray-body"><p class="meta"><span>${txt(p.venue)}</span>${p.role ? `<span class="badge">${txt(p.role)}</span>` : ''}</p><ul class="tray-links"><li>${h.ext(p.url, 'Ficha editorial')}</li><li><a href="${href('publicaciones')}#${esc(p.id)}">Publicaciones →</a></li></ul></div></article>`; }
+  return `<article class="tray compact"><div class="tray-head"><p class="kicker">INVESTIGACIÓN · ${x.year}</p><h3>${txt(x.title)}</h3></div><div class="tray-body"><p class="body">${txt(x.body)}</p><ul class="tray-links">${each(x.links, (l) => { const u = l.publication ? data.pubById[l.publication].url : data.pressById[l.press].url; return `<li>${h.ext(u, esc(l.label))}</li>`; })}</ul></div></article>`;
+})}
 </section>
 
-<section class="section" aria-labelledby="h-press">
-  <div class="section-head">
-    <h2 id="h-press">${esc(ui.recent_press)}</h2>
-    <a href="${href('medios')}">${esc(ui.see_all)}</a>
-  </div>
-  <ul class="list">
-    ${each(data.press.slice(0, 3), (n) => `<li>
-      <p class="meta"><time datetime="${n.date}">${fmtDate(n.date, lang)}</time> · ${txt(n.outlet)}</p>
-      <p class="item-title">${link(n.url, n.title)}</p>
-    </li>`)}
-  </ul>
+<section aria-labelledby="recientes-t">
+<div class="kicker">PUBLICACIONES</div><h2 id="recientes-t">Publicaciones recientes</h2><div class="rule tight"></div>
+${each(data.publications.filter((p) => p.type !== 'en_proceso').slice(0, 5), (p) => h.pubItem(p, ui, { tray: false, copy: false }))}
+<p class="more"><a href="${href('publicaciones')}">Ver las ${data.counts.publicaciones} publicaciones →</a></p>
+</section>
+
+<section aria-labelledby="medios-t">
+<div class="kicker">MEDIOS</div><h2 id="medios-t">En medios</h2><div class="rule tight"></div>
+${h.PRESS_HEAD}
+${each(data.featured.slice(0, 5), (n) => h.pressRow(n, ui))}
+<p class="more"><a href="${href('medios')}">Ver ${data.counts.medios} notas en medios →</a></p>
 </section>

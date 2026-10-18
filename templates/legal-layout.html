@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="${lang === 'es' ? 'es-MX' : 'en'}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(ctx.meta.title)}</title>
+<meta name="description" content="${esc(ctx.meta.description)}">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="${esc(ctx.meta.canonical)}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="${ctx.cssHref}">
+</head>
+<body>
+<main class="legal" id="contenido">
+<div class="legal-top"><a class="brand" href="${href('inicio')}">${esc(site.brand)}</a><a href="${href('inicio')}">${esc(ui.back)}</a></div>
+${ctx.content}
+</main>
+</body>
+</html>

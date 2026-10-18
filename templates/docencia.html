@@ -1,10 +1,30 @@
-<h1>${esc(t(page.title))}</h1>
-${each(groupBy(data.teaching, (x) => x.kind), ([kind, items]) => `<section class="section" aria-labelledby="h-${kind}">
-  <h2 id="h-${kind}">${esc(ui.teaching_kinds[kind])}</h2>
-  <ul class="list">
-    ${each(items, (x) => `<li id="${esc(x.id)}">
-      <p class="item-title">${txt(x.title)}</p>
-      <p class="meta">${txt(x.institution)} · ${txt(x.years)}${x.level ? ' · ' + txt(x.level) : ''}</p>
-    </li>`)}
-  </ul>
-</section>`)}
+<section class="page" aria-labelledby="titulo">
+${h.pageHead()}<div class="rule chips-next"></div>
+${h.chips('doc', 'Filtrar docencia', [
+  { v: 'materias', label: 'Materias y seminarios', n: data.counts.materias },
+  { v: 'catedras', label: 'Cátedras', n: data.counts.catedras },
+  { v: 'cursos', label: 'Cursos y talleres', n: data.counts.cursos },
+  { v: 'tesis', label: 'Tesis dirigidas', n: data.counts.tesis },
+], ui)}
+<div id="doc">
+<div class="sub first" data-row data-tags="materias">
+<div class="kicker">MATERIAS Y SEMINARIOS</div><h2>Materias diseñadas y seminarios <span class="p-count">${data.counts.materias}</span></h2><div class="rule tight"></div>
+${each(data.teaching.filter((t) => t.kind === 'materia' || t.kind === 'seminario'), (t) => { const q = t.text.match(/["“]([^"”]+)["”]/); return `<article class="tray compact"><div class="tray-head"><p class="kicker">${t.kind === 'materia' ? 'MATERIA' : 'SEMINARIO'}</p><h3>${txt(q ? q[1] : t.text)}</h3></div><div class="tray-body"><p class="body">${txt(t.text)}</p>${h.flagsPv(t.flags)}</div></article>`; })}
+</div>
+
+<div class="sub" data-row data-tags="catedras">
+<div class="kicker">CÁTEDRAS</div><h2>Cátedras <span class="p-count">${data.counts.catedras}</span></h2><div class="rule tight"></div>
+${each(data.teaching.filter((t) => t.kind === 'catedra'), (t) => `<div class="kv"><span class="k">${txt(t.text)}</span><span class="v">${esc((t.courses || []).join(' · '))}${h.flagsPv(t.flags)}</span></div>`)}
+</div>
+
+<div class="sub" data-row data-tags="cursos">
+<div class="kicker">CURSOS Y TALLERES</div><h2>Cursos y talleres impartidos <span class="p-count">${data.counts.cursos}</span></h2><div class="rule tight"></div>
+${each(data.teaching.filter((t) => t.kind === 'curso'), (t) => h.formRow({ y: esc(h.yearsLabel(t.years)) || h.pv('AÑO POR VERIFICAR'), h3: txt(t.text), note: t.url ? h.ext(t.url, 'Fuente') : '', flags: h.flagsPv(t.flags) }))}
+</div>
+
+<div class="sub" data-row data-tags="tesis">
+<div class="kicker">TESIS</div><h2>Tesis dirigidas <span class="p-count">${data.counts.tesis}</span></h2><div class="rule tight"></div>
+${each([...data.teaching.filter((t) => t.kind === 'tesis')].sort((a, b) => (b.year || 9999) - (a.year || 9999)), (t) => h.formRow({ y: esc(t.year || (t.status || '').toUpperCase()), h3: txt(t.title), inst: txt(t.program_institution), note: txt(t.role), flags: h.flagsPv(t.flags) }))}
+</div>
+</div>
+</section>

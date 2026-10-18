@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "libros": 14,
+    "articulos": 29,
+    "capitulos": 26,
+    "divulgacion": 27,
+    "otros": 10,
+    "publicaciones": 106,
+    "conferencias": 99,
+    "internacionales": 18,
+    "tesis": 23,
+    "cursos": 18,
+    "catedras": 9,
+    "materias": 4,
+    "distinciones": 19,
+    "proyectos": 15,
+    "medios": 134,
+    "destacados": 27,
+    "archivo": 107,
+    "redes": 10
+  },
+  "sizes": {
+    "/": 20040,
+    "/semblanza": 23602,
+    "/investigacion": 26304,
+    "/publicaciones": 168486,
+    "/buro-parlamentario": 54001,
+    "/medios": 101646,
+    "/conferencias": 52674,
+    "/docencia": 27081,
+    "/distinciones": 14291,
+    "/contacto": 11681,
+    "/aviso-de-privacidad": 2785,
+    "/404": 852
+  }
+}

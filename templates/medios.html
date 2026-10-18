@@ -1,12 +1,26 @@
-<h1>${esc(t(page.title))}</h1>
-${each(groupBy(data.press, (n) => n.date.slice(0, 4)), ([year, items]) => `<section class="section" aria-labelledby="h-y${year}">
-  <h2 id="h-y${year}">${year}</h2>
-  <ul class="list">
-    ${each(items, (n) => `<li id="${esc(n.id)}">
-      <p class="meta"><time datetime="${n.date}">${fmtDate(n.date, lang)}</time> · ${txt(n.outlet)} · ${esc(ui.kinds[n.kind])} · ${esc(ui.formats[n.format])}</p>
-      <p class="item-title">${link(n.url, n.title)}</p>
-      ${(n.syndicated_urls || []).length ? `<p class="meta">${esc(ui.also_in)}: ${n.syndicated_urls.map((u, i) => `<a href="${esc(u)}">${esc(new URL(u).hostname)}${n.syndicated_urls.length > 1 ? ' ' + (i + 1) : ''}</a>`).join(', ')}</p>` : ''}
-      ${n.archive_url ? `<p class="meta"><a href="${esc(n.archive_url)}">${esc(ui.archive)}</a></p>` : ''}
-    </li>`)}
-  </ul>
-</section>`)}
+<section class="page" aria-labelledby="titulo">
+${h.pageHead()}<div class="rule tight"></div>
+<p class="lead page-lead lead-gap">Titulares tal como los publicó cada medio. Solo se listan notas verificadas: enlace activo o archivado, con fecha, medio y tipo. <span class="pv">BORRADOR</span></p>
+
+<h2 class="p-cat"><span>Destacados</span><span class="p-count">${data.counts.destacados}</span></h2>
+${h.PRESS_HEAD}
+${each(data.featured, (n) => h.pressRow(n, ui))}
+
+<div class="sub" id="archivo">
+<div class="kicker">ARCHIVO</div><h2>Archivo de medios <span class="p-count">${data.counts.archivo}</span></h2><div class="rule chips-next"></div>
+${(() => {
+  const years = [...new Set(data.archive.map((n) => n.date.slice(0, 4)))].sort().reverse();
+  const groups = h.groupBy(data.archive, (n) => (n.topics || []).find((t) => t !== 'Sin tema' && t !== 'Otras') || 'Otros temas').sort((a, b) => b[1].length - a[1].length);
+  return h.chips('archivo-list', 'Filtrar archivo por año', years.map((y) => ({ v: 'y' + y, label: y, n: data.archive.filter((n) => n.date.startsWith(y)).length })), ui) +
+    `<div id="archivo-list" data-limit="40">${each(groups, ([topic, items]) => `<div data-group><h3 class="p-cat"><span>${esc(topic)}</span><span class="p-count">${items.length}</span></h3>${h.PRESS_HEAD}${each(items, (n) => h.pressRow(n, ui))}</div>`)}</div>` +
+    h.moreBtn('archivo-list');
+})()}
+</div>
+
+${data.syndicated.length ? `<div class="sub">${h.acc('Notas sindicadas', data.syndicated.flatMap((n) => n.syndicated_urls.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname.replace(/^www\./, ''))} ↗</a>`)))}</div>` : ''}
+
+<div class="sub" id="redes">
+<div class="kicker">REDES SOCIALES</div><h2>En redes sociales <span class="p-count">${data.counts.redes}</span></h2><div class="rule tight"></div>
+${data.social.length ? `<ul class="pressbook is-open">${each(data.social, (n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener"><span class="mono">${esc(h.shortDate(n.date))}</span> · ${esc(n.title)} ↗</a></li>`)}</ul>` : `<p class="empty">${esc(ui.empty)}</p>`}
+</div>
+</section>

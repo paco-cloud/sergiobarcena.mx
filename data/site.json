@@ -1,163 +1,177 @@
 {
   "site_name": "Sergio A. Bárcena",
+  "brand": "SERGIO A. BÁRCENA",
   "site_url": "https://sergiobarcena.mx",
+  "verified_against": "Contenido verificado contra CV, octubre 2026",
   "analytics": { "enabled": false, "cf_beacon_token": "" },
   "routes": [
     {
-      "id": "inicio", "path": "/", "template": "home",
+      "id": "inicio", "num": "00", "path": "/", "template": "home",
       "label": { "es": "Inicio", "en": "Home" },
       "title": { "es": "Sergio A. Bárcena · Poder Legislativo, elecciones e IA", "en": "Sergio A. Bárcena · Legislative power, elections and AI" },
-      "description": { "es": "[POR VERIFICAR] Descripción de la página de inicio.", "en": "[POR VERIFICAR] Home page description." }
+      "description": { "es": "Dr. Sergio A. Bárcena Juárez, profesor-investigador del Tecnológico de Monterrey: Poder Legislativo, comportamiento electoral e inteligencia artificial.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "semblanza", "path": "/semblanza", "template": "semblanza",
+      "id": "semblanza", "num": "01", "path": "/semblanza", "template": "semblanza",
       "label": { "es": "Semblanza", "en": "About" },
       "title": { "es": "Semblanza", "en": "About" },
-      "description": { "es": "[POR VERIFICAR] Descripción de la semblanza.", "en": "[POR VERIFICAR] About page description." }
+      "description": { "es": "Semblanza corta y larga, formación, afiliaciones académicas y trayectoria profesional del Dr. Sergio A. Bárcena Juárez (Tecnológico de Monterrey, SNII II).", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "investigacion", "path": "/investigacion", "template": "investigacion",
+      "id": "investigacion", "num": "02", "path": "/investigacion", "template": "investigacion",
       "label": { "es": "Investigación", "en": "Research" },
       "title": { "es": "Investigación", "en": "Research" },
-      "description": { "es": "[POR VERIFICAR] Descripción de investigación.", "en": "[POR VERIFICAR] Research page description." }
+      "description": { "es": "Líneas y proyectos de investigación de Sergio A. Bárcena sobre congresos, representación política, comportamiento electoral e IA en el trabajo legislativo.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "publicaciones", "path": "/publicaciones", "template": "publicaciones",
+      "id": "publicaciones", "num": "03", "path": "/publicaciones", "template": "publicaciones",
       "label": { "es": "Publicaciones", "en": "Publications" },
       "title": { "es": "Publicaciones", "en": "Publications" },
-      "description": { "es": "[POR VERIFICAR] Descripción de publicaciones.", "en": "[POR VERIFICAR] Publications page description." }
+      "description": { "es": "Libros, artículos, capítulos y textos de divulgación de Sergio A. Bárcena Juárez sobre Poder Legislativo y elecciones, con citas APA y BibTeX descargables.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "buro", "path": "/buro-parlamentario", "template": "buro",
+      "id": "buro", "num": "04", "path": "/buro-parlamentario", "template": "buro",
       "label": { "es": "Buró Parlamentario", "en": "Buró Parlamentario" },
       "title": { "es": "Buró Parlamentario", "en": "Buró Parlamentario" },
-      "description": { "es": "[POR VERIFICAR] Descripción del Buró Parlamentario.", "en": "[POR VERIFICAR] Buró Parlamentario page description." }
+      "description": { "es": "Buró Parlamentario: evaluación y consultoría legislativa. Método de medición del desempeño de diputados y reportes públicos citados en medios de comunicación.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "medios", "path": "/medios", "template": "medios",
+      "id": "medios", "num": "05", "path": "/medios", "template": "medios",
       "label": { "es": "Medios", "en": "Media" },
       "title": { "es": "Medios", "en": "Media" },
-      "description": { "es": "[POR VERIFICAR] Descripción de medios.", "en": "[POR VERIFICAR] Media page description." }
+      "description": { "es": "Entrevistas, citas y notas de prensa en las que participa Sergio A. Bárcena o se usan datos del Buró Parlamentario, con fecha, medio y enlace a la fuente.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "conferencias", "path": "/conferencias", "template": "conferencias",
+      "id": "conferencias", "num": "06", "path": "/conferencias", "template": "conferencias",
       "label": { "es": "Conferencias", "en": "Talks" },
       "title": { "es": "Conferencias", "en": "Talks" },
-      "description": { "es": "[POR VERIFICAR] Descripción de conferencias.", "en": "[POR VERIFICAR] Talks page description." }
+      "description": { "es": "Conferencias, ponencias y paneles de Sergio A. Bárcena en congresos académicos, universidades e instituciones de México y del extranjero, de 2005 a la fecha.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "docencia", "path": "/docencia", "template": "docencia",
+      "id": "docencia", "num": "07", "path": "/docencia", "template": "docencia",
       "label": { "es": "Docencia", "en": "Teaching" },
       "title": { "es": "Docencia", "en": "Teaching" },
-      "description": { "es": "[POR VERIFICAR] Descripción de docencia.", "en": "[POR VERIFICAR] Teaching page description." }
+      "description": { "es": "Materias diseñadas, cátedras, cursos y talleres impartidos y tesis dirigidas por Sergio A. Bárcena en el Tec de Monterrey, la UNAM y otras instituciones.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "distinciones", "path": "/distinciones", "template": "distinciones",
+      "id": "distinciones", "num": "08", "path": "/distinciones", "template": "distinciones",
       "label": { "es": "Distinciones", "en": "Awards" },
       "title": { "es": "Distinciones", "en": "Awards" },
-      "description": { "es": "[POR VERIFICAR] Descripción de distinciones.", "en": "[POR VERIFICAR] Awards page description." }
+      "description": { "es": "Becas, premios y distinciones académicas de Sergio A. Bárcena Juárez, ordenados por año y con enlace a la fuente o constancia disponible para su consulta.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "contacto", "path": "/contacto", "template": "contacto",
+      "id": "contacto", "num": "09", "path": "/contacto", "template": "contacto",
       "label": { "es": "Contacto", "en": "Contact" },
       "title": { "es": "Contacto", "en": "Contact" },
-      "description": { "es": "[POR VERIFICAR] Descripción de contacto.", "en": "[POR VERIFICAR] Contact page description." }
+      "description": { "es": "Contacto y perfiles académicos de Sergio A. Bárcena: ORCID, Google Scholar, Web of Science, Academia.edu y página institucional del Tec de Monterrey.", "en": "[POR VERIFICAR] English description." }
     },
     {
-      "id": "404", "path": "/404", "template": "404", "nav": false, "sitemap": false, "noindex": true,
+      "id": "aviso", "path": "/aviso-de-privacidad", "template": "aviso", "layout": "legal", "nav": false, "noindex": true,
+      "label": { "es": "Aviso de privacidad", "en": "Privacy notice" },
+      "title": { "es": "Aviso de privacidad", "en": "Privacy notice" },
+      "description": { "es": "Aviso de privacidad de sergiobarcena.mx: qué datos se tratan, para qué se usan y cómo ejercer los derechos de acceso, rectificación, cancelación y oposición.", "en": "[POR VERIFICAR] English description." }
+    },
+    {
+      "id": "404", "path": "/404", "template": "404", "layout": "legal", "nav": false, "sitemap": false, "noindex": true,
       "label": { "es": "Página no encontrada", "en": "Page not found" },
       "title": { "es": "Página no encontrada", "en": "Page not found" },
       "description": { "es": "Esta página no existe en sergiobarcena.mx.", "en": "This page does not exist on sergiobarcena.mx." }
     }
   ],
+  "home": {
+    "buro_lines": [
+      "Evaluación y consultoría legislativa con datos públicos sobre el trabajo de legisladoras y legisladores. [BORRADOR]",
+      "[POR DECIDIR: redacción común con pacomendez.mx sobre la fundación en 2018]"
+    ],
+    "hitos": [
+      { "kind": "award", "id": "aw-ganador-de-la-medalla-al-merito-helia-bravo-holl" },
+      { "kind": "publication", "id": "pub-2025-women-as-builders-of-parity-democracy-in" },
+      {
+        "kind": "custom",
+        "title": "Inteligencia artificial en los discursos legislativos",
+        "year": 2026,
+        "body": "Investigación sobre el uso de inteligencia artificial en las intervenciones de diputados y senadores en México. [BORRADOR]",
+        "links": [
+          { "publication": "pub-2026-inteligencia-artificial-en-los-discursos", "label": "Nexos, 2026" },
+          { "press": "press-2026-el-universal-la-tribuna-y-el-algoritmo-un", "label": "El Universal, 2026" }
+        ]
+      }
+    ]
+  },
+  "buro": {
+    "url": "https://buroparlamentario.org",
+    "url_status": "POR DECIDIR §8.5: .org (CV) o .com (pacomendez.mx)",
+    "paragraphs": [
+      "Buró Parlamentario S.C. se dedica a la evaluación y consultoría legislativa. [BORRADOR]",
+      "[POR DECIDIR: redacción común con pacomendez.mx sobre la fundación en 2018 y el papel de cada persona]"
+    ],
+    "method": "El método para medir el desempeño legislativo está publicado en dos artículos académicos de 2019: el Score de Participación Parlamentaria (SPP) y una propuesta para clasificar las iniciativas de ley. [BORRADOR]",
+    "method_publications": ["pub-2019-score-de-participacion-parlamentaria-sp", "pub-2019-como-evaluar-el-desempeno-legislativo"],
+    "pacomendez_url": "https://pacomendez.mx"
+  },
+  "contact": {
+    "email": "[POR DECIDIR: correo público pendiente de aprobación de Sergio]",
+    "press_note": "Las solicitudes de entrevista y de datos del Buró Parlamentario se atienden por correo. [POR DECIDIR: canal de prensa]"
+  },
+  "research": {
+    "ia_lead": "Selección automática de publicaciones, cursos y conferencias cuyo título menciona inteligencia artificial, IA o algoritmos. Describe el tema de cada trabajo, no evalúa su alcance. [BORRADOR]"
+  },
   "ui": {
     "es": {
       "skip": "Saltar al contenido",
-      "menu": "Menú",
-      "nav_label": "Principal",
-      "preview": "Vista previa · contenido de ejemplo, no es la versión publicada",
-      "lang_switch": "English",
+      "menu_open": "☰ Índice",
+      "menu_close": "✕ Cerrar",
+      "index": "Índice",
+      "to_top": "↑ inicio",
+      "lang_switch": "EN",
       "lang_switch_lang": "en",
-      "footer_note": "Sitio sin cookies de rastreo.",
-      "profiles": "Perfiles académicos",
-      "link": "Enlace",
-      "doi": "DOI",
-      "refereed": "Arbitrada",
-      "also_in": "También en",
-      "archive": "Copia archivada",
+      "preview": "Vista previa · contenido en revisión",
+      "back": "← Volver al sitio",
+      "cv_pdf": "Descargar CV (PDF)",
+      "privacy": "Aviso de privacidad",
+      "updated": "Actualizado",
+      "copied_live": "Texto copiado al portapapeles",
+      "all": "Todo",
+      "results": "resultados",
+      "source": "VER FUENTE",
+      "archive": "VER ARCHIVO",
+      "video": "Video",
+      "link": "Fuente",
+      "intl": "INTL",
+      "refereed": "Arbitrado",
+      "copy_apa": "Copiar cita (APA)",
+      "copy_bio": "Copiar semblanza",
       "bibtex": "Descargar BibTeX",
-      "recent_pubs": "Publicaciones recientes",
-      "recent_press": "En medios",
-      "see_all": "Ver todo",
-      "topics": "Líneas de trabajo",
-      "education": "Formación",
-      "cv": "Currículum",
-      "cv_pending": "El CV en PDF se publicará cuando esté aprobado.",
-      "partners": "Colaboración",
-      "period": "Periodo",
-      "role": "Rol",
-      "press_buro": "Datos del Buró en medios",
-      "empty": "Sin registros todavía.",
-      "email": "Correo",
-      "institutional": "Contacto institucional",
-      "form_title": "Formulario de contacto",
-      "form_name": "Nombre",
-      "form_email": "Correo electrónico",
-      "form_message": "Mensaje",
-      "form_send": "Enviar",
-      "form_pending": "[PENDIENTE INTEGRACIÓN FORMULARIO/CRM]",
-      "form_pending_note": "El formulario todavía no envía mensajes.",
-      "notfound_text": "No encontramos esta página.",
-      "notfound_back": "Volver al inicio",
-      "types": { "libro": "Libros", "articulo": "Artículos", "capitulo": "Capítulos de libro", "divulgacion": "Divulgación", "traduccion": "Traducciones", "documento": "Documentos de trabajo" },
-      "kinds": { "entrevista": "Entrevista", "cita": "Cita", "datos_buro": "Datos del Buró", "columna": "Columna", "institucional": "Institucional", "sindicada": "Sindicada", "redes": "Redes sociales" },
-      "formats": { "texto": "Texto", "video": "Video", "audio": "Audio", "redes": "Redes" },
-      "teaching_kinds": { "materia": "Materias", "curso": "Cursos", "posgrado": "Posgrado", "tesis": "Dirección de tesis" },
-      "evidence": { "enlace": "Enlace", "constancia": "Constancia" }
+      "notfound_text": "No existe ninguna página en esta dirección.",
+      "empty": "Sin registros publicables todavía."
     },
     "en": {
       "skip": "Skip to content",
-      "menu": "Menu",
-      "nav_label": "Main",
-      "preview": "Preview · sample content, not the published version",
-      "lang_switch": "Español",
+      "menu_open": "☰ Index",
+      "menu_close": "✕ Close",
+      "index": "Index",
+      "to_top": "↑ top",
+      "lang_switch": "ES",
       "lang_switch_lang": "es",
-      "footer_note": "No tracking cookies.",
-      "profiles": "Academic profiles",
-      "link": "Link",
-      "doi": "DOI",
+      "preview": "Preview · content under review",
+      "back": "← Back to site",
+      "cv_pdf": "Download CV (PDF)",
+      "privacy": "Privacy notice",
+      "updated": "Updated",
+      "copied_live": "Text copied to clipboard",
+      "all": "All",
+      "results": "results",
+      "source": "SOURCE",
+      "archive": "ARCHIVE",
+      "video": "Video",
+      "link": "Source",
+      "intl": "INTL",
       "refereed": "Peer-reviewed",
-      "also_in": "Also in",
-      "archive": "Archived copy",
+      "copy_apa": "Copy citation (APA)",
+      "copy_bio": "Copy bio",
       "bibtex": "Download BibTeX",
-      "recent_pubs": "Recent publications",
-      "recent_press": "In the media",
-      "see_all": "See all",
-      "topics": "Research topics",
-      "education": "Education",
-      "cv": "Curriculum vitae",
-      "cv_pending": "The PDF CV will be published once approved.",
-      "partners": "Partners",
-      "period": "Period",
-      "role": "Role",
-      "press_buro": "Buró data in the media",
-      "empty": "No entries yet.",
-      "email": "Email",
-      "institutional": "Institutional contact",
-      "form_title": "Contact form",
-      "form_name": "Name",
-      "form_email": "Email",
-      "form_message": "Message",
-      "form_send": "Send",
-      "form_pending": "[PENDIENTE INTEGRACIÓN FORMULARIO/CRM]",
-      "form_pending_note": "The form does not send messages yet.",
-      "notfound_text": "This page could not be found.",
-      "notfound_back": "Back to home",
-      "types": { "libro": "Books", "articulo": "Articles", "capitulo": "Book chapters", "divulgacion": "Outreach", "traduccion": "Translations", "documento": "Working papers" },
-      "kinds": { "entrevista": "Interview", "cita": "Quote", "datos_buro": "Buró data", "columna": "Column", "institucional": "Institutional", "sindicada": "Syndicated", "redes": "Social media" },
-      "formats": { "texto": "Text", "video": "Video", "audio": "Audio", "redes": "Social" },
-      "teaching_kinds": { "materia": "Courses", "curso": "Short courses", "posgrado": "Graduate", "tesis": "Thesis supervision" },
-      "evidence": { "enlace": "Link", "constancia": "Certificate" }
+      "notfound_text": "There is no page at this address.",
+      "empty": "No entries yet."
     }
   }
 }

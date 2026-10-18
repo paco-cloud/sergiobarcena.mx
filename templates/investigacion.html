@@ -1,12 +1,35 @@
-<h1>${esc(t(page.title))}</h1>
-<ul class="tags" aria-label="${esc(ui.topics)}">${each(data.profile.topics, (x) => `<li>${txt(x)}</li>`)}</ul>
-${data.research.length ? `<ul class="list">
-  ${each(data.research, (r) => `<li id="${esc(r.id)}">
-    <h2 class="item-title">${link(r.url, r.title)}</h2>
-    <dl class="facts">
-      <div><dt>${esc(ui.role)}</dt><dd>${txt(r.role)}</dd></div>
-      <div><dt>${esc(ui.period)}</dt><dd>${txt(r.period)}</dd></div>
-      ${r.partners.length ? `<div><dt>${esc(ui.partners)}</dt><dd>${r.partners.map(txt).join(', ')}</dd></div>` : ''}
-    </dl>
-  </li>`)}
-</ul>` : `<p class="note">${esc(ui.empty)}</p>`}
+<section class="page" aria-labelledby="titulo">
+${h.pageHead()}<div class="rule"></div>
+<p class="tags plain">${esc(data.profile.research_lines.map((l) => l.charAt(0).toUpperCase() + l.slice(1)).join(' · '))}</p>
+
+<div class="sub" id="proyectos">
+<div class="kicker">PROYECTOS</div><h2>Proyectos de investigación <span class="p-count">${data.counts.proyectos}</span></h2><div class="rule tight"></div>
+${each(data.research, (r) => {
+  const quoted = r.text.match(/["“]([^"”]+)["”]/);
+  const proj = r.text.match(/proyecto\s+(.+?)(\s\(|,|\.\s|$)/i);
+  const title = quoted ? quoted[1] : proj ? proj[1] : r.text.replace(/\.?\s*(Liga al estudio|Resultados disponibles en):?\s*$/i, '');
+  const active = r.years.length && Math.max(...r.years) >= 2025;
+  return `<article class="tray"><div class="tray-head"><h3>${txt(title)}</h3><p class="role">${txt(r.role)}</p></div><div class="tray-body"><p class="meta">${r.years.length ? `<span>${esc(h.yearsLabel(r.years))}</span>` : ''}${active ? '<span class="badge">activo</span>' : ''}</p><p class="body">${txt(r.text.replace(/\.?\s*(Liga al estudio|Resultados disponibles en):?\s*$/i, '.'))}</p>${r.url ? `<ul class="tray-links"><li>${h.ext(r.url, 'Resultados')}</li></ul>` : ''}</div></article>`;
+})}
+</div>
+
+${(() => {
+  const pubs = data.publications.filter((p) => h.IA_RE.test(p.title));
+  const cursos = data.teaching.filter((t) => t.kind === 'curso' && h.IA_RE.test(t.text || ''));
+  const charlas = data.talks.filter((t) => h.IA_RE.test(t.title || t.text));
+  return `<div class="sub ia" id="ia">
+<div class="kicker">IA Y TRABAJO LEGISLATIVO</div><h2>IA y trabajo legislativo</h2><div class="rule"></div>
+<p class="lead">${txt(site.research.ia_lead)}</p>
+<div class="ia-cols">
+<div><p class="col-h accent">PUBLICACIONES · ${pubs.length}</p><ul class="ia-list">${each(pubs, (p) => `<li><span class="y">${h.PUB_LABEL[p.type].toUpperCase()} · ${p.year}</span><h3>${p.url ? h.ext(p.url, txt(p.title)) : txt(p.title)}</h3><p class="note">${txt(p.venue)}</p></li>`)}</ul></div>
+<div><p class="col-h">CURSOS · ${cursos.length}</p><ul class="ia-list">${each(cursos, (c) => `<li><span class="y">${esc(h.yearsLabel(c.years))}</span><h3>${txt(c.text)}</h3></li>`)}</ul></div>
+<div><p class="col-h">CONFERENCIAS · ${charlas.length}</p><ul class="ia-list">${each(charlas, (t) => `<li><span class="y">${t.year || ''}</span><h3>${txt(t.title || t.text)}</h3>${t.url ? `<p class="note">${h.ext(t.url, h.isVideo(t.url) ? 'Video' : 'Fuente')}</p>` : ''}</li>`)}</ul></div>
+</div></div>`;
+})()}
+
+<div class="sub" id="servicio">
+<div class="kicker">SERVICIO ACADÉMICO</div><h2>Evaluaciones y presentaciones</h2><div class="rule tight"></div>
+${h.acc('Evaluaciones y jurados', data.service.evaluaciones.map(h.accItem))}
+${h.acc('Presentaciones de libros', data.service.presentaciones_de_libros.map(h.accItem))}
+</div>
+</section>

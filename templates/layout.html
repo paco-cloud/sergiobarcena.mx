@@ -9,15 +9,16 @@ ${ctx.meta.noindex ? '<meta name="robots" content="noindex, nofollow">' : ''}
 <link rel="canonical" href="${esc(ctx.meta.canonical)}">
 ${ctx.meta.alternates}
 <meta property="og:type" content="${page.id === 'inicio' ? 'profile' : 'website'}">
-<meta property="og:site_name" content="${esc(ctx.siteName)}">
+<meta property="og:locale" content="${ctx.meta.ogLocale}">
+<meta property="og:site_name" content="${esc(site.site_name)}">
+<meta property="og:url" content="${esc(ctx.meta.canonical)}">
 <meta property="og:title" content="${esc(ctx.meta.title)}">
 <meta property="og:description" content="${esc(ctx.meta.description)}">
-<meta property="og:url" content="${esc(ctx.meta.canonical)}">
-<meta property="og:locale" content="${ctx.meta.ogLocale}">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="${esc(ctx.meta.title)}">
-<meta name="twitter:description" content="${esc(ctx.meta.description)}">
-<meta name="color-scheme" content="light dark">
+<meta property="og:image" content="${esc(ctx.meta.ogImage)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(ctx.meta.title)}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${ctx.cssHref}">
 <script src="${ctx.jsHref}"></script>
@@ -25,34 +26,38 @@ ${ctx.meta.alternates}
 </head>
 <body>
 <a class="skip" href="#contenido">${esc(ui.skip)}</a>
-${ctx.isProd ? '' : `<p class="preview-banner" role="note">${esc(ui.preview)}</p>`}
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="${href('inicio')}">${esc(ctx.siteName)}</a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">${esc(ui.menu)}</button>
-    <nav id="nav-principal" class="site-nav" aria-label="${esc(ui.nav_label)}">
-      <ul>${ctx.nav}</ul>
-    </nav>
-    ${ctx.langSwitch}
-  </div>
+
+<header class="topbar">
+<a class="brand" href="${href('inicio')}">${esc(site.brand)}</a>
+<button type="button" class="menu-open" aria-controls="menu" aria-expanded="false">${esc(ui.menu_open)}</button>
 </header>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="${esc(ui.index)}" hidden>
+<div class="menu-bar"><span class="brand">${esc(site.brand)}</span><button type="button" class="menu-close">${esc(ui.menu_close)}</button></div>
+<nav class="menu-nav" aria-label="${esc(ui.index)}">${h.toc()}</nav>
+<div class="menu-foot"><a href="#contenido">${esc(ui.to_top)}</a>${ctx.langSwitch}<div class="quick">${ctx.quick}</div></div>
+</div>
+
+<div class="layout">
+<aside class="sidebar">
+<div class="side-top">
+<a class="brand" href="${href('inicio')}">${esc(site.brand)}</a>
+<nav aria-label="${esc(ui.index)}">${h.toc()}</nav>
+</div>
+<div class="side-foot"><a href="#contenido">${esc(ui.to_top)}</a><div class="quick">${ctx.quick}</div></div>
+</aside>
+
 <main id="contenido" tabindex="-1">
 <div class="wrap">
 ${ctx.content}
+
+<footer class="foot">
+<div><span class="dark">${esc(data.profile.name)}</span><span>${esc(site.verified_against)}</span><span class="mono">${esc(ui.updated)}: ${esc(ctx.updated)}</span><a href="${href('aviso')}">${esc(ui.privacy)}</a></div>
+<span class="pv" title="El PDF corto del CV aún no existe">${esc(ui.cv_pdf)} · PENDIENTE</span>
+</footer>
+<p class="sr-only" id="copy-status" aria-live="polite"></p>
 </div>
 </main>
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <div>
-      <p class="footer-name">${esc(data.profile.honorific)} ${esc(data.profile.name)}</p>
-      <p>${txt(data.profile.job_title)} · ${esc(data.profile.affiliation.name)}</p>
-    </div>
-    <div>
-      <p class="footer-label">${esc(ui.profiles)}</p>
-      <ul class="inline-list">${each(data.profile.profiles, (p) => `<li>${link(p.url, p.name)}</li>`)}</ul>
-    </div>
-    <p class="footer-note">© ${ctx.year} ${esc(data.profile.name)} · ${esc(ui.footer_note)}</p>
-  </div>
-</footer>
+</div>
 </body>
 </html>

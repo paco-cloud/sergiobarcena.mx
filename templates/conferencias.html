@@ -1,10 +1,14 @@
-<h1>${esc(t(page.title))}</h1>
-${each(groupBy(data.talks, (x) => x.year), ([year, items]) => `<section class="section" aria-labelledby="h-t${year}">
-  <h2 id="h-t${year}">${year}</h2>
-  <ul class="list">
-    ${each(items, (x) => `<li id="${esc(x.id)}">
-      <p class="item-title">${link(x.url, x.title)}</p>
-      <p class="meta">${txt(x.role)} · ${txt(x.institution)} · ${txt(x.city)}, ${txt(x.country)}</p>
-    </li>`)}
-  </ul>
-</section>`)}
+<section class="page" aria-labelledby="titulo">
+${h.pageHead()}<div class="rule chips-next"></div>
+${(() => { const dec = (d) => data.talks.filter((t) => t.year && Math.floor(t.year / 10) * 10 === d).length; return h.chips('confs', 'Filtrar conferencias', [
+  { v: '2020s', label: '2020s', n: dec(2020) },
+  { v: '2010s', label: '2010s', n: dec(2010) },
+  { v: '2000s', label: '2000s', n: dec(2000) },
+  { v: 'intl', label: 'Internacionales', n: data.counts.internacionales },
+], ui); })()}
+<div id="confs" data-limit="25">
+${h.CONF_HEAD}
+${each(data.talks, (t) => h.confRow(t, ui))}
+</div>
+${h.moreBtn('confs')}
+</section>

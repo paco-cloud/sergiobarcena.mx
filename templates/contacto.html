@@ -1,21 +1,19 @@
-<h1>${esc(t(page.title))}</h1>
-<dl class="facts">
-  <div><dt>${esc(ui.email)}</dt><dd>${txt(data.profile.contact.email)}</dd></div>
-  <div><dt>${esc(ui.institutional)}</dt><dd>${txt(data.profile.contact.institutional)}</dd></div>
-</dl>
+<section class="page contact-page" aria-labelledby="titulo">
+${h.pageHead()}<div class="rule tight"></div>
+<div class="kv contact"><span class="k label-mono">CORREO</span><span class="v big with-ico">${h.ICONS.mail}${txt(site.contact.email)}</span></div>
+${each(h.academicProfiles, (p) => `<div class="kv contact"><span class="k label-mono">${esc(p.label.toUpperCase())}</span><span class="v">${`<a class="with-ico" href="${esc(p.url)}" target="_blank" rel="noopener">${h.PROFILE_ICON[p.label]}${esc(p.url.replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, ''))} ↗</a>`}${p.note && /POR VERIFICAR|POR DECIDIR/.test(p.note) ? ` ${h.pv(p.note)}` : ''}</span></div>`)}
+<div class="kv contact"><span class="k label-mono">PRENSA</span><span class="v">${txt(site.contact.press_note)}</span></div>
 
-<section class="section" aria-labelledby="h-form">
-  <h2 id="h-form">${esc(ui.form_title)}</h2>
-  <p class="pending" role="status"><strong>${esc(ui.form_pending)}</strong> ${esc(ui.form_pending_note)}</p>
-  <form class="form" aria-describedby="h-form" novalidate>
-    <fieldset disabled>
-      <label for="f-nombre">${esc(ui.form_name)}</label>
-      <input id="f-nombre" name="nombre" type="text" autocomplete="name">
-      <label for="f-correo">${esc(ui.form_email)}</label>
-      <input id="f-correo" name="correo" type="email" autocomplete="email">
-      <label for="f-mensaje">${esc(ui.form_message)}</label>
-      <textarea id="f-mensaje" name="mensaje" rows="5"></textarea>
-      <button type="button">${esc(ui.form_send)}</button>
-    </fieldset>
-  </form>
+<div class="sub" id="formulario">
+<div class="kicker">FORMULARIO</div><h2>Formulario de contacto</h2><div class="rule"></div>
+<p class="pending-box" role="status">[PENDIENTE INTEGRACIÓN FORMULARIO/CRM] El formulario todavía no envía mensajes.</p>
+<form class="form" aria-labelledby="formulario" novalidate>
+<fieldset disabled>
+<label for="f-nombre">NOMBRE</label><input id="f-nombre" name="nombre" type="text" autocomplete="name">
+<label for="f-correo">CORREO ELECTRÓNICO</label><input id="f-correo" name="correo" type="email" autocomplete="email">
+<label for="f-mensaje">MENSAJE</label><textarea id="f-mensaje" name="mensaje" rows="5"></textarea>
+<button type="button">Enviar</button>
+</fieldset>
+</form>
+</div>
 </section>
