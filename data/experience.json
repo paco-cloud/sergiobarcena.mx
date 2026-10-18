@@ -1,0 +1,190 @@
+[
+  {
+    "id": "exp-observador-electoral-acreditado-ante-el-consejo",
+    "text": "Observador electoral acreditado ante el Consejo Nacional Electoral, en la segunda vuelta presidencial de 2026. Bogotá, Colombia",
+    "years": [
+      2026
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-observador-electoral-registrado-ante-el-ine-en-e",
+    "text": "Observador electoral registrado ante el INE en el proceso electoral extraordinario 2025",
+    "years": [
+      2025
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-observador-electoral-registrado-ante-el-ine-en-e-2",
+    "text": "Observador electoral registrado ante el INE en el proceso electoral federal 2023-2024",
+    "years": [
+      2023,
+      2024
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-gerente-del-estudio-de-datos-y-analitica-de-novo",
+    "text": "Gerente del estudio de datos y analítica de Novomedia Estudios",
+    "years": [],
+    "current": false,
+    "url": "https://novomediaestudios.mx/",
+    "flags": [
+      "POR VERIFICAR con Paco: cargo y URL (CV dice novomediaestudios.mx; pacomendez.mx usa novomediaestudios.com)"
+    ]
+  },
+  {
+    "id": "exp-fundador-y-director-general-de-buro-parlamentari",
+    "text": "Fundador y director general de Buró Parlamentario S.C., Evaluación y consultoría legislativa, 2018 a la fecha",
+    "years": [
+      2018
+    ],
+    "current": true,
+    "url": "https://buroparlamentario.org",
+    "flags": [
+      "Redacción común con pacomendez.mx: \"fundada en 2018 por Sergio Bárcena y Paco Méndez\" (POR DECIDIR)"
+    ]
+  },
+  {
+    "id": "exp-investigador-de-tiempo-completo-en-la-escuela-na",
+    "text": "Investigador de tiempo completo en la Escuela Nacional de Humanidades y Educación, Tecnológico de Monterrey, 2017 a la fecha",
+    "years": [
+      2017
+    ],
+    "current": true,
+    "url": "http://sitios.itesm.mx/ehe/facultad/sabarcena.htm"
+  },
+  {
+    "id": "exp-visiting-research-associate-universidad-queens-d",
+    "text": "Visiting Research Associate, Universidad Queens de Belfast, Irlanda del Norte, 2017",
+    "years": [
+      2017
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-director-de-los-programas-academicos-de-derecho",
+    "text": "Director de los programas académicos de Derecho y Ciencia Política, ITESM, 2015-2017",
+    "years": [
+      2015,
+      2017
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-investigador-en-el-proyecto-la-participacion-soc",
+    "text": "Investigador en el proyecto \"La participación social en la construcción de la agenda legislativa del Congreso Mexicano\", Centro de Estudios Políticos, UNAM, 2015-2017",
+    "years": [
+      2015,
+      2017
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-coordinador-academico-del-diplomado-virtual-de-p",
+    "text": "Coordinador académico del Diplomado Virtual de Políticas Públicas con Enfoque Prospectivo, Universidad Autónoma del Estado de Morelos, 2014-2016",
+    "years": [
+      2014,
+      2016
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-coordinador-de-analisis-cuantitativo-en-el-diagn",
+    "text": "Coordinador de análisis cuantitativo en el Diagnóstico participativo en materia de violencia y delincuencia en colonias de alta marginación de la Delegación Álvaro Obregón. Tecnológico de Monterrey-Delegación Álvaro Obregón, 2014-2015",
+    "years": [
+      2014,
+      2015
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-asesor-parlamentario-senado-de-la-republica-lxii",
+    "text": "Asesor parlamentario. Senado de la República (LXII Legislatura), 2012-2014",
+    "years": [
+      2012,
+      2014
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-socio-fundador-y-director-de-analisis-electoral",
+    "text": "Socio fundador y director de análisis electoral de Axis Consultores, SA. de CV., 2011-2016",
+    "years": [
+      2011,
+      2016
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-investigador-centro-de-investigacion-y-estudios",
+    "text": "Investigador. Centro de Investigación y Estudios sobre Sociedad Civil A.C., 2012-2013",
+    "years": [
+      2012,
+      2013
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-asesor-de-campana-senaduria-2012",
+    "text": "Asesor de campaña. Senaduría, 2012",
+    "years": [
+      2012
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-asesor-externo-y-capacitador-academico-facultad",
+    "text": "Asesor externo y capacitador académico. Facultad de Contaduría y Administración, Universidad Nacional Autónoma de México, 2009-2010",
+    "years": [
+      2009,
+      2010
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-titular-de-la-comision-de-derechos-politicos-de",
+    "text": "Titular de la Comisión de Derechos Políticos de la Mujer. Consejo Nacional de los Derechos de la Mujer, (CONADEM), \"Organización Mensajera de la Paz\" por la ONU. 2007-2012",
+    "years": [
+      2007,
+      2012
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-investigador-especializado-en-el-desarrollo-de-p",
+    "text": "Investigador especializado en el desarrollo de proyectos sustentables. Centro de Estudios Sociales Prometeo, A.C., 2008-2009",
+    "years": [
+      2008,
+      2009
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-analista-politico-emerging-markets-political-ris",
+    "text": "Analista político. Emerging Markets Political Risk Analysis (EMPRA), 2007-2008",
+    "years": [
+      2007,
+      2008
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-asesor-de-campana-jefatura-delegacional-en-coyoa",
+    "text": "Asesor de campaña. Jefatura delegacional en Coyoacán, 2006",
+    "years": [
+      2006
+    ],
+    "current": false
+  },
+  {
+    "id": "exp-asesor-parlamentario-senado-de-la-republica-lix",
+    "text": "Asesor parlamentario. Senado de la República (LIX Legislatura), 2005-2006",
+    "years": [
+      2005,
+      2006
+    ],
+    "current": false
+  }
+]

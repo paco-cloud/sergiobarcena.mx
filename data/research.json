@@ -1,17 +1,136 @@
 [
   {
-    "id": "res-ejemplo-1",
-    "title": "[POR VERIFICAR] Proyecto de investigación de ejemplo",
-    "role": "[POR VERIFICAR] Investigador responsable",
-    "partners": ["[POR VERIFICAR] Institución aliada"],
-    "period": "[POR VERIFICAR]",
-    "url": "https://example.org/por-verificar/proyecto-1"
+    "id": "res-fundador-y-director-de-buro-parlamentario-s-c-ev",
+    "role": "Fundador y director",
+    "text": "Fundador y director de Buró Parlamentario S.C., Evaluación y consultoría legislativa",
+    "years": []
   },
   {
-    "id": "res-ejemplo-2",
-    "title": "[POR VERIFICAR] Segundo proyecto de ejemplo",
-    "role": "[POR VERIFICAR] Colaborador",
-    "partners": [],
-    "period": "[POR VERIFICAR]"
+    "id": "res-coordinador-del-proyecto-diseno-e-implementacion",
+    "role": "Coordinador",
+    "text": "Coordinador del proyecto Diseño e Implementación De Acciones Afirmativas en el Proceso Electoral Local 2024 En El Estado De México: Evaluación y Prospectiva Hacia 2027 (ITESM-Colmex-IEEM, 2026)",
+    "years": [
+      2024,
+      2027,
+      2026
+    ]
+  },
+  {
+    "id": "res-investigador-principal-del-proyecto-mapas-format",
+    "role": "Investigador principal",
+    "text": "Investigador principal del proyecto Mapas Formativos y Repertorios Cívicos: Un Análisis de la Tenencia, Desarrollo y Fortalecimiento de Competencias Cívicas en las Juventudes Universitarias de la Ciudad de México (ITESM-Colmex-IECM, 2025). Resultados disponibles en:",
+    "years": [
+      2025
+    ],
+    "url": "https://aplicaciones2.iecm.mx/biblioteca-electronica/pub/sing_pub.php?publicacion=637"
+  },
+  {
+    "id": "res-investigador-principal-del-proyecto-emerging-voi",
+    "role": "Investigador principal",
+    "text": "Investigador principal del proyecto Emerging Voices: Redefining Civic Culture for Mexico City's Youth (ITESM, 2025-2027)",
+    "years": [
+      2025,
+      2027
+    ]
+  },
+  {
+    "id": "res-coordinador-de-analisis-cualitativo-en-el-proyec",
+    "role": "Coordinador",
+    "text": "Coordinador de análisis cualitativo en el proyecto \"Observatorio Electoral con enfoque de género y derechos humanos del proceso electoral de Jalisco en 2024\", del Tecnológico de Monterrey para el Instituto Electoral y de Participación Ciudadana del Estado de Jalisco",
+    "years": [
+      2024
+    ]
+  },
+  {
+    "id": "res-coordinador-del-proyecto-representacion-politica",
+    "role": "Coordinador",
+    "text": "Coordinador del proyecto \"Representación Política de las Mujeres en los Municipios de Puebla\", para el Instituto Electoral del Estado de Puebla (IEE), 2023. Liga al estudio:",
+    "years": [
+      2023
+    ],
+    "url": "https://www.ieepuebla.org.mx/2023/rpmmp/representacionpolitica.php"
+  },
+  {
+    "id": "res-coordinador-del-seminario-elecciones-en-america",
+    "role": "Coordinador",
+    "text": "Coordinador del seminario \"Elecciones en América Latina 2017-2019: nuevos actores y calidad de la democracia\" en colaboración con El Colegio de México, 2019",
+    "years": [
+      2017,
+      2019,
+      2019
+    ]
+  },
+  {
+    "id": "res-coordinador-del-proyecto-traces-of-violence-a-c",
+    "role": "Coordinador",
+    "text": "Coordinador del proyecto: \"Traces of violence. A comparative study on political participation and citizenship in contexts affected by social violence. Mexico and Northern Ireland\", en colaboración con El Colegio de México y la Universidad Queens de Belfast, 2017-2018",
+    "years": [
+      2017,
+      2018
+    ]
+  },
+  {
+    "id": "res-director-del-seminario-los-congresos-locales-en",
+    "role": "Director",
+    "text": "Director del seminario \"Los congresos locales en México\", ITESM-UNAM-UAM-Instituto Belisario Domínguez (IBD), 2016-2018",
+    "years": [
+      2016,
+      2018
+    ]
+  },
+  {
+    "id": "res-coordinador-de-analisis-cuantitativo-en-el-proye",
+    "role": "Coordinador",
+    "text": "Coordinador de análisis cuantitativo en el proyecto de investigación \"Prevención de la violencia en polígonos de alta incidencia en Álvaro Obregón\", del programa de apoyo a programas preventivos de organizaciones de la sociedad civil, ITESM, en colaboración con la Secretaría de Gobernación y el gobierno delegacional de Álvaro Obregón, 2015-2017",
+    "years": [
+      2015,
+      2017
+    ]
+  },
+  {
+    "id": "res-investigador-asociado-del-proyecto-papiit-in3041",
+    "role": "Investigador asociado",
+    "text": "Investigador asociado del proyecto PAPIIT IN304115, \"Los estados en 2015. Alcances de la reforma político-electoral 2014\", UNAM-ITESM, 2015",
+    "years": [
+      2015,
+      2014,
+      2015
+    ]
+  },
+  {
+    "id": "res-coordinador-de-bases-de-datos-la-participacion-s",
+    "role": "Coordinador",
+    "text": "Coordinador de bases de datos, \"La participación social en la construcción de la agenda legislativa del Congreso Mexicano\", Centro de Estudios Políticos, UNAM, 2014-2016",
+    "years": [
+      2014,
+      2016
+    ]
+  },
+  {
+    "id": "res-investigador-asociado-en-el-proyecto-herencias-y",
+    "role": "Investigador asociado",
+    "text": "Investigador asociado en el proyecto, \"Herencias y legados en México. El papel de la Junta de Asistencia Privada en el desarrollo regional del Distrito Federal. 1900-1940\" del Centro de Investigación y Estudios sobre Sociedad Civil A.C. 2013-2014",
+    "years": [
+      2013,
+      2014
+    ]
+  },
+  {
+    "id": "res-vice-coordinador-del-proyecto-unam-papiit-in3050",
+    "role": "Vice-coordinador",
+    "text": "Vice-coordinador del proyecto UNAM-PAPIIT-IN305011 \"Descentralización política y proceso legislativo en México\" a cargo de la doctora Luisa Béjar Algazi. 2011-2012",
+    "years": [
+      2011,
+      2012
+    ]
+  },
+  {
+    "id": "res-asistente-de-investigacion-en-el-proyecto-el-con",
+    "role": "Asistente",
+    "text": "Asistente de investigación en el proyecto: \"El Congreso Mexicano en dos gobiernos divididos\", dirigido por la Dra. Luisa Béjar Algazi, Universidad Nacional Autónoma de México, Facultad de Ciencias Políticas y Sociales, Centro de Estudios Políticos, 2007-2011",
+    "years": [
+      2007,
+      2011
+    ]
   }
 ]

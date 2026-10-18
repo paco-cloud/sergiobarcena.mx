@@ -1,38 +1,1797 @@
 [
   {
-    "id": "pub-ejemplo-libro",
+    "id": "pub-2026-mapas-formativos-y-repertorios-civicos",
+    "type": "libro",
+    "year": 2026,
+    "title": "Mapas formativos y repertorios cívicos: un análisis de la tenencia, desarrollo y fortalecimiento de competencias cívicas en las juventudes de la Ciudad de México.",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Instituto Electoral de la Ciudad de México (IECM)",
+    "citation_cv": "(2026). Mapas formativos y repertorios cívicos: un análisis de la tenencia, desarrollo y fortalecimiento de competencias cívicas en las juventudes de la Ciudad de México. Ciudad de México: Instituto Electoral de la Ciudad de México (IECM).",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.iecm.mx/www/_k/cnnae/estudios_investigaciones/Inf_Com_Civ.pdf",
+    "publisher_place": "Ciudad de México"
+  },
+  {
+    "id": "pub-2025-women-as-builders-of-parity-democracy-in",
+    "type": "libro",
+    "year": 2025,
+    "title": "Women as Builders of Parity Democracy in Mexico",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Routledge",
+    "citation_cv": "(2025). Women as Builders of Parity Democracy in Mexico. Nueva York: Routledge.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203",
+    "publisher_place": "Nueva York",
+    "role": "coedición [POR VERIFICAR rol exacto]"
+  },
+  {
+    "id": "pub-2024-el-corazon-de-las-legislaturas-causas-y",
     "type": "libro",
     "year": 2024,
-    "title": "[POR VERIFICAR] Título de libro de ejemplo",
-    "authors": ["Sergio A. Bárcena Juárez"],
-    "venue": "[POR VERIFICAR] Editorial",
-    "url": "https://example.org/por-verificar/libro",
-    "refereed": true,
-    "topics": ["Poder Legislativo"],
-    "lang": "es"
+    "title": "El corazón de las legislaturas: causas y consecuencias de la profesionalización en los congresos locales de México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Comunicación Científica",
+    "citation_cv": "(2024). El corazón de las legislaturas: causas y consecuencias de la profesionalización en los congresos locales de México. México: Comunicación Científica.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://comunicacion-cientifica.com/wp-content/uploads/2024/08/199.-PDF-El-corazon-de-las-legislaturas-INTERIORES-IMPRESION-3.pdf",
+    "extra_urls": [
+      "https://comunicacion-cientifica.com/libros/el-corazon-de-las-legislaturas-causas-y-consecuencias-de-la-profesionalizacion-en-los-congresos-locales-de-mexico/"
+    ],
+    "publisher_place": "México"
   },
   {
-    "id": "pub-ejemplo-articulo",
-    "type": "articulo",
+    "id": "pub-2024-el-contrato-social-a-prueba-ensayos-sob",
+    "type": "libro",
+    "year": 2024,
+    "title": "El contrato social a prueba. Ensayos sobre filosofía política aplicada",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Tirant lo Blanch/ Tecnológico de Monterrey",
+    "citation_cv": "(2024). El contrato social a prueba. Ensayos sobre filosofía política aplicada. México: Tirant lo Blanch/ Tecnológico de Monterrey.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://editorial.tirant.com/mex/libro/el-contrato-social-a-prueba-ensayos-sobre-filosofia-politica-aplicada-sergio-a-barcena-juarez-9788411832809",
+    "publisher_place": "México"
+  },
+  {
+    "id": "pub-2023-la-fuerza-politica-de-las-legisladoras-l",
+    "type": "libro",
     "year": 2023,
-    "title": "[POR VERIFICAR] Título de artículo de ejemplo",
-    "authors": ["Sergio A. Bárcena Juárez", "[POR VERIFICAR] Coautoría"],
-    "venue": "[POR VERIFICAR] Revista",
-    "doi": "10.0000/por-verificar",
-    "refereed": true,
-    "topics": ["Elecciones"],
-    "lang": "es"
+    "title": "La fuerza política de las legisladoras locales en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Instituto Nacional de las Mujeres (INMUJERES)",
+    "citation_cv": "(2023). La fuerza política de las legisladoras locales en México. México: Instituto Nacional de las Mujeres (INMUJERES).",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://isbnmexico.indautor.cerlalc.org/catalogo.php?mode=detalle&nt=381641",
+    "publisher_place": "México"
   },
   {
-    "id": "pub-ejemplo-divulgacion",
+    "id": "pub-2022-de-vuelta-a-las-mayorias",
+    "type": "libro",
+    "year": 2022,
+    "title": "De vuelta a las mayorías. El votante mexicano y la elección de diputaciones federales en 2018 y 2021",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Tirant lo Blanch",
+    "citation_cv": "(2022). De vuelta a las mayorías. El votante mexicano y la elección de diputaciones federales en 2018 y 2021. México: Tirant lo Blanch.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://editorial.tirant.com/mex/libro/de-vuelta-a-las-mayorias-el-votante-mexicano-y-la-eleccion-de-diputaciones-federales-en-2018-y-2021-sergio-a-barcena-juarez-9788411131353",
+    "publisher_place": "México"
+  },
+  {
+    "id": "pub-2020-herramientas-de-analisis-multivariado-pa",
+    "type": "libro",
+    "year": 2020,
+    "title": "Herramientas de análisis multivariado para la investigación social. Una guía práctica en STATA",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Porrúa/Tecnológico de Monterrey",
+    "citation_cv": "(2020). Herramientas de análisis multivariado para la investigación social. Una guía práctica en STATA. México: Porrúa/Tecnológico de Monterrey. ISBN 978-607-515-447-3.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.academia.edu/44116230/Herramientas_de_An%C3%A1lisis_Multivariado_para_la_Investigaci%C3%B3n_Social_Una_gu%C3%ADa_pr%C3%A1ctica_en_STATA",
+    "isbn": "978-607-515-447-3",
+    "publisher_place": "México"
+  },
+  {
+    "id": "pub-2020-elecciones-en-america-latina-2017-2019",
+    "type": "libro",
+    "year": 2020,
+    "title": "Elecciones en América Latina (2017-2019). Democracias locales y nacionales en Renovación",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Instituto Electoral de la Ciudad de México",
+    "citation_cv": "(coord.) (2020). Elecciones en América Latina (2017-2019). Democracias locales y nacionales en Renovación. México: Instituto Electoral de la Ciudad de México. ISBN 978-607-8605-29-3.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.iecm.mx/www/sites/biblioteca_electronica/estadisticas_y_estudios_electorales/estudios_electorales/elecciones_en_america_latina_2017_2019_democracias_locales_y_nacionales_en_renovacion.pdf",
+    "role": "coordinación",
+    "isbn": "978-607-8605-29-3",
+    "publisher_place": "México"
+  },
+  {
+    "id": "pub-2019-la-ilegitima-autoridad-de-adan-ensayos",
+    "type": "libro",
+    "year": 2019,
+    "title": "La ilegítima autoridad de Adán. Ensayos sobre contractualismo político",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Porrúa/Tecnológico de Monterrey",
+    "citation_cv": "(2019). La ilegítima autoridad de Adán. Ensayos sobre contractualismo político. México: Porrúa/Tecnológico de Monterrey. ISBN 978-607-09-3231-1.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.elsotano.com/libro/ilegitima-la_10561769",
+    "isbn": "978-607-09-3231-1",
+    "publisher_place": "México"
+  },
+  {
+    "id": "pub-2016-los-congresos-en-mexico-la-representaci",
+    "type": "libro",
+    "year": 2016,
+    "title": "Los congresos en México: La representación política en el contexto de las reformas electorales",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Senado de la República/UNAM/Asociación Mexicana de Estudios Parlamentarios",
+    "citation_cv": "(coord.) (2016). Los congresos en México: La representación política en el contexto de las reformas electorales. México: Senado de la República/UNAM/Asociación Mexicana de Estudios Parlamentarios. ISBN 978-607-8364-54-1",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://bibliodigitalibd.senado.gob.mx/handle/123456789/3609",
+    "role": "coordinación",
+    "isbn": "978-607-8364-54-1",
+    "publisher_place": "México"
+  },
+  {
+    "id": "pub-2015-marketing-politico",
+    "type": "libro",
+    "year": 2015,
+    "title": "Marketing Político",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Cengage Learning (2ª edición)",
+    "citation_cv": "(2015). Marketing Político 2ª edición, México: Cengage Learning, ISBN 978-607-522-460-2",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.amazon.com.mx/MARKETING-POLITICO-Alejandro-Lerma-Kirchner/dp/6075224602",
+    "isbn": "978-607-522-460-2",
+    "flags": [
+      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
+    ]
+  },
+  {
+    "id": "pub-2013-planeacion-comercial",
+    "type": "libro",
+    "year": 2013,
+    "title": "Planeación Comercial",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Alfaomega",
+    "citation_cv": "(2013). Planeación Comercial, Buenos Aires: Alfaomega, ISBN 978-607-707-604-9",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://alfaomegaeditor.com.ar/producto/libro-planeacion-comercial/?srsltid=AfmBOorQMFo3pDrDwe_N1F_dcDSZKa1zVLt343-5nKgNCntDd2Ly98jj#/",
+    "isbn": "978-607-707-604-9",
+    "flags": [
+      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
+    ],
+    "publisher_place": "Buenos Aires"
+  },
+  {
+    "id": "pub-2012-planeacion-estrategica-por-areas-funcion",
+    "type": "libro",
+    "year": 2012,
+    "title": "Planeación Estratégica Por Áreas Funcionales",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Alfaomega",
+    "citation_cv": "(2012). Planeación Estratégica Por Áreas Funcionales, Buenos Aires: Alfaomega., ISBN 978-607-707-427-4",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.amazon.com.mx/PLANEACION-ESTRATEGICA-AREAS-FUNCIONALES-PRACTICA/dp/6077074276",
+    "isbn": "978-607-707-427-4",
+    "flags": [
+      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
+    ],
+    "publisher_place": "Buenos Aires"
+  },
+  {
+    "id": "pub-2011-marketing-politico",
+    "type": "libro",
+    "year": 2011,
+    "title": "Marketing Político",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Cengage Learning-Senado de la República",
+    "citation_cv": "(2011). Marketing Político, México: Cengage Learning-Senado de la República, ISBN 978-607481421-7",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.amazon.com.mx/MARKETING-POLITICO-ALEJANDRO-LERMA-KIRCHNER/dp/607481421X",
+    "isbn": "978-607481421-7",
+    "flags": [
+      "POR VERIFICAR: rol (coautoría con Alejandro Lerma Kirchner); enlace de tienda, buscar ficha editorial"
+    ]
+  },
+  {
+    "id": "pub-2026-governing-before-rules-shadow-ai-among",
+    "type": "articulo",
+    "year": 2026,
+    "title": "Governing Before Rules. Shadow AI among Legislative Advisors in Mexico City",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "EJournal of EDemocracy and Open Government",
+    "citation_cv": "(2026). \"Governing Before Rules. Shadow AI among Legislative Advisors in Mexico City\". EJournal of EDemocracy and Open Government, 18(1), pp. 55-83.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://jedem.org/index.php/jedem/article/view/1266",
+    "pages": "55-83",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2026-the-european-union-artificial-intelligen",
+    "type": "capitulo",
+    "year": 2026,
+    "title": "The European Union Artificial Intelligence Act: Ethical Principles and the Regulation of AI for Social Welfare and Development",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Regulating Autonomy Ethics, Values and Governance in Artificial Intelligence",
+    "citation_cv": "(2026). \"The European Union Artificial Intelligence Act: Ethical Principles and the Regulation of AI for Social Welfare and Development\", en Daniel López-Castro Manuel Cebral-Loureda Pablo Jiménez-Schlegl (eds.). Regulating Autonomy Ethics, Values and Governance in Artificial Intelligence, Suiza: Springer Nature, pp. 377-404.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-13063-1_17",
+    "doi": "10.1007/978-3-032-13063-1_17",
+    "pages": "377-404"
+  },
+  {
+    "id": "pub-2026-personalization-of-digital-political-com",
+    "type": "capitulo",
+    "year": 2026,
+    "title": "Personalization of Digital Political Communication During the Administration of Chilean President Gabriel Boric",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Gender Dynamics in Latin American Media and Communications",
+    "citation_cv": "(2026). \"Personalization of Digital Political Communication During the Administration of Chilean President Gabriel Boric\", en Fernanda Vidal (ed.) Gender Dynamics in Latin American Media and Communications. Nueva York: Palgrave-McMillan, pp. 243-291.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-09491-9_9",
+    "doi": "10.1007/978-3-032-09491-9_9",
+    "pages": "243-291"
+  },
+  {
+    "id": "pub-2026-bridging-the-gap-gender-equality-legisl",
+    "type": "articulo",
+    "year": 2026,
+    "title": "Bridging the Gap: Gender Equality Legislation and Women's Advocacy in Mexico's Subnational Congresses",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Journal of Women, Politics & Policy",
+    "citation_cv": "(2026). \"Bridging the Gap: Gender Equality Legislation and Women's Advocacy in Mexico's Subnational Congresses\". Journal of Women, Politics & Policy, pp.1-23.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/1554477X.2025.2574199?src=",
+    "doi": "10.1080/1554477X.2025.2574199",
+    "pages": "1-23",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2025-the-colors-of-legislative-performance-s",
+    "type": "articulo",
+    "year": 2025,
+    "title": "The Colors of Legislative Performance: Skin Tone and Effective Lawmaking in Mexico",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Political Studies",
+    "citation_cv": "(2025). \"The Colors of Legislative Performance: Skin Tone and Effective Lawmaking in Mexico\". Political Studies, 0(0).",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://doi.org/10.1177/00323217251364649",
+    "doi": "10.1177/00323217251364649",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2025-a-time-to-build",
+    "type": "capitulo",
+    "year": 2025,
+    "title": "A Time to Build",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "et. al",
+    "citation_cv": "(2025). \"A Time to Build\": Female Legislators Driving Change Across Mexican Legislatures\" en Báez Adriana, et. al. (eds.) Women as Builders of Parity Democracy in Mexico, Nueva York: Routledge. pp.112-136.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203",
+    "pages": "112-136",
+    "flags": [
+      "POR VERIFICAR: dos capítulos con las mismas pp. 112-136 en el CV"
+    ]
+  },
+  {
+    "id": "pub-2025-beyond-numbers-the-political-strength-o",
+    "type": "capitulo",
+    "year": 2025,
+    "title": "Beyond Numbers: The Political Strength of Women in Mexican Subnational Legislatures",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "et. al",
+    "citation_cv": "(2025). \"Beyond Numbers: The Political Strength of Women in Mexican Subnational Legislatures\". en Báez Adriana, et. al. (eds.) Women as Builders of Parity Democracy in Mexico, Nueva York: Routledge. pp.112-136.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.routledge.com/Women-as-Builders-of-Parity-Democracy-in-Mexico/delRosarioBaezCarlos-Ortiz-Ortega-BarcenaJuarez-VazquezCorrea/p/book/9781041052203",
+    "pages": "112-136",
+    "flags": [
+      "POR VERIFICAR: dos capítulos con las mismas pp. 112-136 en el CV"
+    ]
+  },
+  {
+    "id": "pub-2025-quality-or-complexion-experience-and-sk",
+    "type": "articulo",
+    "year": 2025,
+    "title": "Quality or Complexion? Experience and Skin Tone as Determinants of Electoral Success in Mexico",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Social Science Quarterly",
+    "citation_cv": "(2025). \"Quality or Complexion? Experience and Skin Tone as Determinants of Electoral Success in Mexico\". Social Science Quarterly, 6(4), pp. 1-13.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/ssqu.70054",
+    "doi": "10.1111/ssqu.70054",
+    "pages": "1-13",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2024-la-camara-de-diputados-en-su-transito-al",
+    "type": "capitulo",
+    "year": 2024,
+    "title": "La Cámara de Diputados en su tránsito al Parlamento Abierto. Experiencias desde la plataforma Buró Parlamentario.",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Parlamento abierto: experiencias y recomendaciones de apertura institucional para el primer Congreso de la Ciudad de México",
+    "citation_cv": "(2024). \"La Cámara de Diputados en su tránsito al Parlamento Abierto. Experiencias desde la plataforma Buró Parlamentario.\" en Lisandro Devoto (coord.) Parlamento abierto: experiencias y recomendaciones de apertura institucional para el primer Congreso de la Ciudad de México, México: InfoCDMX, pp.168-188.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://mariadelcarmennavapolina.mx/publicaciones/parlamento-abierto-experiencias-y-recomendaciones-de-apertura-institucional-para-el-primer-congreso-de-la-ciudad-de-mexico/",
+    "pages": "168-188"
+  },
+  {
+    "id": "pub-2024-the-popularity-of-biden-and-trump-in-the",
+    "type": "articulo",
+    "year": 2024,
+    "title": "The popularity of Biden and Trump in the United States and Latin America during the 2020 campaign. A study through Google Trends",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "International Visual Culture Review",
+    "citation_cv": "(2024). \"The popularity of Biden and Trump in the United States and Latin America during the 2020 campaign. A study through Google Trends\". International Visual Culture Review, Vol. 16, No. 2, pp. 181-192.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://visualcompublications.es/revVISUAL/article/view/5211/3527",
+    "pages": "181-192",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2024-cuanto-cuesta-una-diputacion-gastos-d",
+    "type": "articulo",
+    "year": 2024,
+    "title": "¿Cuánto cuesta una diputación?: gastos de campaña y elecciones en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Estudios Sociológicos",
+    "citation_cv": "(2024). \"¿Cuánto cuesta una diputación?: gastos de campaña y elecciones en México\". Estudios Sociológicos, Vol. 42, pp.1-28,",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "https://estudiossociologicos.colmex.mx/index.php/es/article/view/2542",
+    "pages": "1-28",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2024-dossier-artificial-intelligence-and-tec",
+    "type": "dossier",
+    "year": 2024,
+    "title": "Dossier: Artificial Intelligence and Technological Innovations in social media and Audiovisual Platforms: New Challenges in the Face of a Fake World",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "International Visual Culture Review",
+    "citation_cv": "(coord.) (2024). \"Dossier: Artificial Intelligence and Technological Innovations in social media and Audiovisual Platforms: New Challenges in the Face of a Fake World\". International Visual Culture Review,",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://visualcompublications.es/revVISUAL/announcement/view/19",
+    "role": "coordinación"
+  },
+  {
+    "id": "pub-2023-evolucion-y-experiencias-de-parlamento-a",
+    "type": "capitulo",
+    "year": 2023,
+    "title": "Evolución y experiencias de parlamento abierto en la Cámara de Diputados",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Apertura parlamentaria en México. Análisis y retos para el congreso local de la Ciudad de México",
+    "citation_cv": "(2023). \"Evolución y experiencias de parlamento abierto en la Cámara de Diputados\", en Puente Martínez, Khemvirg y Lisandro Devoto (coords.). Apertura parlamentaria en México. Análisis y retos para el congreso local de la Ciudad de México. México: UNAM, pp.107-122.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://ciid.politicas.unam.mx/www/libros/978_607_30_7894_8.pdf",
+    "pages": "107-122"
+  },
+  {
+    "id": "pub-2023-normative-frameworks-of-gender-based-pol",
+    "type": "capitulo",
+    "year": 2023,
+    "title": "Normative Frameworks of Gender-Based Political Violence in Mexico",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Gender-Based Violence in Mexico. Narratives, the State and Emancipations",
+    "citation_cv": "(2023). \"Normative Frameworks of Gender-Based Political Violence in Mexico\", en Sánchez Hernández, Ana Luisa, Miguel Angel Martínez Martínez y Francisco Díaz Estrada (coords.). Gender-Based Violence in Mexico. Narratives, the State and Emancipations. Nueva York: Routledge. pp. 85-110.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.routledge.com/Gender-Based-Violence-in-Mexico-Narratives-the-State-and-Emancipations/Martnez-Martnez-Snchez-Hernndez-Daz-Estrada/p/book/9781032473819?_ga=1295278496.1684800000",
+    "pages": "85-110"
+  },
+  {
+    "id": "pub-2023-el-regreso-de-la-reeleccion-legislativa",
+    "type": "capitulo",
+    "year": 2023,
+    "title": "El regreso de la reelección legislativa en México. Primer acercamiento a su impacto electoral y en la profesionalización del Congreso",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Las elecciones intermedias en México, 2021. Competencia, comportamiento y escenarios electorales",
+    "citation_cv": "(2023). \"El regreso de la reelección legislativa en México. Primer acercamiento a su impacto electoral y en la profesionalización del Congreso\", en Patrón, Fernando, Oniel Díaz Jiménez y Luis León Granatios (coords.). Las elecciones intermedias en México, 2021. Competencia, comportamiento y escenarios electorales. México: Universidad de Guanajuato, pp. 272-299.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.editorialgranenporrua.com.mx/libro/las-elecciones-intermedias-en-mexico-2021-competencia-comportamiento-y-escenarios-electorales/",
+    "pages": "272-299"
+  },
+  {
+    "id": "pub-2022-mas-alla-del-genero-por-que-las-diputa",
+    "type": "articulo",
+    "year": 2022,
+    "title": "Más allá del género. ¿Por qué las diputadas mexicanas representan sustantivamente a las mujeres?",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Colombia Internacional",
+    "citation_cv": "(2022). \"Más allá del género. ¿Por qué las diputadas mexicanas representan sustantivamente a las mujeres?\", Colombia Internacional, No. 112, pp. 29-58.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "https://revistas.uniandes.edu.co/doi/full/10.7440/colombiaint112.2022.02",
+    "doi": "10.7440/colombiaint112.2022.02",
+    "pages": "29-58",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2022-legislative-effectiveness-in-multiparty",
+    "type": "articulo",
+    "year": 2022,
+    "title": "Legislative Effectiveness in Multiparty Presidential Systems: Evidence from Mexico's Chamber of Deputies",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "The Journal of Politics",
+    "citation_cv": "(2022). \"Legislative Effectiveness in Multiparty Presidential Systems: Evidence from Mexico's Chamber of Deputies\". The Journal of Politics, 84(4): 2216-2219.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/720305?journalCode=jop",
+    "doi": "10.1086/720305",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar",
+      "POR VERIFICAR tipo: pp. 2216-2219 sugiere nota de investigación/short article"
+    ]
+  },
+  {
+    "id": "pub-2022-presidencias-de-comision-e-institucional",
+    "type": "articulo",
+    "year": 2022,
+    "title": "Presidencias de comisión e institucionalización de la Cámara de Diputados en México (1997-2018)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Política y Sociedad",
+    "citation_cv": "(2022). \"Presidencias de comisión e institucionalización de la Cámara de Diputados en México (1997-2018)\". Política y Sociedad, 59(2): 1-15.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "https://revistas.ucm.es/index.php/POSO/article/view/73635/4564456560933",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2022-women-s-substantive-representation-in-le",
+    "type": "capitulo",
+    "year": 2022,
+    "title": "Women´s Substantive Representation in Legal Bills: Classifying and Applying them to the Mexican Case",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Political Representation and Gender Equality in Mexico",
+    "citation_cv": "(2022). \"Women´s Substantive Representation in Legal Bills: Classifying and Applying them to the Mexican Case\", en Vidal Correa, Fernanda (coord.) Political Representation and Gender Equality in Mexico. New York, Palgrave Macmillan, pp. 109-131.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-96713-0_7",
+    "doi": "10.1007/978-3-030-96713-0_7",
+    "pages": "109-131"
+  },
+  {
+    "id": "pub-2022-informal-coalitions-and-legislative-agen",
+    "type": "articulo",
+    "year": 2022,
+    "title": "Informal Coalitions and Legislative Agenda Setting in Mexico's Multiparty Presidential System",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Latin American Politics and Society",
+    "citation_cv": "(2022). \"Informal Coalitions and Legislative Agenda Setting in Mexico's Multiparty Presidential System\". Latin American Politics and Society, pp. 1-22.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/abs/informal-coalitions-and-legislative-agenda-setting-in-mexicos-multiparty-presidential-system/ACD946DA9D4A19E17A663D88304BCA1B",
+    "pages": "1-22",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2021-el-retorno-a-la-reeleccion-inmediata-en",
+    "type": "capitulo",
+    "year": 2021,
+    "title": "El retorno a la reelección inmediata en los congresos estatales",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los congresos locales en México. Un estudio comparado sobre la representación política",
+    "citation_cv": "(2021). \"El retorno a la reelección inmediata en los congresos estatales\", en Puente Martínez, Khemvirg y Erika García Méndez (coords.). Los congresos locales en México. Un estudio comparado sobre la representación política. México, Instituto Nacional Electoral, pp.81-119.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.ine.mx/wp-content/uploads/2021/12/DECEyEC_congresos_locales.pdf",
+    "pages": "81-119"
+  },
+  {
+    "id": "pub-2022-dossier-elecciones-2021-entre-la-conti",
+    "type": "dossier",
+    "year": 2022,
+    "title": "Dossier: Elecciones 2021. Entre la continuidad o la ruptura",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Revista Mexicana de Análisis Político y Administración Pública",
+    "citation_cv": "(coord.) (2022). \"Dossier: Elecciones 2021. Entre la continuidad o la ruptura\". Revista Mexicana de Análisis Político y Administración Pública, 10(20).",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.remap.ugto.mx/index.php/remap/issue/view/REMAP%202%27",
+    "role": "coordinación"
+  },
+  {
+    "id": "pub-2021-sistema-electoral-y-fragmentacion-partid",
+    "type": "capitulo",
+    "year": 2021,
+    "title": "Sistema electoral y fragmentación partidista de los congresos locales en México (2000-2018)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los congresos locales en México. Un estudio comparado sobre la representación política",
+    "citation_cv": "(2021). \"Sistema electoral y fragmentación partidista de los congresos locales en México (2000-2018)\", en Puente Martínez, Khemvirg y Erika García Méndez (coords.). Los congresos locales en México. Un estudio comparado sobre la representación política. México, Instituto Nacional Electoral, pp.143-177.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.ine.mx/wp-content/uploads/2021/12/DECEyEC_congresos_locales.pdf",
+    "pages": "143-177"
+  },
+  {
+    "id": "pub-2021-communicative-responsiveness-in-the-mexi",
+    "type": "articulo",
+    "year": 2021,
+    "title": "Communicative responsiveness in the Mexican Senate: a field experiment",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Democratization",
+    "citation_cv": "(2021). \"Communicative responsiveness in the Mexican Senate: a field experiment\", Democratization, 28 (8): 1387-1405.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/13510347.2021.1907348",
+    "doi": "10.1080/13510347.2021.1907348",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2021-los-linderos-filosoficos-del-contractual",
+    "type": "articulo",
+    "year": 2021,
+    "title": "Los linderos filosóficos del contractualismo político",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Enclaves del Pensamiento",
+    "citation_cv": "(2021). \"Los linderos filosóficos del contractualismo político\", Enclaves del Pensamiento, 15 (29): 52-85.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.enclavesdelpensamiento.mx/index.php/enclaves/article/view/435/462",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2020-reinterpreting-theories-of-legislative-o",
+    "type": "articulo",
+    "year": 2020,
+    "title": "Reinterpreting Theories of Legislative Organization. Committee chair selection in the non-majoritarian stage of the Mexican Cámara de Diputados (1997-2018)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Acta Politológica",
+    "citation_cv": "(2020). \"Reinterpreting Theories of Legislative Organization. Committee chair selection in the non-majoritarian stage of the Mexican Cámara de Diputados (1997-2018)\", Acta Politológica, 12 (3): 51--74.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "https://acpo.vedeckecasopisy.cz/publicFiles/002154.pdf",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2020-social-creation-networks-for-designing-l",
+    "type": "articulo",
+    "year": 2020,
+    "title": "Social creation networks for designing low income interfaces in programmable thermostats",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Technology in Society",
+    "citation_cv": "(2020). \"Social creation networks for designing low income interfaces in programmable thermostats\", Technology in Society, 62.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0160791X18302628",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2020-tuiteando-desde-el-escano-imagen-digita",
+    "type": "capitulo",
+    "year": 2020,
+    "title": "Tuiteando desde el escaño. Imagen digital y representación política en el Senado mexicano",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Visualidad totalizante: Aproximaciones al estudio de la imagen y las redes",
+    "citation_cv": "(2020). \"Tuiteando desde el escaño. Imagen digital y representación política en el Senado mexicano\", en Bañuelos Capistrán, Jacob y Armín Gómez Barrios (coords.). Visualidad totalizante: Aproximaciones al estudio de la imagen y las redes. México: ITESM-Abismos, pp.159-172.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://mexicanadecomunicacion.com.mx/visualidad-totalizante/?utm_source=rss&utm_medium=rss&utm_campaign=visualidad-totalizante",
+    "pages": "159-172"
+  },
+  {
+    "id": "pub-2020-la-profesionalizacion-de-los-diputados-f",
+    "type": "capitulo",
+    "year": 2020,
+    "title": "La profesionalización de los diputados federales en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "La profesionalización de la política",
+    "citation_cv": "(2020). \"La profesionalización de los diputados federales en México\", en Montaño Reyes, Mónica y Marco Antonio Cortés Guardado (coords.). La profesionalización de la política. Guadalajara: Universidad de Guadalajara. pp.115-146.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.researchgate.net/publication/339200203_La_profesionalizacion_de_la_politica",
+    "pages": "115-146"
+  },
+  {
+    "id": "pub-2020-de-la-hegemonia-al-multipartidismo-las",
+    "type": "articulo",
+    "year": 2020,
+    "title": "De la hegemonía al multipartidismo. Las bases de la alternancia municipal en Zacatecas",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Apuntes Electorales",
+    "citation_cv": "(2020). \"De la hegemonía al multipartidismo. Las bases de la alternancia municipal en Zacatecas\", Apuntes Electorales, 62 (19): 127-160.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "https://aelectorales.ieem.org.mx/index.php/ae/article/view/745",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2019-no-sabemos-lo-que-vemos-vemos-lo-que-cr",
+    "type": "articulo",
+    "year": 2019,
+    "title": "No sabemos lo que vemos; vemos lo que creemos. Percepciones, emociones y reacciones frente a estímulos de campaña en la elección presidencial de 2018 en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Correspondencias & Análisis",
+    "citation_cv": "(2019). \"No sabemos lo que vemos; vemos lo que creemos. Percepciones, emociones y reacciones frente a estímulos de campaña en la elección presidencial de 2018 en México\", Correspondencias & Análisis, 10.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://correspondenciasyanalisis.com/pdf/v10/No-sabemos-lo-que-vemos.pdf",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2019-partidos-o-distritos-la-logica-detras-d",
+    "type": "capitulo",
+    "year": 2019,
+    "title": "Partidos o distritos. La lógica detrás de la asignación de legisladores a comisiones en la Cámara de Diputados (2006-2018)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Dos décadas sin mayoría. El impacto del pluralismo en el Congreso",
+    "citation_cv": "(2019). \"Partidos o distritos. La lógica detrás de la asignación de legisladores a comisiones en la Cámara de Diputados (2006-2018)\", en Mirón Lince, Rosa María y Luisa Béjar Algazi (coords.). Dos décadas sin mayoría. El impacto del pluralismo en el Congreso, México: UNAM/La Biblioteca, pp. 79-98.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.libros.unam.mx/dos-decadas-sin-mayoria-el-impacto-del-pluralismo-en-el-congreso-9786078364886-libro.html",
+    "pages": "79-98"
+  },
+  {
+    "id": "pub-2019-zacatecas-evolucion-politica-y-alternan",
+    "type": "capitulo",
+    "year": 2019,
+    "title": "Zacatecas: evolución política y alternancia municipal (1998-2016)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los estados en 2016 Nuevos equilibrios regionales",
+    "citation_cv": "(2019). \"Zacatecas: evolución política y alternancia municipal (1998-2016)\", en Mirón Lince, Rosa María (coord.). Los estados en 2016 Nuevos equilibrios regionales. México: UNAM/La Biblioteca, pp. 75-101.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://portal.iedf.org.mx/biblioteca/descargasC.php?id=397",
+    "pages": "75-101",
+    "flags": [
+      "POSIBLE DUPLICADO: el mismo capítulo aparece como 2016, 2018 y 2019; dejar uno"
+    ]
+  },
+  {
+    "id": "pub-2019-constituency-preferences-and-committee-s",
+    "type": "articulo",
+    "year": 2019,
+    "title": "Constituency Preferences and Committee Selection in the Mexican Chamber of Deputies",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Journal of Latin American Studies",
+    "citation_cv": "(2019). \"Constituency Preferences and Committee Selection in the Mexican Chamber of Deputies\", Journal of Latin American Studies, 61 (4): 95-117.",
+    "refereed": true,
+    "topics": [],
+    "lang": "en",
+    "url": "https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/constituency-preferences-and-committee-selection-in-the-mexican-camara-de-diputados/188BA6D962D991E64F9CE4BBCAC9093C",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar",
+      "DISCREPANCIA: el enlace es de Latin American Politics and Society (Cambridge), no del Journal of Latin American Studies"
+    ]
+  },
+  {
+    "id": "pub-2019-score-de-participacion-parlamentaria-sp",
+    "type": "articulo",
+    "year": 2019,
+    "title": "Score de Participación Parlamentaria (SPP). Sobre cómo medir el desempeño de los diputados federales en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Estudios Políticos",
+    "citation_cv": "(2019). \"Score de Participación Parlamentaria (SPP). Sobre cómo medir el desempeño de los diputados federales en México\". Estudios Políticos, 46, pp. 37-60.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.revistas.unam.mx/index.php/rep/article/view/69499/61343",
+    "pages": "37-60",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2019-como-evaluar-el-desempeno-legislativo",
+    "type": "articulo",
+    "year": 2019,
+    "title": "¿Cómo evaluar el desempeño legislativo? Una propuesta metodológica para la clasificación de las iniciativas de ley en México y América Latina",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Revista Mexicana de Ciencias Políticas y Sociales",
+    "citation_cv": "(2019). \"¿Cómo evaluar el desempeño legislativo? Una propuesta metodológica para la clasificación de las iniciativas de ley en México y América Latina\", Revista Mexicana de Ciencias Políticas y Sociales, 64 (235): 395-426.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.revistas.unam.mx/index.php/rmcpys/article/view/63130/60217",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2018-como-clasificar-las-iniciativas-de-ley",
+    "type": "articulo",
+    "year": 2018,
+    "title": "¿Cómo clasificar las iniciativas de ley? Una propuesta metodológica para la transición democrática mexicana",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "De Política",
+    "citation_cv": "(2018). \"¿Cómo clasificar las iniciativas de ley? Una propuesta metodológica para la transición democrática mexicana\". De Política, 6 (10), pp.67-90.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://ojs.uacj.mx/ojs/index.php/depolitica/issue/view/2/2",
+    "pages": "67-90",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2018-zacatecas-evolucion-politica-y-alternan",
+    "type": "capitulo",
+    "year": 2018,
+    "title": "Zacatecas: evolución política y alternancia municipal (1998-2016)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los estados en 2016. Nuevos equilibrios regionales",
+    "citation_cv": "(2018). \"Zacatecas: evolución política y alternancia municipal (1998-2016)\", en Mirón Lince, Rosa María (coord.). Los estados en 2016. Nuevos equilibrios regionales. México: UNAM/IECM/TEPJF. pp.75-102.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "pages": "75-102",
+    "flags": [
+      "POSIBLE DUPLICADO: el mismo capítulo aparece como 2016, 2018 y 2019; dejar uno"
+    ]
+  },
+  {
+    "id": "pub-2018-diseno-institucional-y-participacion-ciu",
+    "type": "capitulo",
+    "year": 2018,
+    "title": "Diseño institucional y participación ciudadana en la elección de diputados federales (1997-2015)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Rendimiento institucional del Congreso en México",
+    "citation_cv": "(2018). \"Diseño institucional y participación ciudadana en la elección de diputados federales (1997-2015)\", en Camacho, César, David Cienfuegos, Armando Hernández, Fermín Rivas y Emilio Suárez, Rendimiento institucional del Congreso en México. México: Tirant Lo Blanch pp.763-794.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://issuu.com/tirantloblanch/docs/6ccea1517d0efa403c1d446d4b77cdfd",
+    "pages": "763-794"
+  },
+  {
+    "id": "pub-2018-transicion-democratica-e-institucionaliz",
+    "type": "articulo",
+    "year": 2018,
+    "title": "Transición democrática e institucionalización legislativa: el caso de la Comisión de Desarrollo Social en la Cámara de Diputados de México (2000-2012)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "CONfines de Relaciones Internacionales y Ciencia Política",
+    "citation_cv": "(2018). \"Transición democrática e institucionalización legislativa: el caso de la Comisión de Desarrollo Social en la Cámara de Diputados de México (2000-2012)\", CONfines de Relaciones Internacionales y Ciencia Política, 12 (23): 11-38.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://confines.mty.itesm.mx/articulos23/a1_transicion.pdf",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2017-la-negociacion-del-presupuesto-local-re",
+    "type": "capitulo",
+    "year": 2017,
+    "title": "La negociación del presupuesto local. Relaciones Ejecutivo-Legislativo en los congresos subnacionales de México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los congresos en México: La representación política en el contexto de las reformas electorales",
+    "citation_cv": "(2017). \"La negociación del presupuesto local. Relaciones Ejecutivo-Legislativo en los congresos subnacionales de México\", en Mirón Lince, Rosa María, Gustavo López Montiel y Sergio A. Bárcena, Los congresos en México: La representación política en el contexto de las reformas electorales. México: Senado de la República/UNAM/Asociación Mexicana de Estudios Parlamentarios, pp. 17-42.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://bibliodigitalibd.senado.gob.mx/handle/123456789/3609",
+    "pages": "17-42"
+  },
+  {
+    "id": "pub-2017-racionalidad-influencia-estructural-y-v",
+    "type": "articulo",
+    "year": 2017,
+    "title": "Racionalidad, influencia estructural y voto en la elección de Diputados Federales. El caso de Yucatán, 2015",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "CONfines de Relaciones Internacionales y Ciencia Política",
+    "citation_cv": "(2017). \"Racionalidad, influencia estructural y voto en la elección de Diputados Federales. El caso de Yucatán, 2015\", CONfines de Relaciones Internacionales y Ciencia Política, 13 (24): 11-40.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "https://confines.mty.itesm.mx/articulos24/a1_racionalidad.pdf",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2017-dos-presiones-desde-el-lobby-el-cabilde",
+    "type": "capitulo",
+    "year": 2017,
+    "title": "Dos presiones desde el lobby: el cabildeo legislativo en la aprobación del impuesto al refresco en México en 2013",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "El proceso legislativo en México. La participación de la sociedad civil en el Congreso de la Unión",
+    "citation_cv": "(2017). \"Dos presiones desde el lobby: el cabildeo legislativo en la aprobación del impuesto al refresco en México en 2013\", en Béjar Algazi, Luisa (coord.), El proceso legislativo en México. La participación de la sociedad civil en el Congreso de la Unión, México: UNAM-La Biblioteca, pp. 179-203.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.gandhi.com.mx/el-proceso-legislativo-en-mexico-la-participacion-de-la-sociedad-civil-organizada-en-el-congreso-de-la-union",
+    "pages": "179-203"
+  },
+  {
+    "id": "pub-2017-democratizacion-y-representacion-legisla",
+    "type": "articulo",
+    "year": 2017,
+    "title": "Democratización y representación legislativa en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Revista Uruguaya de Ciencia Política",
+    "citation_cv": "(2017). \"Democratización y representación legislativa en México\", Revista Uruguaya de Ciencia Política, 26 (1): 59-83.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://cienciassociales.edu.uy/institutodecienciapolitica/rucp-vol-26-no-1/",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2017-la-investigacion-del-mercado-gubernament",
+    "type": "capitulo",
+    "year": 2017,
+    "title": "La investigación del mercado gubernamental",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Marketing Gubernamental",
+    "citation_cv": "(2017). \"La investigación del mercado gubernamental\", en Lerma Kirchner, Alejandro (coord.), Marketing Gubernamental, México: UNAM-FCA Publishing, pp. 231-263.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://publishing.fca.unam.mx/product.php?id_product=579",
+    "pages": "231-263"
+  },
+  {
+    "id": "pub-2017-congreso",
+    "type": "entrada",
+    "year": 2017,
+    "title": "Congreso",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Diccionario de Justicia",
+    "citation_cv": "(2017). \"Congreso\", en Pereda, Carlos (coord.), Diccionario de Justicia, México: Siglo Veintiuno, pp. 57-62.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.sigloxxieditores.com.mx/tienda/diccionario-de-justicia.html",
+    "pages": "57-62"
+  },
+  {
+    "id": "pub-2017-involucramiento-legislativo-sin-reelecci",
+    "type": "articulo",
+    "year": 2017,
+    "title": "Involucramiento legislativo sin reelección: La productividad de los diputados federales en México, 1985-2015",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Política y Gobierno",
+    "citation_cv": "(2017). \"Involucramiento legislativo sin reelección: La productividad de los diputados federales en México, 1985-2015\", Política y Gobierno, 24 (1): 45-79.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/887/623",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2016-zacatecas-evolucion-politica-y-alternan",
+    "type": "capitulo",
+    "year": 2016,
+    "title": "Zacatecas: Evolución política y alternancia municipal (1998-2016)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los estados en 2016. Nuevos equilibrios regionales",
+    "citation_cv": "(2016). \"Zacatecas: Evolución política y alternancia municipal (1998-2016)\" en Mirón Lince, Rosa María (coord.), Los estados en 2016. Nuevos equilibrios regionales. Tomo 2. México: UNAM/IECM/TECM/La Biblioteca, pp. 75-102.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "pages": "75-102",
+    "flags": [
+      "POSIBLE DUPLICADO: el mismo capítulo aparece como 2016, 2018 y 2019; dejar uno"
+    ]
+  },
+  {
+    "id": "pub-2016-el-inconsciente-estructural-determinant",
+    "type": "capitulo",
+    "year": 2016,
+    "title": "El inconsciente estructural. Determinantes del voto en la elección de Yucatán en 2015",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los estados en 2015. Resultados y alcances de la reforma político electoral de 2014",
+    "citation_cv": "(2016). \"El inconsciente estructural. Determinantes del voto en la elección de Yucatán en 2015\", en Mirón Lince, Rosa María (coord.), Los estados en 2015. Resultados y alcances de la reforma político electoral de 2014, México: IEDF-UNAM, pp. 389-410.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.labiblioteca.com.mx/product-page/los-estados-en-2015-resultados-de-la-reforma-pol%C3%ADtico-electoral-2014-tomo-1",
+    "pages": "389-410"
+  },
+  {
+    "id": "pub-2015-identidad-y-representacion-politica-ref",
+    "type": "articulo",
+    "year": 2015,
+    "title": "Identidad y representación política. Reflexiones contemporáneas",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "En-Claves del Pensamiento",
+    "citation_cv": "(2015). \"Identidad y representación política. Reflexiones contemporáneas\", En-Claves del Pensamiento, 9 (17): 69-86.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://aplicaciones.ccm.itesm.mx/journals/index.php/enclaves/article/view/210",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2015-mandato-en-el-vacio-los-retos-de-la-re",
+    "type": "capitulo",
+    "year": 2015,
+    "title": "¿Mandato en el vacío? Los retos de la representación político-parlamentaria en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "El rediseño de la representación política",
+    "citation_cv": "(2015). \"¿Mandato en el vacío? Los retos de la representación político-parlamentaria en México\", en Puente, Khemvirg, Fermín Rivas y Efrén Arellano (coords.), El rediseño de la representación política, México: UNAM-Ficticia, pp. 87-118.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.academia.edu/25435110/Mandato_en_el_vac%C3%ADo._Los_retos_de_la_representaci%C3%B3n_pol%C3%ADtico-parlamentaria_en_M%C3%A9xico",
+    "pages": "87-118"
+  },
+  {
+    "id": "pub-2014-partidocracia-plataforma-electoral-int",
+    "type": "entrada",
+    "year": 2014,
+    "title": "Partidocracia; Plataforma Electoral; Integración de Cámaras; Integración de Comisiones; Mandato Parlamentario; y Mayoría parlamentaria",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Vocabulario Judicial",
+    "citation_cv": "(2014). \"Partidocracia; Plataforma Electoral; Integración de Cámaras; Integración de Comisiones; Mandato Parlamentario; y Mayoría parlamentaria\", en Cienfuegos, David y Julio César Vázquez-Mellado (coords.), Vocabulario Judicial, México: Consejo de la Judicatura Federal.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.ijf.cjf.gob.mx/publicrecientes/2014/2014_Vocabulario_Judicial.pdf"
+  },
+  {
+    "id": "pub-2014-efecto-de-arrastre-y-empuje-en-el-proces",
+    "type": "capitulo",
+    "year": 2014,
+    "title": "Efecto de arrastre y empuje en el proceso electoral de Yucatán, 2012",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los estados en 2012. Alternancias y hegemonías",
+    "citation_cv": "(2014). \"Efecto de arrastre y empuje en el proceso electoral de Yucatán, 2012\", en Mirón Lince, Rosa María, Gustavo López Montiel y Francisco Reveles Vázquez (coords.) Los estados en 2012. Alternancias y hegemonías, México: Fundación Friedrich Ebert, ITESM, UNAM, pp. 347-364.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.academia.edu/25435373/Efecto_de_arrastre_y_empuje_en_el_proceso_electoral_de_Yucat%C3%A1n_2012",
+    "pages": "347-364"
+  },
+  {
+    "id": "pub-2013-comportamiento-parlamentario-de-las-dipu",
+    "type": "capitulo",
+    "year": 2013,
+    "title": "Comportamiento parlamentario de las diputadas federales en la LVIII Legislatura",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "¿Quién, cómo y qué se legisla en México?",
+    "citation_cv": "(2013). \"Comportamiento parlamentario de las diputadas federales en la LVIII Legislatura\", en Béjar Algazi, Luisa (coord.), ¿Quién, cómo y qué se legisla en México?, México: UNAM, pp. 265-285.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.academia.edu/25435228/Comportamiento_parlamentario_de_las_diputadas_federales_en_la_LVIII_Legislatura",
+    "pages": "265-285"
+  },
+  {
+    "id": "pub-2013-legados-y-herencias-en-el-distrito-feder",
+    "type": "capitulo",
+    "year": 2013,
+    "title": "Legados y herencias en el Distrito Federal",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Generosidad en México. Fuentes, cauces y destinos",
+    "citation_cv": "(2013). \"Legados y herencias en el Distrito Federal\", en Butcher, Jacqueline (coord.), Generosidad en México. Fuentes, cauces y destinos, México: Porrúa, pp.205-243.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.ciesc.org.mx/gm.html",
+    "pages": "205-243"
+  },
+  {
+    "id": "pub-2012-el-segundo-debate-presidencial-de-2012-e",
+    "type": "articulo",
+    "year": 2012,
+    "title": "El segundo debate presidencial de 2012 en México. Una propuesta de análisis",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Apuntes Electorales",
+    "citation_cv": "(2012). \"El segundo debate presidencial de 2012 en México. Una propuesta de análisis\", Apuntes Electorales, Revista del Instituto Electoral del Estado de México, 10 (44): 81-110.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://aelectorales.ieem.org.mx/index.php/ae/article/view/207",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2012-el-proceso-legislativo-en-mexico-la-efi",
+    "type": "articulo",
+    "year": 2012,
+    "title": "El proceso legislativo en México: la eficiencia de las comisiones permanentes en un Congreso sin mayoría",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Perfiles Latinoamericanos",
+    "citation_cv": "(2012). \"El proceso legislativo en México: la eficiencia de las comisiones permanentes en un Congreso sin mayoría\", Perfiles Latinoamericanos, 24 (48): 111-140.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://perfilesla.flacso.edu.mx/index.php/perfilesla/article/view/725",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2012-el-rol-de-las-comisiones-legislativas-de",
+    "type": "articulo",
+    "year": 2012,
+    "title": "El rol de las comisiones legislativas de la Cámara de Diputados durante el presidencialismo mexicano",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Estudios Políticos",
+    "citation_cv": "(2012). \"El rol de las comisiones legislativas de la Cámara de Diputados durante el presidencialismo mexicano\", Estudios Políticos, 26 (9): 131-160.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.revistas.unam.mx/index.php/rep/article/view/31963",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2011-the-future-of-representative-democracy",
+    "type": "resena",
+    "year": 2011,
+    "title": "Reseña de «The Future of Representative Democracy» (Alonso, Keane y Merkel, coords.)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Revista de Investigación Social",
+    "citation_cv": "(2011). Reseña de Sonia Alonso, John Keane y Wolfgang Merkel (coords.) The Future of Representative Democracy. Nueva York: Cambridge, 322 pp. Revista de Investigación Social, verano de 2011, VIII, (12):131-135.",
+    "refereed": null,
+    "topics": [],
+    "lang": "en"
+  },
+  {
+    "id": "pub-2010-del-estado-benefactor-a-la-poliarquia-u",
+    "type": "articulo",
+    "year": 2010,
+    "title": "Del estado benefactor a la poliarquía. Un análisis comparado de la seguridad social en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Acta Sociológica",
+    "citation_cv": "(2010). \"Del estado benefactor a la poliarquía. Un análisis comparado de la seguridad social en México\", Acta Sociológica, 52 (5): 99-128.",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.revistas.unam.mx/index.php/ras/article/view/18742",
+    "flags": [
+      "refereed=true inferido (revista científica); confirmar"
+    ]
+  },
+  {
+    "id": "pub-2026-voz-y-voto",
+    "type": "divulgacion",
+    "year": 2026,
+    "title": "¿Quién quiere partidos digitales?",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Voz y Voto",
+    "citation_cv": "(2026). ¿Quién quiere partidos digitales?, en Voz y Voto,",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.vozyvoto.com.mx/articulo/quien-quiere-partidos-digitales"
+  },
+  {
+    "id": "pub-2026-inteligencia-artificial-en-los-discursos",
+    "type": "divulgacion",
+    "year": 2026,
+    "title": "Inteligencia artificial en los discursos de diputados y senadores en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos-Mexicanos Unidos Contra la Corrupción y la Impunidad",
+    "citation_cv": "(2026). \"Inteligencia artificial en los discursos de diputados y senadores en México\", en Nexos-Mexicanos Unidos Contra la Corrupción y la Impunidad.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://anticorrupcion.nexos.com.mx/inteligencia-artificial-en-los-discursos-de-diputados-y-senadores-en-mexico/"
+  },
+  {
+    "id": "pub-2025-la-politica-frente-a-su-espejo-digital",
     "type": "divulgacion",
     "year": 2025,
-    "title": "[POR VERIFICAR] Título de texto de divulgación de ejemplo",
-    "authors": ["Sergio A. Bárcena Juárez"],
-    "venue": "[POR VERIFICAR] Medio",
-    "url": "https://example.org/por-verificar/divulgacion",
+    "title": "La política frente a su espejo digital",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "El Universal",
+    "citation_cv": "(2025). \"La política frente a su espejo digital\", El Universal.",
     "refereed": false,
-    "topics": ["Inteligencia artificial"],
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.generacionuniversitaria.com.mx/opinion/la-politica-frente-a-su-espejo-digital/"
+  },
+  {
+    "id": "pub-2025-la-dictadura-del-algoritmo",
+    "type": "divulgacion",
+    "year": 2025,
+    "title": "La dictadura del algoritmo",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2025). \"La dictadura del algoritmo\", en Nexos.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://redaccion.nexos.com.mx/la-dictadura-del-algoritmo/"
+  },
+  {
+    "id": "pub-2025-animal-politico",
+    "type": "divulgacion",
+    "year": 2025,
+    "title": "Actualícense, ignorantes ¿cómo se está usando la IA en el trabajo legislativo en México?",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Animal Político",
+    "citation_cv": "(2025). \"Actualícense, ignorantes ¿cómo se está usando la IA en el trabajo legislativo en México?, en Animal Político.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://animalpolitico.com/analisis/invitades/actualicense-ignorantes"
+  },
+  {
+    "id": "pub-2025-una-mayoria-muchas-oposiciones-como-v",
+    "type": "divulgacion",
+    "year": 2025,
+    "title": "Una mayoría, muchas oposiciones. ¿Cómo votó el Senado en la LXVI Legislatura?",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos-Mexicanos unidos contra la corrupción y la impunidad",
+    "citation_cv": "(2025). \"Una mayoría, muchas oposiciones. ¿Cómo votó el Senado en la LXVI Legislatura?\", en Nexos-Mexicanos unidos contra la corrupción y la impunidad.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://contralacorrupcion.mx/una-mayoria-muchas-oposiciones-como-voto-el-senado-en-la-lxvi-legislatura"
+  },
+  {
+    "id": "pub-2024-como-gastaron-los-partidos-politicos-en",
+    "type": "divulgacion",
+    "year": 2024,
+    "title": "Cómo gastaron los partidos políticos en 2024",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos Taller de Datos",
+    "citation_cv": "(2024). \"Cómo gastaron los partidos políticos en 2024\", en Nexos Taller de Datos.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://datos.nexos.com.mx/como-gastaron-los-partidos-politicos-en-2024/"
+  },
+  {
+    "id": "pub-2024-la-puerta-giratoria-del-congreso-desent",
+    "type": "divulgacion",
+    "year": 2024,
+    "title": "La puerta giratoria del Congreso: desentrañando el mito de la reelección en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Animal Político",
+    "citation_cv": "(2024). \"La puerta giratoria del Congreso: desentrañando el mito de la reelección en México\", en Animal Político",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://animalpolitico.com/analisis/invitades/reeleccion-legislativa-mito-2"
+  },
+  {
+    "id": "pub-2024-mc-en-solitario-gano-o-perdio",
+    "type": "divulgacion",
+    "year": 2024,
+    "title": "MC en solitario, ¿ganó o perdió?",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos Taller de Datos",
+    "citation_cv": "(2024). \"MC en solitario, ¿ganó o perdió?\", en Nexos Taller de Datos.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://datos.nexos.com.mx/mc-en-solitario-gano-o-perdio/",
+    "recognition": {
+      "text": "Reconocido entre los 10 textos de Nexos más leídos en 2024",
+      "url": "https://datos.nexos.com.mx/los-10-textos-mas-leidos-de-2024/"
+    }
+  },
+  {
+    "id": "pub-2024-negociacion-mata-voto-el-partido-verde",
+    "type": "divulgacion",
+    "year": 2024,
+    "title": "Negociación mata voto. El Partido Verde como segunda fuerza legislativa",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Animal Político",
+    "citation_cv": "(2024). \"Negociación mata voto. El Partido Verde como segunda fuerza legislativa\", en Animal Político.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://animalpolitico.com/analisis/invitades/coaliciones-partido-verde-camara-diputados"
+  },
+  {
+    "id": "pub-2024-dinamicas-de-reeleccion-en-los-congresos",
+    "type": "divulgacion",
+    "year": 2024,
+    "title": "Dinámicas de reelección en los congresos locales: estrategias y resultados",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2024). \"Dinámicas de reelección en los congresos locales: estrategias y resultados\", en Nexos.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://federalismo.nexos.com.mx/2024/05/dinamicas-de-reeleccion-en-los-congresos-locales-estrategias-y-resultados/"
+  },
+  {
+    "id": "pub-2024-el-contrato-social-a-prueba-ensayos-sob-2",
+    "type": "divulgacion",
+    "year": 2024,
+    "title": "El contrato social a prueba: Ensayos sobre filosofía política aplicada",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2024). \"El contrato social a prueba: Ensayos sobre filosofía política aplicada\", en Nexos.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://redaccion.nexos.com.mx/el-contrato-social-a-prueba-ensayos-sobre-filosofia-politica-aplicada/"
+  },
+  {
+    "id": "pub-2023-nexos-taller-de-datos",
+    "type": "divulgacion",
+    "year": 2023,
+    "title": "¿Cuánto cuesta una curul? Elecciones y dinero (lícito) en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos Taller de Datos",
+    "citation_cv": "(2023). \"¿Cuánto cuesta una curul? Elecciones y dinero (lícito) en México, en Nexos Taller de datos. Liga: Reconocido entre los 10 textos de Nexos más leídos en 2023:",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://datos.nexos.com.mx/author/sergio-a-barcena-juarez/",
+    "extra_urls": [
+      "https://datos.nexos.com.mx/los-10-textos-mas-leidos-del-2023/"
+    ],
+    "recognition": {
+      "text": "Reconocido entre los 10 textos de Nexos más leídos en 2023",
+      "url": "https://datos.nexos.com.mx/los-10-textos-mas-leidos-del-2023/"
+    }
+  },
+  {
+    "id": "pub-2021-la-paridad-de-genero-en-los-congresos-su",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "La paridad de género en los congresos subnacionales: análisis de su composición legislativa",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Animal Político",
+    "citation_cv": "(2021). \"La paridad de género en los congresos subnacionales: análisis de su composición legislativa\", en Animal Político.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://animalpolitico.com/analisis/invitades/la-paridad-de-genero-en-los-congresos-subnacionales-analisis-de-su-composicion-legislativa"
+  },
+  {
+    "id": "pub-2021-los-otros-congresos-conformacion-de-las",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "Los otros congresos: conformación de las legislaturas estatales en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Animal Político",
+    "citation_cv": "(2021). \"Los otros congresos: conformación de las legislaturas estatales en México\", en Animal Político.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://animalpolitico.com/analisis/invitades/los-otros-congresos-conformacion-de-las-legislaturas-estatales-en-mexico"
+  },
+  {
+    "id": "pub-2021-ricos-pobres-y-clasemedieros-quienes",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "Ricos, pobres y clasemedieros, ¿quiénes votan más?",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2021). \"Ricos, pobres y clasemedieros, ¿quiénes votan más?\", en Nexos Taller de datos.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://datos.nexos.com.mx/ricos-pobres-y-clasemedieros-quienes-votan-mas-4-de-4/"
+  },
+  {
+    "id": "pub-2021-estratos-sociales-e-infidelidades-electo",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "Estratos sociales e infidelidades electorales en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2021). \"Estratos sociales e infidelidades electorales en México\", en Nexos Taller de datos. En colaboración con Aleister Montfort.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://datos.nexos.com.mx/estratos-sociales-e-infidelidades-electorales-en-mexico-1-de-4/"
+  },
+  {
+    "id": "pub-2021-reeleccion-legislativa-federal-en-mexico",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "Reelección legislativa federal en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Global Lens",
+    "citation_cv": "(2021). \"Reelección legislativa federal en México\", en Global Lens, junio 30.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.globallens.mx/post/reelecci%C3%B3n-legislativa-federal-en-m%C3%A9xico"
+  },
+  {
+    "id": "pub-2021-reeleccion-legislativa-local-en-2021-pa",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "Reelección legislativa local en 2021 (parte I)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2021). \"Reelección legislativa local en 2021 (parte I)\", en Nexos, junio 1.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://federalismo.nexos.com.mx/2021/06/reeleccion-legislativa-local-en-2021-parte-i/",
+    "extra_urls": [
+      "https://federalismo.nexos.com.mx/author/oscar-medina-llanos/"
+    ]
+  },
+  {
+    "id": "pub-2021-reeleccion-legislativa-local-en-2021-pa-2",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "Reelección legislativa local en 2021 (parte II)",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2021). \"Reelección legislativa local en 2021 (parte II)\", en Nexos, junio 1.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://federalismo.nexos.com.mx/2021/06/reeleccion-legislativa-local-en-2021-parte-i/",
+    "extra_urls": [
+      "https://federalismo.nexos.com.mx/author/sergio-a-barcena-juarez/"
+    ]
+  },
+  {
+    "id": "pub-2021-coaliciones-electorales-datos-y-proyecc",
+    "type": "divulgacion",
+    "year": 2021,
+    "title": "Coaliciones electorales: datos y proyecciones",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Animal Político",
+    "citation_cv": "(2021). \"Coaliciones electorales: datos y proyecciones\", en Animal Político, abril 16.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.animalpolitico.com/analisis/invitades/coaliciones-electorales-datos-y-proyecciones"
+  },
+  {
+    "id": "pub-2020-los-diputados-mexicanos-ante-la-reelecci",
+    "type": "divulgacion",
+    "year": 2020,
+    "title": "Los diputados mexicanos ante la reelección. La experiencia de los congresos locales",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2020). \"Los diputados mexicanos ante la reelección. La experiencia de los congresos locales\", en Nexos, octubre 21.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://redaccion.nexos.com.mx/los-diputados-mexicanos-ante-la-reeleccion-la-experiencia-de-los-congresos-locales/"
+  },
+  {
+    "id": "pub-2019-transfuguismo-partidista-y-comportamient",
+    "type": "divulgacion",
+    "year": 2019,
+    "title": "Transfuguismo partidista y comportamiento parlamentario en la primera mitad de la LXIV Legislatura de la Cámara de Diputados",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Brújula Ciudadana",
+    "citation_cv": "(2019). \"Transfuguismo partidista y comportamiento parlamentario en la primera mitad de la LXIV Legislatura de la Cámara de Diputados\", en Brújula Ciudadana, Mayo 2019.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.revistabrujula.org/transfuguismo-partidista-y-comporta"
+  },
+  {
+    "id": "pub-2019-la-edad-de-los-legisladores-en-mexico",
+    "type": "divulgacion",
+    "year": 2019,
+    "title": "La edad de los legisladores en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2019). \"La edad de los legisladores en México\", en Nexos, enero 24.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://nexos.com.mx/?p=40895"
+  },
+  {
+    "id": "pub-2019-asi-votan-nuestros-diputados",
+    "type": "divulgacion",
+    "year": 2019,
+    "title": "Así votan nuestros diputados",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos Taller de datos",
+    "citation_cv": "(2019). \"Así votan nuestros diputados\", en Nexos Taller de datos, agosto 6.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://datos.nexos.com.mx/asi-votan-nuestros-votados-analisis-de-los-diputados-federales-actuales/"
+  },
+  {
+    "id": "pub-2019-informacion-y-libertad-en-la-democracia",
+    "type": "divulgacion",
+    "year": 2019,
+    "title": "Información y libertad en la democracia contemporánea",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Resilente Magazine",
+    "citation_cv": "(2019). \"Información y libertad en la democracia contemporánea\", en Resilente Magazine, agosto 12.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://resilientemagazine.com/informacion-y-libertad-en-la-democracia-contemporanea-buro-parlamentario/"
+  },
+  {
+    "id": "pub-2018-quien-preside-las-comisiones-del-congre",
+    "type": "divulgacion",
+    "year": 2018,
+    "title": "¿Quién preside las comisiones del Congreso?",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Nexos",
+    "citation_cv": "(2018). \"¿Quién preside las comisiones del Congreso?\", en Nexos, noviembre 12.",
+    "refereed": false,
+    "topics": [],
+    "lang": "es",
+    "url": "https://www.nexos.com.mx/?p=40076"
+  },
+  {
+    "id": "pub-2016-reflexiones-en-torno-a-las-legislaturas",
+    "type": "traduccion",
+    "year": 2016,
+    "title": "Reflexiones en torno a las legislaturas locales desde una perspectiva comparada",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": "Los congresos en México: La representación política en el contexto de las reformas electorales",
+    "citation_cv": "\"Reflexiones en torno a las legislaturas locales desde una perspectiva comprada\". Texto original del Peverill Squire. Publicado en: Mirón Lince, Rosa María, Gustavo López Montiel y Sergio A. Bárcena (coords.) (2016). Los congresos en México: La representación política en el contexto de las reformas electorales. México: Senado de la República/UNAM/Asociación Mexicana de Estudios Parlamentarios, pp. 9-16.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es",
+    "pages": "9-16",
+    "original_author": "Peverill Squire",
+    "flags": [
+      "El CV dice \"comprada\": corregido a \"comparada\" [confirmar]"
+    ]
+  },
+  {
+    "id": "pub-none-del-estado-benefactor-a-la-poliarquia-u",
+    "type": "articulo_en_linea",
+    "year": null,
+    "title": "Del estado benefactor a la poliarquía. Un análisis comparado de la seguridad social en México",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": null,
+    "citation_cv": "\"Del estado benefactor a la poliarquía. Un análisis comparado de la seguridad social en México\", publicado por la Facultad Latinoamericana de Ciencias Sociales, (FLACSO ANDES).",
+    "refereed": true,
+    "topics": [],
+    "lang": "es",
+    "url": "http://www.flacsoandes.org/web/debate.php?c=1486&debate=1425"
+  },
+  {
+    "id": "pub-none-el-congreso-mexicano-en-dos-gobiernos-di",
+    "type": "documento",
+    "year": null,
+    "title": "Cuaderno de trabajo #3",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": null,
+    "citation_cv": "Cuaderno de trabajo #3. Uso estadístico de la base de datos para el proyecto \"El Congreso Mexicano en dos gobiernos divididos\", dirigido por Luisa Béjar Algazi.",
+    "refereed": null,
+    "topics": [],
     "lang": "es"
+  },
+  {
+    "id": "pub-2015-la-participacion-social-en-la-construcci",
+    "type": "documento",
+    "year": 2015,
+    "title": "Libro de códigos y ficha técnica de la base de datos",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": null,
+    "citation_cv": "Libro de códigos y ficha técnica de la base de datos \"La participación social en la construcción de la agenda legislativa del Congreso Mexicano\", Centro de Estudios Políticos, UNAM, 2015.",
+    "refereed": null,
+    "topics": [],
+    "lang": "es"
+  },
+  {
+    "id": "pub-none-20-years-of-a-non-majoritarian-congress",
+    "type": "en_proceso",
+    "year": null,
+    "title": "20 Years of a non-majoritarian Congress in Mexico",
+    "authors": [
+      "Sergio A. Bárcena Juárez"
+    ],
+    "venue": null,
+    "citation_cv": "20 Years of a non-majoritarian Congress in Mexico. Libro en coautoría con Yann P. Kerevel (LSU).",
+    "refereed": null,
+    "topics": [],
+    "lang": "en",
+    "coauthor": "Yann P. Kerevel (LSU)"
   }
 ]

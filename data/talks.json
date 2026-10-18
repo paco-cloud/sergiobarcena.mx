@@ -1,21 +1,915 @@
 [
   {
-    "id": "talk-ejemplo-1",
-    "year": 2025,
-    "title": "[POR VERIFICAR] Título de conferencia de ejemplo",
-    "institution": "[POR VERIFICAR] Institución",
-    "city": "[POR VERIFICAR] Ciudad",
-    "country": "México",
-    "role": "[POR VERIFICAR] Ponente"
+    "id": "talk-2026-estudio-sobre-el-diseno-y-la-implementac",
+    "year": 2026,
+    "role": "Ponente",
+    "title": "Estudio sobre el diseño y la implementación de acciones afirmativas en el Proceso Electoral Local 2024 en el Estado de México: evaluación y prospectiva hacia 2027",
+    "text": "Ponente. \"Estudio sobre el diseño y la implementación de acciones afirmativas en el Proceso Electoral Local 2024 en el Estado de México: evaluación y prospectiva hacia 2027\", Foro Acciones afirmativas: Escuchar para incluir, Instituto Electoral del Estado de México, Toluca, Estado de México, 2026",
+    "international": false,
+    "url": "https://www.youtube.com/watch?v=_TCbQTQiJCs",
+    "extra_urls": [
+      "https://www.ieem.org.mx/COMISION_GENERO/docs/publicaciones/20260721_Resumen_Ejecutivo_VF_CP_1786390158610158.pdf"
+    ]
   },
   {
-    "id": "talk-ejemplo-2",
+    "id": "talk-2026-competencias-civicas-y-participacion-pol",
+    "year": 2026,
+    "role": "Ponente",
+    "title": "Competencias cívicas y participación política de las juventudes",
+    "text": "Ponente. \"Competencias cívicas y participación política de las juventudes\", Instituto Electoral de la Ciudad de México, Ciudad de México, 2026",
+    "international": false,
+    "url": "https://www.iecm.mx/impulsa-iecm-analisis-sobre-competencias-civicas-de-juventudes/",
+    "extra_urls": [
+      "https://aplicaciones2.iecm.mx/biblioteca-electronica/pub/sing_pub.php?publicacion=637"
+    ]
+  },
+  {
+    "id": "talk-2026-juventudes-formacion-ciudadana-y-desigu",
+    "year": 2026,
+    "role": "Ponente",
+    "title": "Juventudes, formación ciudadana y desigualdades en la participación democrática",
+    "text": "Ponente. \"Juventudes, formación ciudadana y desigualdades en la participación democrática\", Estado de México, 2026",
+    "international": false,
+    "url": "https://www.cronica.com.mx/metropoli/2026/05/29/presentan-estudio-sobre-competencias-civicas-de-jovenes-en-la-ciudad-de-mexico/"
+  },
+  {
+    "id": "talk-2025-trabajo-parlamentario-e-inteligencia-art",
+    "year": 2025,
+    "role": "Conferencista",
+    "title": "Trabajo parlamentario e inteligencia artificial",
+    "text": "Conferencista. \"Trabajo parlamentario e inteligencia artificial\", Congreso de la Ciudad de México, Ciudad de México, 2025",
+    "international": false,
+    "url": "https://www.congresocdmx.gob.mx/comsoc-imparten-curso-sobre-ia-trabajo-legislativo-6824-1.html"
+  },
+  {
+    "id": "talk-2025-representacion-politica-de-las-mujeres-e",
+    "year": 2025,
+    "role": "Ponente",
+    "title": "Representación Política de las Mujeres en los municipios del Estado de Puebla",
+    "text": "Ponente. Presentación del estudio \"Representación Política de las Mujeres en los municipios del Estado de Puebla\". Palacio Legislativo de San Lázaro, 2025",
+    "international": false,
+    "url": "https://www.youtube.com/watch?v=y7JnO4K4N3g",
+    "extra_urls": [
+      "https://www.ieepuebla.org.mx/2025/representaciones/"
+    ]
+  },
+  {
+    "id": "talk-2026-inteligencia-artificial-y-su-uso-etico-e",
+    "year": 2026,
+    "role": "Conferencista",
+    "title": "Inteligencia artificial y su uso ético en los congresos",
+    "text": "Conferencista. \"Inteligencia artificial y su uso ético en los congresos\", Congreso de Nuevo León, Monterrey, 2026",
+    "international": false,
+    "url": "https://www.instagram.com/p/DYP9H-clX7a/",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2025-analisis-con-ia-de-las-intervenciones-de",
+    "year": 2025,
+    "role": "Conferencista",
+    "title": "Análisis con IA de las intervenciones de las mujeres en el pleno de la Cámara de Diputados",
+    "text": "Conferencista. \"Análisis con IA de las intervenciones de las mujeres en el pleno de la Cámara de Diputados\", ITESO, Guadalajara, Jalisco, 2025",
+    "international": false,
+    "url": "https://cfh.iteso.mx/web/agenda/detalleevento?id=5959"
+  },
+  {
+    "id": "talk-2024-monitoreo-electoral-del-proceso-electora",
     "year": 2024,
-    "title": "[POR VERIFICAR] Título de mesa de ejemplo",
-    "institution": "[POR VERIFICAR] Institución",
-    "city": "[POR VERIFICAR] Ciudad",
-    "country": "[POR VERIFICAR] País",
-    "role": "[POR VERIFICAR] Moderador",
-    "url": "https://example.org/por-verificar/conferencia-2"
+    "role": "Ponente",
+    "title": "Monitoreo electoral del proceso electoral concurrente de Jalisco 2024",
+    "text": "Ponente. \"Monitoreo electoral del proceso electoral concurrente de Jalisco 2024\", Tec de Monterrey Campus Guadalajara, Jalisco, 2024",
+    "international": false,
+    "url": "https://www.youtube.com/watch?v=Ytwbls8ftnA"
+  },
+  {
+    "id": "talk-2024-uso-de-la-inteligencia-artificial-para-e",
+    "year": 2024,
+    "role": "Conferencista",
+    "title": "Uso de la inteligencia artificial para el análisis político",
+    "text": "Conferencista. \"Uso de la inteligencia artificial para el análisis político\", Doctorado en Industrias Inteligentes, Universidad de Valparaíso, Chile, Valparaíso, 2024",
+    "international": true,
+    "url": "https://www.instagram.com/reel/C--ocYRJVKX/?igsh=MW5veGd0aTM0dmc4Yw==",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2024-conferencista-en-el-congreso-de-la-asoci",
+    "year": 2024,
+    "role": "Conferencista",
+    "title": null,
+    "text": "Conferencista en el Congreso de la Asociación Mexicana de Internet, conferencia \"¿Qué nos depara el Sexenio? Visión 2024-2030. Universidad La Salle, Ciudad de México, 2024",
+    "international": false,
+    "url": "https://x.com/Asoc_InternetMX/status/1790878583189028904",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2024-conferencista-en-el-seminario-sobre-gene",
+    "year": 2024,
+    "role": "Conferencista",
+    "title": null,
+    "text": "Conferencista en el Seminario sobre Género y Elecciones. Cátedra Ruth Bader Ginsburg, ITAM, Ciudad de México, 2024",
+    "international": false
+  },
+  {
+    "id": "talk-2024-explaining-women-s-legislative-effective",
+    "year": 2024,
+    "role": "Ponente",
+    "title": "Explaining Women´s Legislative Effectiveness in Mexico",
+    "text": "Ponente en la 81 Conferencia Anual de la Midwest Political Science Association. Ponencia: \"Explaining Women´s Legislative Effectiveness in Mexico\", Chicago, Illinois, EUA. 2024",
+    "international": true,
+    "url": "https://www.mpsanet.org/conference/"
+  },
+  {
+    "id": "talk-2023-participante-en-el-xxi-coloquio-internac",
+    "year": 2023,
+    "role": "Participante",
+    "title": null,
+    "text": "Participante en el XXI Coloquio Internacional de Investigación en Ciencias de la Administración, FCA, UNAM. 2023",
+    "international": false,
+    "url": "https://www.alafec.unam.mx/docs/avisos/coloquio_internacional_2023.pdf"
+  },
+  {
+    "id": "talk-none-i-congreso-humanidades-en-el-tec-20-ano",
+    "year": null,
+    "role": "Conferencista",
+    "title": "I Congreso Humanidades en el Tec: 20 años del Doctorado en Estudios Humanísticos",
+    "text": "Conferencista en el \"I Congreso Humanidades en el Tec: 20 años del Doctorado en Estudios Humanísticos\", ponencia: \"Filosofía política aplicada a dilemas reales\"",
+    "international": false,
+    "url": "https://www.facebook.com/watch/live/?ref=watch_permalink&v=1459482444600053",
+    "flags": [
+      "enlace_redes",
+      "POR VERIFICAR: año faltante en el CV"
+    ]
+  },
+  {
+    "id": "talk-2023-representacion-politica-de-las-mujeres-e",
+    "year": 2023,
+    "role": "Ponente",
+    "title": "Representación Política de las mujeres en los municipios en Puebla",
+    "text": "Ponente en la Cátedra Francisco I. Madero, conferencia \"Representación Política de las mujeres en los municipios en Puebla\". Instituto Nacional Electoral, Ciudad de México. 2023",
+    "international": false,
+    "url": "https://www.facebook.com/INEMexico/videos/1110673516503835",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2023-representacion-de-las-mujeres-en-los-mun",
+    "year": 2023,
+    "role": "Ponente",
+    "title": "Representación de las mujeres en los municipios, de las cuotas de género a la paridad",
+    "text": "Ponente en el Conversatorio \"Representación de las mujeres en los municipios, de las cuotas de género a la paridad\". Senado de la República, Ciudad de México, 2023",
+    "international": false,
+    "url": "https://www.youtube.com/watch?v=SIN9hDcgsvM"
+  },
+  {
+    "id": "talk-2023-representacion-parlamentaria-y-fragilida",
+    "year": 2023,
+    "role": "Conferencista",
+    "title": "Representación parlamentaria y fragilidades democráticas",
+    "text": "Conferencista en el Seminario: \"Representación parlamentaria y fragilidades democráticas\". Instituto de Investigaciones Jurídicas, UNAM, Ciudad de México, 2023",
+    "international": false,
+    "url": "https://www.juridicas.unam.mx/actividades-academicas/3215-seminario-representacion-parlamentaria-y-fragilidades-democraticas"
+  },
+  {
+    "id": "talk-2023-estudio-de-las-presidentas-municipales-e",
+    "year": 2023,
+    "role": "Conferencista",
+    "title": "Estudio de las presidentas municipales en Puebla",
+    "text": "Conferencista en el congreso: Representación municipal de las mujeres en México. Ponencia: \"Estudio de las presidentas municipales en Puebla\". Cámara de Diputados, H Congreso de la Unión. Ciudad de México, 2023",
+    "international": false,
+    "url": "https://www.youtube.com/watch?v=y7JnO4K4N3g"
+  },
+  {
+    "id": "talk-2023-la-representacion-politica-de-las-mujere",
+    "year": 2023,
+    "role": "Conferencista",
+    "title": "La representación política de las mujeres en los municipios de Puebla",
+    "text": "Conferencista. \"La representación política de las mujeres en los municipios de Puebla\", Instituto Electoral del Estado de Puebla, Puebla, 2023",
+    "international": false,
+    "url": "https://www.facebook.com/PueblaIEE/videos/318075080807510?locale=es_LA",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2023-de-la-transparencia-legislativa-al-parla",
+    "year": 2023,
+    "role": "Ponente",
+    "title": "De la transparencia legislativa al parlamento abierto",
+    "text": "Ponente. \"De la transparencia legislativa al parlamento abierto\", Mesas de Análisis y Sociedad Abierta, Demócrata CDMX, Ciudad de México, 2023",
+    "international": false,
+    "url": "https://fb.watch/n32K7o7ogr/",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2023-mesa-de-dialogo-democracia-y-dictadura",
+    "year": 2023,
+    "role": "Conferencista",
+    "title": "Mesa de diálogo. Democracia y dictadura como experiencia política",
+    "text": "Conferencista. \"Mesa de diálogo. Democracia y dictadura como experiencia política\", Cámara de Diputados, Espacio Cultural San Lázaro, Ciudad de México, 2023",
+    "international": false,
+    "url": "https://www.facebook.com/618829788/posts/10161468288094789/?mibextid=rS40aB7S9Ucbxw6v",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2023-quinto-informe-de-gobierno-y-apertura-de",
+    "year": 2023,
+    "role": "Comentarista",
+    "title": "Quinto informe de gobierno y apertura del periodo ordinario de sesiones, LXV Legislatura",
+    "text": "Comentarista. \"Quinto informe de gobierno y apertura del periodo ordinario de sesiones, LXV Legislatura\", Cámara de Diputados, Canal del Congreso, Ciudad de México, 2023",
+    "international": false
+  },
+  {
+    "id": "talk-2023-la-profesionalizacion-de-los-congresos-l",
+    "year": 2023,
+    "role": "Ponente",
+    "title": "La profesionalización de los congresos locales en México: mediciones e indicadores",
+    "text": "Ponente. \"La profesionalización de los congresos locales en México: mediciones e indicadores\", Universidad de Guanajuato, Guanajuato, 2023,",
+    "international": false,
+    "url": "https://www.facebook.com/UG.DDPG/videos/789958162558672",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-none-ciudadania-digital-y-poder-legislativo",
+    "year": null,
+    "role": "Conferencista",
+    "title": "Ciudadanía digital y Poder Legislativo",
+    "text": "Conferencista. \"Ciudadanía digital y Poder Legislativo\", ACTUATEC, el curso de la democracia\", Tecnológico de Monterrey, Campus Hidalgo",
+    "international": false,
+    "url": "https://www.facebook.com/TECcampusHGO/photos/a.10152188777792002/10160722940552002/?locale=es_LA",
+    "flags": [
+      "enlace_redes",
+      "POR VERIFICAR: año faltante en el CV"
+    ]
+  },
+  {
+    "id": "talk-2023-los-derechos-politicos-de-las-mujeres",
+    "year": 2023,
+    "role": "Conferencista",
+    "title": "Los derechos políticos de las mujeres",
+    "text": "Conferencista. \"Los derechos políticos de las mujeres\", Capacitación para funcionarias públicas del estado de Morelos, Cuernavaca, 2023",
+    "international": false,
+    "url": "https://www.semmexico.mx/mujeres-en-los-congresos-locales-mas-eficientes-y-con-mejores-resultados-que-los-hombres-buro-parlamentario/"
+  },
+  {
+    "id": "talk-2023-la-fuerza-politica-de-las-mujeres",
+    "year": 2023,
+    "role": "Ponente",
+    "title": "La fuerza política de las mujeres",
+    "text": "Ponente. \"La fuerza política de las mujeres\", Instituto Universitario de Investigación, Ortega y Gasset, Ciudad de México, 2023",
+    "international": false
+  },
+  {
+    "id": "talk-2023-solucion-a-problematicas-sociales-median",
+    "year": 2023,
+    "role": "Conferencista",
+    "title": "Solución a problemáticas sociales mediante la tecnología: Buró Parlamentario",
+    "text": "Conferencista: \"Solución a problemáticas sociales mediante la tecnología: Buró Parlamentario\", Preparatoria Tec de Monterrey, Ciudad de México, 2023",
+    "international": false
+  },
+  {
+    "id": "talk-2022-mas-alla-del-genero-representacion-sust",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "Más allá del género. Representación sustantiva de las mujeres en México",
+    "text": "Conferencista. \"Más allá del género. Representación sustantiva de las mujeres en México\", en el marco de los 16 días de activismo contra la violencia hacia las mujeres, Cámara de Diputados, H. Congreso de la Unión, 2022",
+    "international": false,
+    "url": "https://portalhcd.diputados.gob.mx/PortalWeb/DireccionEvento/2021/3b992c49-347f-4e3b-9822-9c0bf5acb1cd.pdf"
+  },
+  {
+    "id": "talk-2022-metricas-de-desempeno-parlamentario",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "Métricas de desempeño parlamentario",
+    "text": "Conferencista. \"Métricas de desempeño parlamentario\", Congreso organizado por la Red de Investigación sobre Mujeres en la Política, Tijuana, 2022",
+    "international": false
+  },
+  {
+    "id": "talk-2022-el-papel-de-las-legisladoras-yucatecas",
+    "year": 2022,
+    "role": "Ponente",
+    "title": "El papel de las legisladoras yucatecas",
+    "text": "Ponente. \"El papel de las legisladoras yucatecas\", Congreso del Estado de Yucatán, 2022",
+    "international": false,
+    "url": "https://www.larevista.com.mx/yucatan/la-participacion-politica-de-las-mujeres-en-los-congresos-locales-75587"
+  },
+  {
+    "id": "talk-2022-paridad-en-el-congreso-de-hidalgo",
+    "year": 2022,
+    "role": "Ponente",
+    "title": "Paridad en el congreso de Hidalgo",
+    "text": "Ponente. \"Paridad en el congreso de Hidalgo\", en el marco de los 16 días de activismo contra la violencia hacia las mujeres, Congreso del Estado de Hidalgo, 2022",
+    "international": false,
+    "url": "https://www.newshidalgo.com.mx/?p=199394",
+    "extra_urls": [
+      "https://www.facebook.com/watch/live/?ref=search&v=841561730420758"
+    ],
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2022-las-legisladoras-de-chihuahua",
+    "year": 2022,
+    "role": "Panelista",
+    "title": "Las legisladoras de Chihuahua",
+    "text": "Panelista. \"Las legisladoras de Chihuahua\", Congreso del Estado de Chihuahua, 2022",
+    "international": false,
+    "url": "https://www.youtube.com/watch?v=XhKJAl4rSU8"
+  },
+  {
+    "id": "talk-2022-democracy-technology-and-entrepreneursh",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "Democracy, technology and entrepreneurship",
+    "text": "Conferencista. \"Democracy, technology and entrepreneurship\", Cumbre Anual del G-20, Young Entrepreneurs Alliance, Hamburgo, 2022",
+    "international": true,
+    "url": "https://g20yea.wjd.de/"
+  },
+  {
+    "id": "talk-2022-empoderamiento-de-las-legisladoras-de-mo",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "Empoderamiento de las legisladoras de Morelos",
+    "text": "Conferencista. \"Empoderamiento de las legisladoras de Morelos\", Congreso del Estado de Morelos, 2022",
+    "international": false,
+    "url": "https://www.diariodemorelos.com/noticias/pretenden-empoderar-legisladoras-de-morelos"
+  },
+  {
+    "id": "talk-2022-paridad-de-genero-en-el-congreso-de-coah",
+    "year": 2022,
+    "role": "Panelista",
+    "title": "Paridad de género en el Congreso de Coahuila",
+    "text": "Panelista. \"Paridad de género en el Congreso de Coahuila\", Congreso del Estado de Coahuila, 2022",
+    "international": false,
+    "url": "https://massinformacion.com.mx/2022/10/12/sin-acceso-a-toma-de-decisiones-las-diputadas-de-coahuila/"
+  },
+  {
+    "id": "talk-2022-la-fuerza-politica-de-las-legisladoras-e",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "La Fuerza Política de las Legisladoras en los Congresos Locales de México",
+    "text": "Conferencista. \"La Fuerza Política de las Legisladoras en los Congresos Locales de México\". Congreso de la Ciudad de México, 2022",
+    "international": false,
+    "url": "https://congresocdmx.gob.mx/comsoc-congreso-capitalino-realizo-foro-fuerza-politica-las-legisladoras-los-congresos-locales-mexico-3364-3.html",
+    "extra_urls": [
+      "https://www.youtube.com/watch?v=hVkfKa10pg0",
+      "https://www.youtube.com/watch?v=7y2QWmboLLQ"
+    ]
+  },
+  {
+    "id": "talk-2022-elites-politicas-y-democracia",
+    "year": 2022,
+    "role": "Ponente",
+    "title": "Élites políticas y democracia",
+    "text": "Ponente. Seminario \"Élites políticas y democracia\", Instituto Tecnológico y de Estudios Superiores de Occidente (ITESO), Tlaquepaque, Jalisco, 2022",
+    "international": false
+  },
+  {
+    "id": "talk-2022-la-paridad-y-la-fuerza-legislativa-de-la",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "La paridad y la fuerza legislativa de las legisladoras locales",
+    "text": "Conferencista. \"La paridad y la fuerza legislativa de las legisladoras locales\" en el Congreso del Estado de Oaxaca, 2022",
+    "international": false,
+    "url": "https://www.oaxaca.media/2022/09/destacan-participacion-de-las-mujeres-oaxaquenas-en-la-politica/"
+  },
+  {
+    "id": "talk-2022-la-representacion-de-las-mujeres-en-los",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "La representación de las mujeres en los congresos locales de México",
+    "text": "Conferencista. \"La representación de las mujeres en los congresos locales de México\", foro de la Asociación Mexicana de Consejeras Electorales Estatales (AMCEE, A.C.), Ciudad de México, 2022",
+    "international": false
+  },
+  {
+    "id": "talk-2022-la-fuerza-politica-de-las-diputadas-loca",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "La fuerza política de las diputadas locales en México",
+    "text": "Conferencista. \"La fuerza política de las diputadas locales en México\", Congreso del Estado de Tlaxcala, 2022",
+    "international": false,
+    "url": "https://congresodetlaxcala.gob.mx/tlaxcala-uno-los-congresos-mayor-representacion-mujeres-legisladoras-liderazgos/",
+    "extra_urls": [
+      "https://www.facebook.com/CongresoDelEstadoTlaxcala/videos/607652837683430"
+    ],
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2022-las-legisladoras-mexicanas-y-la-igualdad",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "Las legisladoras mexicanas y la igualdad de género",
+    "text": "Conferencista. \"Las legisladoras mexicanas y la igualdad de género\", Conferencia Actúa Tec, Tecnológico de Monterrey, Campus Puebla, 2022",
+    "international": false,
+    "url": "https://www.facebook.com/100009894765843/videos/1538765929852518",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2022-paridad-de-genero-en-los-congresos-local",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "Paridad de género en los congresos locales",
+    "text": "Conferencista. \"Paridad de género en los congresos locales\", en el Congreso del Estado de San Luis Potosí, 2022",
+    "international": false,
+    "url": "https://www.elsoldesanluis.com.mx/local/mujeres-quedan-excluidas-de-comisiones-legislativas-de-mayor-peso-politico-sergio-barcena-8415663.html",
+    "extra_urls": [
+      "https://www.youtube.com/watch?v=iohAAbJWKpg"
+    ]
+  },
+  {
+    "id": "talk-2022-fuerza-politica-de-las-legisladoras-en-m",
+    "year": 2022,
+    "role": "Panelista",
+    "title": "Fuerza política de las legisladoras en México",
+    "text": "Panelista. \"Fuerza política de las legisladoras en México\", en el Ciclo de Conferencias Ruth Bader Ginsburg (Instituto Tecnológico Autónomo de México, ITAM), Ciudad de México, 2022",
+    "international": false,
+    "url": "https://mobile.twitter.com/DAE_ITAM/status/1519080064209596417/photo/1",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "talk-2022-el-poder-de-las-diputadas-locales",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "El Poder de las Diputadas Locales",
+    "text": "Conferencista. \"El Poder de las Diputadas Locales\" en el Congreso del Estado de Nuevo León, Monterrey, 2022",
+    "international": false,
+    "url": "https://www.elnorte.com/asegura-que-faltan-mujeres-en-toma-de-decisiones/ar2361378"
+  },
+  {
+    "id": "talk-2022-fuerza-politica-de-las-legisladoras-en-l",
+    "year": 2022,
+    "role": "Conferencista",
+    "title": "Fuerza Política de las Legisladoras en los Congresos Locales de México",
+    "text": "Conferencista. \"Fuerza Política de las Legisladoras en los Congresos Locales de México\", en el Foro sobre Elecciones y Congresos en México (INE, ITESM, Congreso del Estado de México), Ciudad de México, 2022",
+    "international": false,
+    "url": "https://centralelectoral.ine.mx/2022/02/17/necesario-pasar-de-la-paridad-a-una-mayor-incidencia-de-las-mujeres-en-la-toma-de-decisiones-consejera-adriana-favela/",
+    "extra_urls": [
+      "https://www.youtube.com/watch?v=Yyl1Ca90R6Y"
+    ]
+  },
+  {
+    "id": "talk-2021-los-politicos-y-la-democracia",
+    "year": 2021,
+    "role": "Conferencista",
+    "title": "Los políticos y la democracia",
+    "text": "Conferencista. \"Los políticos y la democracia\" en el XX Encuentro Internacional sobre Cultura Democrática, Guadalajara, 2021. Liga: ;",
+    "international": false,
+    "url": "http://www.cucsh.udg.mx/actividades/xx-encuentro-internacional-sobre-cultura-democratica-los-politicos-y-la-democracia",
+    "extra_urls": [
+      "https://iteso.mx/web/general/detalle?group_id=14117532"
+    ]
+  },
+  {
+    "id": "talk-2021-seguimiento-a-los-diputados-federales-de",
+    "year": 2021,
+    "role": "Conferencista",
+    "title": "Seguimiento a los diputados federales de México",
+    "text": "Conferencista. \"Seguimiento a los diputados federales de México\" en la Mesa de Diálogo Tiempos post-electorales: ¿Qué sigue después de mi voto? Organizado por el Tecnológico de Monterrey, Ciudad de México, 2021",
+    "international": false
+  },
+  {
+    "id": "talk-2021-por-que-unos-diputados-tienen-mas-poder",
+    "year": 2021,
+    "role": "Conferencista",
+    "title": "¿Por qué unos diputados tienen más poder que otros?",
+    "text": "Conferencista. \"¿Por qué unos diputados tienen más poder que otros?\" en el seminario: El Congreso que México necesita. Una reforma urgente. Organizado por la Cámara de Diputados, LXIV Legislatura, Ciudad de México, 2021",
+    "international": false,
+    "url": "https://www.youtube.com/watch?v=srAnAQQsCIM"
+  },
+  {
+    "id": "talk-none-transicion-y-cambio-del-congreso-mexican",
+    "year": null,
+    "role": "Ponente",
+    "title": "Transición y cambio del Congreso Mexicano",
+    "text": "Ponente en el seminario \"Transición y cambio del Congreso Mexicano\". Organizado por el Instituto Belisario Domínguez del Senado de la República",
+    "international": false,
+    "url": "http://comunicacionnoticias.diputados.gob.mx/comunicacion/index.php/boletines/analizan-la-optimizacion-del-trabajo-legislativo-en-el-congreso-mexicano#gsc.tab=0",
+    "flags": [
+      "POR VERIFICAR: año faltante en el CV"
+    ]
+  },
+  {
+    "id": "talk-2021-la-sociedad-civil-frente-a-la-agenda-fed",
+    "year": 2021,
+    "role": "Moderador de Mesa \"La sociedad civil frente a la agenda federal\",",
+    "title": "La sociedad civil frente a la agenda federal",
+    "text": "Moderador de Mesa \"La sociedad civil frente a la agenda federal\", en el XX Congreso de Investigación Repensando los roles y dimensiones de la sociedad civil en escenarios inciertos: 20 años de investigación sobre el tercer sector, del Centro Mexicano para la Filantropía (CEMEFI, A.C.), Ciudad de México, 2021",
+    "international": false
+  },
+  {
+    "id": "talk-2021-la-eleccion-mas-grande-de-mexico",
+    "year": 2021,
+    "role": "Ponente",
+    "title": "La elección más grande de México",
+    "text": "Ponente. \"La elección más grande de México\", Universidad Central de Chile, Santiago, 2021",
+    "international": true
+  },
+  {
+    "id": "talk-2021-legislacion-sobre-el-tercer-sector-en-la",
+    "year": 2021,
+    "role": "Conferencista",
+    "title": "Legislación sobre el tercer sector en la Cámara de Diputados",
+    "text": "Conferencista. \"Legislación sobre el tercer sector en la Cámara de Diputados\", XX Congreso de Investigación Repensando los roles y dimensiones de la sociedad civil en escenarios inciertos: 20 años de investigación sobre el tercer sector, del Centro Mexicano para la Filantropía (CEMEFI, A.C.), Ciudad de México, 2021",
+    "international": false
+  },
+  {
+    "id": "talk-2020-la-efectividad-de-las-diputadas-federale",
+    "year": 2020,
+    "role": "Ponente",
+    "title": "La efectividad de las diputadas federales en México",
+    "text": "Ponente. \"La efectividad de las diputadas federales en México\", en el Seminario Actores y discursos políticos: buscando nuevos enfoques para alcanzar la equidad de género. Universidad Panamericana, Ciudad de México, 2020",
+    "international": false,
+    "url": "https://suplementocampus.com/seminario-equidad-de-genero-2/"
+  },
+  {
+    "id": "talk-2020-la-optimizacion-del-trabajo-legislativo",
+    "year": 2020,
+    "role": "Ponente",
+    "title": "La optimización del trabajo legislativo en el Congreso Mexicano",
+    "text": "Ponente. \"La optimización del trabajo legislativo en el Congreso Mexicano\", Senado de la República, Instituto Belisario Domínguez, Ciudad de México, 2020",
+    "international": false
+  },
+  {
+    "id": "talk-2020-legislative-effectiveness-in-mexico",
+    "year": 2020,
+    "role": "Ponente",
+    "title": "Legislative Effectiveness in Mexico",
+    "text": "Ponente. \"Legislative Effectiveness in Mexico\", en el foro: Legislative Effectiveness in Latin America. Center for Latin American & Latino Studies, American Univerisity, Washington, D.C., 2020",
+    "international": true,
+    "url": "https://www.youtube.com/watch?v=lchWTOceEMc&t=6s"
+  },
+  {
+    "id": "talk-2020-2o-reporte-legislativo-de-buro-parlament",
+    "year": 2020,
+    "role": "Conferencista",
+    "title": "2º reporte legislativo de Buró Parlamentario",
+    "text": "Conferencista. \"2º reporte legislativo de Buró Parlamentario\", Cámara de Diputados de México, Ciudad de México, 2020",
+    "international": false,
+    "url": "http://www5.diputados.gob.mx/index.php/esl/Comunicacion/Boletines/2020/Septiembre/18/4094-La-LXIV-Legislatura-ha-sido-productiva-y-genera-grandes-transformaciones-Villavicencio-Ayala"
+  },
+  {
+    "id": "talk-2020-hacia-donde-va-el-poder-legislativo-en-m",
+    "year": 2020,
+    "role": "Conferencista",
+    "title": "Hacia dónde va el Poder Legislativo en México",
+    "text": "Conferencista. \"Hacia dónde va el Poder Legislativo en México\", Foro COPARMEX, Ciudad de México, 2020",
+    "international": false
+  },
+  {
+    "id": "talk-2020-la-respuesta-de-los-legisladores-ante-la",
+    "year": 2020,
+    "role": "Conferencista",
+    "title": "La respuesta de los legisladores ante la demanda ciudadana",
+    "text": "Conferencista: \"La respuesta de los legisladores ante la demanda ciudadana\", en foro sobre Atención Ciudadana en la Ciudad de México, Escuela de Gobierno y Transformación pública. Tecnológico de Monterrey, Campus Santa Fe, 2020",
+    "international": false
+  },
+  {
+    "id": "talk-2020-la-vigencia-de-las-garantias-constitucio",
+    "year": 2020,
+    "role": "Conferencista",
+    "title": "La vigencia de las garantías constitucionales y los derechos de las y los Ciudadanos",
+    "text": "Conferencista. \"La vigencia de las garantías constitucionales y los derechos de las y los Ciudadanos\", en el ciclo: La Constitución y sus Enemigos. Un programa de Gobierno Alternativo al Populismo. Escuela Libre de Derecho, Ciudad de México, 2020",
+    "international": false
+  },
+  {
+    "id": "talk-2019-representacion-y-participacion-ciudadana",
+    "year": 2019,
+    "role": "Conferencista",
+    "title": "Representación y participación ciudadana",
+    "text": "Conferencista. \"Representación y participación ciudadana\", Reunión anual: Sociedad Civil Pasión y Compromiso del Centro Mexicano para la Filantropía (CEMEFI, A.C.), Ciudad de México, 2019",
+    "international": false,
+    "url": "https://www.cemefi.org/congresodeinvestigacion/pdf/Programa_completo_XX_Congreso.pdf"
+  },
+  {
+    "id": "talk-2019-participacion-ciudadana-y-poder-legislat",
+    "year": 2019,
+    "role": "Conferencista",
+    "title": "Participación ciudadana y poder legislativo",
+    "text": "Conferencista. \"Participación ciudadana y poder legislativo\", Semana de la innovación del Tecnológico de Monterrey. Instituto Electoral de la Ciudad de México (IECM), Ciudad de México, 2019",
+    "international": false
+  },
+  {
+    "id": "talk-2019-buro-parlamentario-y-la-participacion-ci",
+    "year": 2019,
+    "role": "Conferencista",
+    "title": "Buró Parlamentario y la participación ciudadana",
+    "text": "Conferencista. \"Buró Parlamentario y la participación ciudadana\", Foro Diálogos por la Democracia de El Heraldo de México. Chihuahua, 2019",
+    "international": false,
+    "url": "https://www.elheraldodechihuahua.com.mx/local/asiste-al-forum-dialogos-por-la-democracia-4208514.html"
+  },
+  {
+    "id": "talk-2019-legislative-effectiveness-in-multiparty",
+    "year": 2019,
+    "role": "Ponente",
+    "title": "Legislative Effectiveness in Multiparty Systems: Mexico's Chamber of Deputies",
+    "text": "Ponente. \"Legislative Effectiveness in Multiparty Systems: Mexico's Chamber of Deputies\", congreso anual de la American Political Science Association (APSA), Washington, D.C., 2019",
+    "international": true
+  },
+  {
+    "id": "talk-2019-conversatorio-sobre-la-politica-de-inclu",
+    "year": 2019,
+    "role": "Panelista",
+    "title": "Conversatorio sobre la Política de Inclusión y Bienestar Social de la Ciudad de México",
+    "text": "Panelista. \"Conversatorio sobre la Política de Inclusión y Bienestar Social de la Ciudad de México\" en la 1ª Escuela de Verano para Servidoras y Servidores Públicos de la Ciudad de México, Ciudad de México, 2019",
+    "international": false
+  },
+  {
+    "id": "talk-2018-la-evaluacion-del-trabajo-parlamentario",
+    "year": 2018,
+    "role": "Conferencista",
+    "title": "La evaluación del trabajo parlamentario en las democracias modernas",
+    "text": "Conferencista. \"La evaluación del trabajo parlamentario en las democracias modernas\". XII Encuentro Latinoamericano de Empresas Socialmente Responsables del Centro Mexicano para la Filantropía (CEMEFI), World Trade Center, Ciudad de México, 2018",
+    "international": false
+  },
+  {
+    "id": "talk-2018-profesionalizacion-de-la-politica",
+    "year": 2018,
+    "role": "Conferencista",
+    "title": "Profesionalización de la Política",
+    "text": "Conferencista. \"Profesionalización de la Política\", Cátedra Giovanni Sartori, ITESO-U. de G., Guadalajara, 2018",
+    "international": false
+  },
+  {
+    "id": "talk-2018-neuromarkeitng-un-estudio-del-votante-u",
+    "year": 2018,
+    "role": "Conferencista",
+    "title": "Neuromarkeitng. Un estudio del votante universitario en la Ciudad de México",
+    "text": "Conferencista. \"Neuromarkeitng. Un estudio del votante universitario en la Ciudad de México\", en la Semana de la Mercadotecnia, Universidad La Salle, Ciudad de México, 2018",
+    "international": false
+  },
+  {
+    "id": "talk-2018-mexico-and-the-management-of-risk-and-di",
+    "year": 2018,
+    "role": "Conferencista",
+    "title": "Mexico and the management of risk and disasters",
+    "text": "Conferencista. \"Mexico and the management of risk and disasters\", International Seminar on Disaster Risk Reduction, Tohoku University y Tec de Monterrey, ITESM, Ciudad de México, 2018",
+    "international": false
+  },
+  {
+    "id": "talk-2018-ponente-citris-itesm-seed-funding-works",
+    "year": 2018,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. CITRIS-ITESM Seed Funding Workshop, Universidad de Berkeley, California, 2018",
+    "international": true
+  },
+  {
+    "id": "talk-2018-legislative-participation-score-lps-on",
+    "year": 2018,
+    "role": "Ponente",
+    "title": "Legislative Participation Score (LPS) On how to evaluate Mexican Federal Congressmen",
+    "text": "Ponente. \"Legislative Participation Score (LPS) On how to evaluate Mexican Federal Congressmen\", en la IV Reunión Internacional de Especialistas Legislativos de la Asociación Latinoamericana de Ciencia Política (ALACIP), ITAM, Ciudad de México, 2018",
+    "international": false
+  },
+  {
+    "id": "talk-2018-prospectiva-electoral-y-escenarios-de-go",
+    "year": 2018,
+    "role": "Conferencista",
+    "title": "Prospectiva electoral y escenarios de gobierno 2018",
+    "text": "Conferencista. \"Prospectiva electoral y escenarios de gobierno 2018\", Reunión ANFEC, Club de industriales, Cuidad de México, 2018",
+    "international": false
+  },
+  {
+    "id": "talk-2018-ponente-48o-congreso-de-investigacion-y",
+    "year": 2018,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. 48º Congreso de Investigación y Desarrollo del Tecnológico de Monterrey, Monterrey, 2018",
+    "international": false
+  },
+  {
+    "id": "talk-2017-ponente-3er-curso-de-observacion-electo",
+    "year": 2017,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. 3er Curso de Observación Electoral Subnacional organizado por el Instituto Electoral de la Ciudad de México (IECDMX), Ciudad de México, 2017",
+    "international": false
+  },
+  {
+    "id": "talk-2017-delegado-u-21-early-career-researcher-w",
+    "year": 2017,
+    "role": "Delegado",
+    "title": null,
+    "text": "Delegado. U-21 Early Career Researcher Workshop, Santiago, Universidad Católica de Chile, 2017",
+    "international": true
+  },
+  {
+    "id": "talk-2017-ponente-y-coordinador-de-panel-v-congre",
+    "year": 2017,
+    "role": "Ponente y coordinador de panel",
+    "title": null,
+    "text": "Ponente y coordinador de panel. V Congreso Internacional de Ciencia Política, de la Asociación Mexicana de Ciencias Políticas (AMECIP), Cancún, 2017",
+    "international": false
+  },
+  {
+    "id": "talk-2017-research-methods-for-the-study-of-legisl",
+    "year": 2017,
+    "role": "Conferencista",
+    "title": "Research Methods for the Study of Legislative Behavior",
+    "text": "Conferencista. \"Research Methods for the Study of Legislative Behavior\", Irlanda del Norte, Universidad Queens de Belfast, 2017",
+    "international": true
+  },
+  {
+    "id": "talk-2017-legislating-for-a-new-democracy-sponsor",
+    "year": 2017,
+    "role": "Conferencista",
+    "title": "Legislating for a New Democracy. Sponsorship Patterns of Federal Deputies in Contemporary Mexico",
+    "text": "Conferencista. \"Legislating for a New Democracy. Sponsorship Patterns of Federal Deputies in Contemporary Mexico\", Glasgow, Universidad de Glasgow, 2017",
+    "international": true
+  },
+  {
+    "id": "talk-2017-conferencista-los-resultados-legislativ",
+    "year": 2017,
+    "role": "Conferencista",
+    "title": null,
+    "text": "Conferencista. Los resultados legislativos de la transición democrática en México, Santiago, Universidad Central de Chile, 2017",
+    "international": true
+  },
+  {
+    "id": "talk-2016-ponente-y-coordinador-de-panel-xxvi-con",
+    "year": 2016,
+    "role": "Ponente y coordinador de panel",
+    "title": null,
+    "text": "Ponente y coordinador de panel. XXVI Congreso Nacional de la Sociedad Mexicana de Estudios Electorales (SOMEE), Guanajuato, Universidad de Guanajuato, 2016",
+    "international": false
+  },
+  {
+    "id": "talk-2016-conferencista-el-sistema-politico-mexic",
+    "year": 2016,
+    "role": "Conferencista",
+    "title": null,
+    "text": "Conferencista. El sistema político mexicano, ITESM-Universidad Central de Chile, 2016",
+    "international": true
+  },
+  {
+    "id": "talk-2016-empoderamiento-mediante-la-participacion",
+    "year": 2016,
+    "role": "Conferencista",
+    "title": "Empoderamiento mediante la participación política",
+    "text": "Conferencista. \"Empoderamiento mediante la participación política\", Jornada de conferencias del Voto Joven, Ciudad de México (IEDF), 2016",
+    "international": false
+  },
+  {
+    "id": "talk-2016-introduction-to-latin-american-studies",
+    "year": 2016,
+    "role": "Conferencista",
+    "title": "Introduction to Latin American Studies",
+    "text": "Conferencista. El sistema político mexicano contemporáneo, en el marco del curso \"Introduction to Latin American Studies\" coorganizada por ITESM-CCM y la Universidad de Baltimore, 2016",
+    "international": false
+  },
+  {
+    "id": "talk-2015-conferencista-conferencia-mariano-otero",
+    "year": 2015,
+    "role": "Conferencista",
+    "title": null,
+    "text": "Conferencista. Conferencia Mariano Otero (CoMO), orador invitado, Ciudad de México, 2015",
+    "international": false
+  },
+  {
+    "id": "talk-2015-tecnica-parlamentaria-elaboracion-de-in",
+    "year": 2015,
+    "role": "Conferencista",
+    "title": "Técnica parlamentaria: elaboración de iniciativas de ley",
+    "text": "Conferencista. \"Técnica parlamentaria: elaboración de iniciativas de ley\", Semana i, Tecnológico de Monterrey, Campus Ciudad de México, 2015",
+    "international": false
+  },
+  {
+    "id": "talk-2015-ponente-congreso-anual-de-la-western-po",
+    "year": 2015,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. Congreso Anual de la Western Political Science Association (WPSA), Las Vegas, 2015",
+    "international": true
+  },
+  {
+    "id": "talk-2014-ponente-ii-congreso-internacional-de-la",
+    "year": 2014,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. II Congreso Internacional de la Asociación Mexicana de Ciencia Política (AMECIP), Toluca, 2014",
+    "international": false
+  },
+  {
+    "id": "talk-2013-los-instrumentos-internacionales-de-prot",
+    "year": 2013,
+    "role": "Conferencista",
+    "title": "Los instrumentos internacionales de protección en materia de violencia contra las mujeres y su aplicación en el orden jurídico mexicano",
+    "text": "Conferencista. \"Los instrumentos internacionales de protección en materia de violencia contra las mujeres y su aplicación en el orden jurídico mexicano\", Zacatecas, Comisión Nacional de los Derechos Humanos (CNDH), 2013",
+    "international": false
+  },
+  {
+    "id": "talk-2013-mecanismos-de-innovacion-del-poder-legis",
+    "year": 2013,
+    "role": "Ponente y coordinador de panel",
+    "title": "Mecanismos de Innovación del Poder Legislativo",
+    "text": "Ponente y coordinador de panel. I Foro Internacional de Análisis sobre los \"Mecanismos de Innovación del Poder Legislativo\", Ciudad de México, Universidad Autónoma Metropolitana-H. Congreso de la Unión, 2013",
+    "international": false
+  },
+  {
+    "id": "talk-2013-ponente-vii-congreso-del-consejo-europe",
+    "year": 2013,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. VII Congreso del Consejo Europeo de Investigaciones Sociales de América Latina (CEISAL), Oporto, Universidad Fernando Pessoa, 2013",
+    "international": true
+  },
+  {
+    "id": "talk-2013-ponente-y-coordinador-de-mesa-iv-congre",
+    "year": 2013,
+    "role": "Ponente y coordinador de mesa",
+    "title": null,
+    "text": "Ponente y coordinador de mesa. IV Congreso de la Asociación Mexicana de Estudios Parlamentarios (AMEP), Ciudad de México, Universidad Iberoamericana 2013",
+    "international": false
+  },
+  {
+    "id": "talk-2012-ponente-ii-conferencia-sobre-legislatur",
+    "year": 2012,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. II Conferencia sobre Legislaturas en México y las Américas de la Asociación Mexicana de Estudios Parlamentarios (AMEP), San Diego, Universidad de California en San Diego, 2012",
+    "international": true
+  },
+  {
+    "id": "talk-2012-ponente-i-congreso-peruano-de-estudios",
+    "year": 2012,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. I Congreso Peruano de Estudios Electorales, Lima, Escuela Electoral y de Gobernabilidad del Jurado Nacional de Elecciones y Universidad Nacional Mayor de San Marcos, 2012",
+    "international": true
+  },
+  {
+    "id": "talk-2012-ponente-y-coordinador-de-mesa-xxii-cong",
+    "year": 2012,
+    "role": "Ponente y coordinador de mesa",
+    "title": null,
+    "text": "Ponente y coordinador de mesa. XXII Congreso Mundial de la Asociación Internacional de Ciencia Política (IPSA) Madrid, Universidad Complutense, 2012",
+    "international": true
+  },
+  {
+    "id": "talk-2011-ponente-iv-congreso-internacional-de-la",
+    "year": 2011,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. IV Congreso Internacional de la Sociedad Mexicana de Estudios Electorales (SOMEE) Ciudad de México, Palacio de Minería, 2011",
+    "international": false
+  },
+  {
+    "id": "talk-2010-ponente-v-congreso-internacional-de-la",
+    "year": 2010,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. V Congreso Internacional de la Asociación Latinoamericana de Ciencia Política (ALACIP), Buenos Aires, Universidad Católica Argentina, 2010",
+    "international": true
+  },
+  {
+    "id": "talk-2010-ponente-y-coordinador-de-mesa-ii-congre",
+    "year": 2010,
+    "role": "Ponente y coordinador de mesa",
+    "title": null,
+    "text": "Ponente y coordinador de mesa. II Congreso Latinoamericano y Caribeño de la Facultad Latinoamericana de Ciencias Sociales (FLACSO) Ciudad de México, 2010",
+    "international": false
+  },
+  {
+    "id": "talk-2009-ponente-y-coordinador-de-panel-ii-congr",
+    "year": 2009,
+    "role": "Ponente y coordinador de panel",
+    "title": null,
+    "text": "Ponente y coordinador de panel. II Congreso Nacional de Ciencias Sociales del Consejo Mexicano de las Ciencias Sociales (COMECSO), Oaxaca, Universidad Benito Juárez, 2009",
+    "international": false
+  },
+  {
+    "id": "talk-2006-ponente-xx-congreso-anual-de-la-asociac",
+    "year": 2006,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. XX Congreso Anual de la Asociación Mexicana de Estudios Internacionales (AMEI), Monterrey, ITESM, 2006",
+    "international": false
+  },
+  {
+    "id": "talk-2005-ponente-xix-congreso-anual-de-la-asocia",
+    "year": 2005,
+    "role": "Ponente",
+    "title": null,
+    "text": "Ponente. XIX Congreso Anual de la Asociación Mexicana de Estudios Internacionales (AMEI), Acapulco, Universidad de Guerrero, 2005",
+    "international": false
   }
 ]

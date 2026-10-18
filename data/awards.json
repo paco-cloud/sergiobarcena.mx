@@ -1,17 +1,135 @@
 [
   {
-    "id": "award-ejemplo-1",
-    "year": 2024,
-    "name": "[POR VERIFICAR] Distinción de ejemplo",
-    "grantor": "[POR VERIFICAR] Institución que otorga",
-    "url": "https://example.org/por-verificar/distincion-1",
-    "evidence": "enlace"
+    "id": "aw-ganador-de-la-medalla-al-merito-helia-bravo-holl",
+    "year": 2026,
+    "text": "Ganador de la Medalla al Mérito Helia Bravo Hollis, en Ciencias Sociales. Cámara de Diputados, Ciudad de México, 2026",
+    "evidence": "enlace",
+    "url": "https://www.threads.com/@congresocdmx/post/DXaptypDI54/ciencia-que-transforma-vidas-y-construye-futuro-el-congreso-cdmx-entrego-la",
+    "flags": [
+      "enlace_redes",
+      "DISCREPANCIA: el CV dice Cámara de Diputados; el enlace es del Congreso de la CDMX (Threads)"
+    ]
   },
   {
-    "id": "award-ejemplo-2",
-    "year": 2021,
-    "name": "[POR VERIFICAR] Segunda distinción de ejemplo",
-    "grantor": "[POR VERIFICAR] Institución que otorga",
+    "id": "aw-reconocimiento-como-profesor-de-excelencia-del-t",
+    "year": 2025,
+    "text": "Reconocimiento como profesor de Excelencia, del Tecnológico de Monterrey, Ciudad de México, 2025",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-ganador-del-challenge-based-research-fund-tecnol",
+    "year": 2025,
+    "text": "Ganador del Challenge-Based Research Fund, Tecnológico de Monterrey, convocatoria interna de financiamiento a investigación, 2025",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-ganador-del-premio-nacional-de-investigacion-jur",
+    "year": 2024,
+    "text": "Ganador del Premio Nacional de Investigación Jurídica y Legislativa, Cámara de Diputados, México, 2024",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-reconocimiento-como-investigador-nivel-2-del-sis",
+    "year": 2024,
+    "text": "Reconocimiento como investigador nivel 2 del Sistema Nacional de Investigadores (SNII), Secretaría de Ciencia, Humanidades, Tecnología e Innovación (SECIHTI) (2024-2028)",
+    "evidence": "constancia",
+    "period": "2024-2028"
+  },
+  {
+    "id": "aw-ganador-del-3er-lugar-del-people-s-awards-en-la",
+    "year": 2022,
+    "text": "Ganador del 3er lugar del People´s Awards en la Cumbre Mundial 2022 de la Alianza de Jóvenes Emprendedores G20 en Hamburgo. Alemania",
+    "evidence": "enlace",
+    "url": "https://g20yea.wjd.de/",
+    "flags": [
+      "DISCREPANCIA con pacomendez.mx (3er lugar Entrepreneurship/Pitch Competition); verificar con conecta.tec.mx"
+    ]
+  },
+  {
+    "id": "aw-ganador-del-premio-nacional-de-docencia-e-invest",
+    "year": 2022,
+    "text": "Ganador del premio Nacional de Docencia e Investigación del Tecnológico de Monterrey (2022)",
+    "evidence": "enlace",
+    "url": "https://conecta.tec.mx/es/noticias/nacional/institucion/tec-entrega-profesores-su-maximo-galardon-la-labor-docente"
+  },
+  {
+    "id": "aw-nombramiento-como-profesor-titular-del-tecnologi",
+    "year": 2022,
+    "text": "Nombramiento como profesor titular del Tecnológico de Monterrey (2022)",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-circulo-de-profesores-distinguidos-del-tecnologi",
+    "year": 2020,
+    "text": "Círculo de profesores distinguidos del Tecnológico de Monterrey, 2020-2023",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-premio-de-investigacion-proyectos-que-estan-tran",
+    "year": 2022,
+    "text": "Premio de investigación: Proyectos que están transformando México, 50 Congreso de Investigación y Desarrollo del Tecnológico de Monterrey (2022)",
+    "evidence": "enlace",
+    "url": "https://www.youtube.com/watch?v=SCC3N9NnCIw",
+    "flags": [
+      "DISCREPANCIA con pacomendez.mx (2020, proyecto destacado)"
+    ]
+  },
+  {
+    "id": "aw-reconocimiento-como-investigador-nivel-2-del-sis-2",
+    "year": 2020,
+    "text": "Reconocimiento como investigador nivel 2 del Sistema Nacional de Investigadores (SNII), Secretaría de Ciencia, Humanidades, Tecnología e Innovación (SECIHTI) (2020-2024)",
+    "evidence": "constancia",
+    "period": "2020-2024"
+  },
+  {
+    "id": "aw-ganador-del-premio-nacional-de-docencia-e-invest-2",
+    "year": 2017,
+    "text": "Ganador del premio Nacional de Docencia e Investigación del Tecnológico de Monterrey (2017)",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-nombramiento-como-profesor-asociado-del-tecnolog",
+    "year": 2017,
+    "text": "Nombramiento como profesor asociado del Tecnológico de Monterrey (2017)",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-ganador-de-la-beca-global-challenges-research-fu",
+    "year": 2017,
+    "text": "Ganador de la beca \"Global Challenges Research Fund\" del Ministerio de Economía de Irlanda del Norte (2017)",
+    "evidence": "constancia",
+    "flags": [
+      "monto_retirado"
+    ]
+  },
+  {
+    "id": "aw-becario-doctoral-y-de-maestria-del-programa-de-f",
+    "year": null,
+    "text": "Becario doctoral y de maestría del Programa de Fomento, Formación, Desarrollo y Vinculación de Recursos Humanos de Alto Nivel del Consejo Nacional de Ciencia y Tecnología (CONACYT)",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-ganador-de-la-beca-de-estancias-posdoctorales-en",
+    "year": 2015,
+    "text": "Ganador de la beca de estancias posdoctorales en el extranjero, otorgada por CONACYT (2015)",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-cum-laude-por-unanimidad-en-el-grado-doctoral-un",
+    "year": 2015,
+    "text": "Cum laude por unanimidad en el grado doctoral, UNAM, Facultad de Ciencias Políticas y Sociales, 2015",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-cum-laude-por-unanimidad-en-el-grado-de-maestria",
+    "year": 2011,
+    "text": "Cum laude por unanimidad en el grado de maestría, UNAM, Facultad de Ciencias Políticas y Sociales, 2011",
+    "evidence": "constancia"
+  },
+  {
+    "id": "aw-mencion-honorifica-itesm-campus-ciudad-de-mexico",
+    "year": 2007,
+    "text": "Mención honorífica, ITESM Campus Ciudad de México, 2007",
     "evidence": "constancia"
   }
 ]

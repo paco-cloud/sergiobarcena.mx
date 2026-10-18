@@ -1,17 +1,481 @@
 [
   {
-    "id": "teach-ejemplo-materia",
-    "kind": "materia",
-    "title": "[POR VERIFICAR] Nombre de materia de ejemplo",
-    "institution": "Tecnológico de Monterrey",
-    "years": "[POR VERIFICAR]",
-    "level": "[POR VERIFICAR] Licenciatura"
+    "id": "doc-coordinador-del-seminario-global-procesos-consti",
+    "kind": "seminario",
+    "text": "Coordinador del seminario global \"Procesos constituyentes en América Latina\" en colaboración con la Universidad Central de Chile"
   },
   {
-    "id": "teach-ejemplo-tesis",
+    "id": "doc-disenador-de-la-materia-analisis-y-practica-legi",
+    "kind": "materia",
+    "text": "Diseñador de la materia \"Análisis y práctica legislativa\", impartida a las carreras de Derecho, Relaciones Internacionales, Economía, Ciencia Política, Gobierno y Transformación Pública, Periodismo y Comunicación"
+  },
+  {
+    "id": "doc-disenador-de-la-materia-posthumanismo-etica-y-te",
+    "kind": "materia",
+    "text": "Diseñador de la materia \"Posthumanismo, ética y tecnología\", impartida a todas las carreras del Tec de Monterrey"
+  },
+  {
+    "id": "doc-profesor-en-la-escuela-de-humanidades-y-educacio",
+    "kind": "catedra",
+    "text": "Profesor en la Escuela de Humanidades y Educación, ITESM, Campus Ciudad de México",
+    "courses": [
+      "Ciencia de datos y análisis cultural",
+      "Antropología Social",
+      "Ciudadanía",
+      "Fundamentos de las Ciencias Sociales",
+      "Desafíos geoculturales de la globalización (curso impartido en inglés)",
+      "Mercadotecnia Política (impartido en inglés)",
+      "Política Comparada",
+      "Fundamentos de la Ciencia Política",
+      "Participación Ciudadana",
+      "Derecho Parlamentario (impartido en inglés)",
+      "Seminario de Ciencia Política",
+      "Análisis y Práctica Legislativa (impartido en inglés)",
+      "Economía y estado",
+      "Fundamentos de Política Pública, Teoría Política del Estado",
+      "Geocultural Challenges of Globalization (impartido en inglés)"
+    ]
+  },
+  {
+    "id": "doc-profesor-de-la-maestria-en-gestion-desarrollo-y",
+    "kind": "catedra",
+    "text": "Profesor de la Maestría en Gestión, Desarrollo y Gobierno de la Universidad de Guanajuato",
+    "courses": [
+      "Diseño institucional de las relaciones ejecutivo-legislativo"
+    ]
+  },
+  {
+    "id": "doc-profesor-del-doctorado-en-derecho-en-el-institut",
+    "kind": "catedra",
+    "text": "Profesor del doctorado en Derecho en el Instituto Nacional de Estudios Superiores en Derecho Penal (INDEPAC, A.C.)",
+    "courses": [
+      "Sociología Jurídica y Metodología de la Investigación"
+    ]
+  },
+  {
+    "id": "doc-profesor-en-programas-de-maestria-y-doctorado-en",
+    "kind": "catedra",
+    "text": "Profesor en programas de Maestría y Doctorado en Victimología del Instituto Nacional de Ciencias Penales (INACIPE)",
+    "courses": [
+      "Metodología cuantitativa de la investigación",
+      "Seminario de investigación"
+    ]
+  },
+  {
+    "id": "doc-profesor-de-la-facultad-de-ciencias-politicas-y",
+    "kind": "catedra",
+    "text": "Profesor de la Facultad de Ciencias Políticas y Sociales, UNAM",
+    "courses": [
+      "Análisis Cuantitativo",
+      "Laboratorio de técnicas orientadas a los estudios políticos y sociales"
+    ]
+  },
+  {
+    "id": "doc-profesor-del-departamento-de-ciencias-sociales-i",
+    "kind": "catedra",
+    "text": "Profesor del Departamento de Ciencias Sociales, ITESM, Campus Estado de México",
+    "courses": [
+      "Filosofía política para los dilemas contemporáneos"
+    ]
+  },
+  {
+    "id": "doc-profesor-del-departamento-de-ciencias-sociales-i-2",
+    "kind": "catedra",
+    "text": "Profesor del Departamento de Ciencias Sociales, ITESM, Campus Santa Fe",
+    "courses": [
+      "Teoría Política del Estado",
+      "Historia de las Ideas Políticas",
+      "Fundamentos de Ciencia Política (impartido en inglés)",
+      "Negociación y Cabildeo",
+      "Seminario de Ciencia Política",
+      "Teoría de las Organizaciones Políticas",
+      "Sistema Político Mexicano",
+      "Historia Mundial del Siglo XIX (impartido en inglés)",
+      "Sociología (impartido en inglés)",
+      "Pensamiento Político Clásico",
+      "Teoría Política Contemporánea (impartido en inglés)"
+    ]
+  },
+  {
+    "id": "doc-catedratico-de-posgrado-en-la-facultad-de-contad",
+    "kind": "catedra",
+    "text": "Catedrático de posgrado en la Facultad de Contaduría y Administración, UNAM",
+    "courses": [
+      "Las organizaciones en un entorno globalizado"
+    ]
+  },
+  {
+    "id": "doc-catedratico-invitado-de-posgrado-en-la-escuela-d",
+    "kind": "catedra",
+    "text": "Catedrático invitado de posgrado en la Escuela de Gobierno y Transformación Pública, ITESM",
+    "courses": [
+      "Gobierno y Sociedad Civil"
+    ]
+  },
+  {
+    "id": "doc-profesor-invitado-del-seminario-juridico-en-la-e",
+    "kind": "seminario",
+    "text": "Profesor invitado del Seminario Jurídico en la Escuela Libre de Derecho de Sinaloa"
+  },
+  {
+    "id": "cur-taller-de-inteligencia-artificial-aplicada-al-tr",
+    "kind": "curso",
+    "text": "Taller de inteligencia artificial aplicada al trabajo parlamentario. Congreso de Guanajuato. (Julio, 2026)",
+    "years": [
+      2026
+    ]
+  },
+  {
+    "id": "cur-curso-de-uso-etico-de-inteligencia-artificial-pa",
+    "kind": "curso",
+    "text": "Curso de uso ético de inteligencia artificial para asesores y congresistas. Senado de la República (Marzo, 2026)",
+    "years": [
+      2026
+    ]
+  },
+  {
+    "id": "cur-curso-taller-de-inteligencia-artificial-aplicada",
+    "kind": "curso",
+    "text": "Curso-taller de Inteligencia artificial aplicada al proceso legislativo. Congreso de la Ciudad de México (Noviembre, 2025)",
+    "years": [
+      2025
+    ],
+    "url": "https://www.congresocdmx.gob.mx/comsoc-imparten-curso-sobre-ia-trabajo-legislativo-6824-1.html"
+  },
+  {
+    "id": "cur-taller-avanzado-de-inteligencia-artificial-para",
+    "kind": "curso",
+    "text": "Taller avanzado de inteligencia artificial para l Análisis y Visualización de datos en Ciencias Sociales. ITESO, Guadalajara (septiembre, 2025)",
+    "years": [
+      2025
+    ],
+    "url": "https://www.instagram.com/stories/gestionpublicaiteso/3723915637195605471?utm_source=ig_story_item_share&igsh=dXhwaGR6a3QyNTJw",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "cur-disenador-y-ponente-del-curso-derecho-parlamenta",
+    "kind": "curso",
+    "text": "Diseñador y ponente del curso \"Derecho Parlamentario y Técnicas Legislativas\". Impartido para funcionarios del Tribunal Electoral de la Ciudad de México (septiembre, 2021)",
+    "years": [
+      2021
+    ],
+    "url": "https://www.facebook.com/TECDMX/photos/a.266297933851758/1200201820461360/",
+    "flags": [
+      "enlace_redes"
+    ]
+  },
+  {
+    "id": "cur-disenador-y-ponente-del-curso-estrategia-legisla",
+    "kind": "curso",
+    "text": "Diseñador y ponente del curso \"Estrategia legislativa, sistematicidad y armonización jurídica\". Impartido por el Congreso de la Ciudad De México\" (mayo-agosto, 2021)",
+    "years": [
+      2021
+    ],
+    "url": "https://www.congresocdmx.gob.mx/media/documentos/9ee0523a2b36901789e87a0d84f9cc64d89aabf8.pdf"
+  },
+  {
+    "id": "cur-proceso-legislativo-politicas-publicas-sociedad",
+    "kind": "curso",
+    "text": "Proceso legislativo, políticas públicas, sociedad civil y parlamento abierto. Módulo terminal del diplomado. (Impartido a alumnos y exalumnos de la Facultad de Ciencias Políticas de la UNAM). 2020",
+    "years": [
+      2020
+    ]
+  },
+  {
+    "id": "cur-poder-legislativo-y-sociedad-civil-modulo-termin",
+    "kind": "curso",
+    "text": "Poder Legislativo y sociedad civil. Módulo terminal del diplomado \"Políticas públicas y sociedad civil en México\". (Impartido a alumnos y exalumnos de la Facultad de Ciencias Políticas de la UNAM). 2018",
+    "years": [
+      2018
+    ]
+  },
+  {
+    "id": "cur-seminario-20-anos-de-gobierno-sin-mayoria-1997-2",
+    "kind": "curso",
+    "text": "Seminario \"20 años de gobierno sin mayoría, 1997-2017\", Ciudad de México, Universidad Nacional Autónoma de México. (Impartido a planta docente y alumnos de la Facultad de Ciencias Políticas de la UNAM). 2017",
+    "years": [
+      1997,
+      2017,
+      2017
+    ]
+  },
+  {
+    "id": "cur-seminario-de-investigacion-politica-ciudad-de-m",
+    "kind": "curso",
+    "text": "\"Seminario de Investigación Política\", Ciudad de México. Instituto Tecnológico Autónomo de México. (Impartido a planta docente y alumnos del Departamento de Ciencia Política del ITAM), 2017",
+    "years": [
+      2017
+    ]
+  },
+  {
+    "id": "cur-seminario-de-politica-y-gobierno-ciudad-de-mexic",
+    "kind": "curso",
+    "text": "Seminario de Política y Gobierno, Ciudad de México, Centro de Investigación y Docencia Económicas. (Impartido a planta docente y alumnos del Departamento de Ciencia Política del ITAM), 2016",
+    "years": [
+      2016
+    ]
+  },
+  {
+    "id": "cur-seminario-the-mexican-congress-analysis-and-pers",
+    "kind": "curso",
+    "text": "Seminario \"The Mexican Congress. Analysis and Perspectives\", Columbia, Universidad de Missouri. (Impartido a planta docente y alumnos del Departamento de Estudios Políticos de la Universidad de Missouri) 2016",
+    "years": [
+      2016
+    ]
+  },
+  {
+    "id": "cur-seminario-estudios-legislativos-en-mexico-evoluc",
+    "kind": "curso",
+    "text": "Seminario \"Estudios Legislativos en México. Evolución, tendencias y temas actuales\", organizado por la Universidad de Guanajuato. (Impartido a planta docente y alumnos de la Universidad de Guanajuato). 2017",
+    "years": [
+      2017
+    ]
+  },
+  {
+    "id": "cur-taller-de-politicas-publicas-en-el-diplomado-de",
+    "kind": "curso",
+    "text": "Taller de \"Políticas Públicas en el Diplomado de Gestión y Administración Pública\", de la Universidad Autónoma del Estado de Morelos. (Impartido a funcionarios de gobierno del orden estatal y municipal). 2016",
+    "years": [
+      2016
+    ]
+  },
+  {
+    "id": "cur-seminario-temas-selectos-de-derecho-electoral-i",
+    "kind": "curso",
+    "text": "Seminario \"Temas selectos de Derecho Electoral\", Instituto Electoral del Estado de México. (Impartido a dirigentes locales y nacionales del Partido de la Revolución Democrática). 2014",
+    "years": [
+      2014
+    ]
+  },
+  {
+    "id": "cur-diplomado-etica-de-la-direccion-de-educacion-con",
+    "kind": "curso",
+    "text": "Diplomado \"Ética, de la Dirección de Educación Continua\", Facultad de Contaduría y Administración de la Universidad Nacional Autónoma de México (Impartido a altos directivos y presidentes de federaciones deportivas de CONADE). 2013",
+    "years": [
+      2013
+    ]
+  },
+  {
+    "id": "cur-seminario-mercadotecnia-politica-y-comunicacion",
+    "kind": "curso",
+    "text": "Seminario \"Mercadotecnia Política y Comunicación de Gobierno\" en el Diplomado de Gestión y Administración Pública, de la Universidad Autónoma del Estado de Morelos. (Impartido a funcionarios de gobierno del orden estatal y municipal). 2012",
+    "years": [
+      2012
+    ]
+  },
+  {
+    "id": "cur-cursos-de-capacitacion-en-imagen-politica-politi",
+    "kind": "curso",
+    "text": "Cursos de capacitación en Imagen Política, Políticas Públicas, Mercadotecnia Política y Comunicación de Gobierno, impartidos a dirigentes de Comités Directivos Estatales de distintos partidos políticos e institutos electorales locales",
+    "years": []
+  },
+  {
+    "id": "tes-efectividad-en-el-desempeno-legislativo-de-diput",
     "kind": "tesis",
-    "title": "[POR VERIFICAR] Título de tesis dirigida de ejemplo",
-    "institution": "[POR VERIFICAR] Institución",
-    "years": "[POR VERIFICAR]"
+    "role": "Tutor principal",
+    "title": "Efectividad en el Desempeño Legislativo de Diputadas y diputados en México",
+    "program_institution": "Doctorado en Ciencia Política, Facultad de Ciencias Políticas, UNAM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-sistemas-de-control-internos-y-corrupcion-en-las",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Sistemas de control internos y corrupción en las instituciones públicas mexicanas",
+    "program_institution": "Doctorado en Doctorado en Ciencias de la Administración, Facultad de Contaduría y Administración, UNAM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-efectividad-legislativa-en-el-senado-mexicano-20",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Efectividad legislativa en el Senado Mexicano (2000-2018)",
+    "program_institution": "Licenciatura en Ciencia Política, Facultad de Ciencias Políticas, UNAM, 2023",
+    "status": "concluida",
+    "year": 2023
+  },
+  {
+    "id": "tes-analisis-legislativo-de-las-principales-fuerzas",
+    "kind": "tesis",
+    "role": "Tutor externo",
+    "title": "Análisis legislativo de las principales fuerzas políticas en el Congreso mexicano en el periodo 2018-2019",
+    "program_institution": "Maestría en Análisis Político, Universidad de Guanajuato, 2022",
+    "status": "concluida",
+    "year": 2022
+  },
+  {
+    "id": "tes-analisis-de-aspectos-eticos-del-uso-de-la-inteli",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Análisis de aspectos éticos del uso de la inteligencia artificial en la aplicación de justicia",
+    "program_institution": "Doctorado en Estudios Humanísticos, Departamento de Estudios Humanísticos, ITESM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-la-inimputabilidad-una-mirada-desde-los-derechos",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "La inimputabilidad, una mirada desde los Derechos Humanos",
+    "program_institution": "Doctorado en Derechos Humanos, Escuela Libre de Derecho, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-consideraciones-etico-juridicas-en-torno-al-post",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Consideraciones ético-jurídicas en torno al posthumanismo y el desarrollo tecnológico",
+    "program_institution": "Doctorado en Estudios Humanísticos, Departamento de Estudios Humanísticos, ITESM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-modelo-estadistico-de-amortizacion-del-fondo-de",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Modelo estadístico de amortización del fondo de comercio basado en el aporte al rendimiento financiero y creación de valor corporativo",
+    "program_institution": "Doctorado en Ciencias de la Administración, Facultad de Contaduría y Administración, UNAM",
+    "status": "concluida",
+    "year": null
+  },
+  {
+    "id": "tes-elementos-sociopoliticos-municipales-y-profesion",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "Elementos sociopolíticos municipales y profesionalización de los alcaldes en Jalisco 2015-2021",
+    "program_institution": "Maestría en Ciencia Política, Universidad de Guadalajara",
+    "status": "concluida",
+    "year": null
+  },
+  {
+    "id": "tes-reformas-a-las-fuerza-policiacas-en-america-lati",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "Reformas a las Fuerza Policiacas en América Latina: México y Chile en los periodos de Andrés Manuel López Obrador y Sebastián Piñera",
+    "program_institution": "Doctorado en Relaciones Internacionales, Facultad de Ciencias Políticas y Sociales, UNAM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-alternancia-y-continuidad-en-los-gobiernos-estat",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "Alternancia y continuidad en los gobiernos estatales durante el periodo 2016-2017: un estudio comparativo entre Hidalgo, Estado de México, Coahuila, Durango y Tamaulipas",
+    "program_institution": "Licenciatura en Ciencia Política, Facultad de Ciencias Políticas y Sociales, UNAM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-el-impacto-presupuestario-de-las-iniciativas-de",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "El impacto presupuestario de las iniciativas de decretos a leyes secundarias presentadas por los diputados federales en la Cámara de Diputados",
+    "program_institution": "Doctorado en Ciencia Política, Facultad de Ciencias Políticas y Sociales, UNAM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-efectividad-legislativa-y-calidad-de-la-represen",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "Efectividad legislativa y calidad de la representación parlamentaria. Cámara de diputados federal. México 2000-2018",
+    "program_institution": "Doctorado en Ciencia Política, Facultad de Ciencias Políticas y Sociales, UNAM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-la-biojuridica-fundamento-de-los-derechos-humano",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "La Biojurídica: fundamento de los Derechos Humanos en el principio y fin de la vida de los seres humanos",
+    "program_institution": "Doctorado en Derechos Humanos. Instituto Nacional del Derecho Penal, A.C., 2018",
+    "status": "concluida",
+    "year": 2018
+  },
+  {
+    "id": "tes-la-eficiencia-de-los-diputados-del-congreso-de-l",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "La eficiencia de los diputados del Congreso de la Unión en gobiernos sin mayoría (LXII legislatura) y en gobiernos con mayoría (LXIV legislatura)",
+    "program_institution": "Maestría en Estudios Políticos y Sociales\", Facultad de Ciencias Políticas y Sociales, UNAM, en curso",
+    "status": "en curso",
+    "year": null
+  },
+  {
+    "id": "tes-la-administracion-del-conocimiento-en-las-pequen",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "La administración del conocimiento en las pequeñas organizaciones lucrativas mexicanas que realizan comercio electrónico",
+    "program_institution": "Doctorado en Ciencias de la Administración, Facultad de Contaduría y Administración, UNAM, 2020",
+    "status": "concluida",
+    "year": 2020
+  },
+  {
+    "id": "tes-democracia-participativa-en-la-ciudad-de-mexico",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Democracia participativa en la Ciudad de México: Programa de mejoramiento barrial y el presupuesto participativo",
+    "program_institution": "Maestría en Administración Pública y Política Pública, ITESM, 2018",
+    "status": "concluida",
+    "year": 2018
+  },
+  {
+    "id": "tes-la-incidencia-politica-de-las-diputadas-en-el-pr",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "La incidencia política de las diputadas en el proceso de toma de decisiones (LX y LXI Legislaturas",
+    "program_institution": "Maestría en Estudios Políticos y Sociales, UNAM, 2018",
+    "status": "concluida",
+    "year": 2018
+  },
+  {
+    "id": "tes-experiencia-legislativa-en-el-senado-de-la-repub",
+    "kind": "tesis",
+    "role": "Lector",
+    "title": "Experiencia legislativa en el Senado de la República y la Comisión Permanente del Congreso de la Unión",
+    "program_institution": "Licenciatura en Ciencia Política, UNAM, 2018",
+    "status": "concluida",
+    "year": 2018
+  },
+  {
+    "id": "tes-la-participacion-de-la-sociedad-civil-en-el-comb",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "La participación de la sociedad civil en el combate a la corrupción. Estudio de caso: Transparencia Mexicana, A.C.",
+    "program_institution": "Maestría en Administración Pública y Política Pública. Escuela de Gobierno y Transformación Pública, ITESM, 2015",
+    "status": "concluida",
+    "year": 2015
+  },
+  {
+    "id": "tes-transparencia-y-rendicion-de-cuentas-en-la-camar",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Transparencia y rendición de cuentas en la Cámara de Diputados. El caso de México",
+    "program_institution": "Maestría en Administración Pública y Política Pública. Escuela de Gobierno y Transformación Pública, ITESM, 2015",
+    "status": "concluida",
+    "year": 2015
+  },
+  {
+    "id": "tes-construyendo-gobernanza-las-actividades-de-las-o",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Construyendo gobernanza. Las actividades de las Organizaciones de la Sociedad Civil en el Consejo Técnico Consultivo",
+    "program_institution": "Maestría en Administración Pública y Política Pública. Escuela de Gobierno y Transformación Pública, ITESM, 2014",
+    "status": "concluida",
+    "year": 2014
+  },
+  {
+    "id": "tes-diagnostico-del-programa-presupuestal-u003-subsi",
+    "kind": "tesis",
+    "role": "Tutor principal",
+    "title": "Diagnóstico del Programa Presupuestal U003. Subsidio a las entidades federativas para el fortalecimiento de sus instituciones de seguridad pública",
+    "program_institution": "Maestría en Administración Pública y Política Pública. Escuela de Gobierno y Transformación Pública, ITESM, 2014",
+    "status": "concluida",
+    "year": 2014
   }
 ]
