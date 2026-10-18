@@ -21,8 +21,14 @@ sesión solo construye.
 ## Stack
 - HTML/CSS/JS estático generado por `scripts/build.mjs` desde `data/*.json` y
   `templates/*.html` (template literals; sin frameworks, sin dependencias en runtime).
-- Fuentes autoalojadas woff2 (máximo 3 archivos). Sin cookies de rastreo; analítica:
-  Cloudflare Web Analytics (snippet desactivado hasta decisión).
+- Sistema visual derivado de pacomendez.mx (SBJ-CODE-02): sans y mono del sistema, sin
+  fuentes web, sin modo oscuro, sidebar numerada 00–09 en desktop y menú a pantalla
+  completa en móvil. El repo de pacomendez.mx es solo referencia: nunca se edita.
+- Sin cookies de rastreo; analítica: Cloudflare Web Analytics (desactivada hasta decisión).
+- Prensa: `npm run check-press` lee `data/raw/press_*.json`, revisa cada URL (y Wayback,
+  sin "Save Page Now") y escribe `data/press.json` + `reports/*.csv`. El build solo publica
+  las notas que pasan el filtro de `scripts/lib/press.mjs`.
+- `public/compartir.jpg` se regenera a mano con `node scripts/og-image.mjs` (usa Chrome local).
 - Imágenes: AVIF/WebP con srcset y width/height. EXIF/GPS eliminado.
 - Hosting: Cloudflare Pages (cuenta Novomedia). Salida en `dist/`.
   `_headers` (CSP estricta, HSTS, X-Content-Type-Options, Referrer-Policy) y
